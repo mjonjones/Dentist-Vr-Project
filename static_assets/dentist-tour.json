@@ -5,7 +5,7 @@
             "icon":"icons/red-heart.png"
         }
     },
-    "firstSceneId":"Entrance",
+    "firstSceneId":"X-Ray",
     "scenes":[
         {
             "id": "Lift-Floor-1",
@@ -17,6 +17,18 @@
             "id": "Orth-Reception",
             "photopanos":[
                 {"src": "Dentist_1_Reception.jpg"}
+            ]
+        },
+        {
+            "id": "Lift-Ground",
+            "photopanos":[
+                {"src": "Dentist_Lift.jpg"}
+            ]
+        },
+        {
+            "id": "X-Ray",
+            "photopanos":[
+                {"src": "Dentist_X-Ray.jpg"}
             ]
         }
     ]
