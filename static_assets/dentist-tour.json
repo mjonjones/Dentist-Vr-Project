@@ -1,47 +1,43 @@
 {
-    "name":"Dentist tour",
-    "defaults":{
-        "infos":{
-            "icon":"icons/red-heart.png"
-        }
+  "name": "Dentist tour",
+  "defaults": {
+    "infos": {
+      "icon": "icons/red-heart.png"
+    }
+  },
+  "firstSceneId": "First-Floor-Hallway",
+  "scenes": [
+    {
+      "id": "Entrance",
+      "photopanos": [{ "src": "Dentist_Entrance.jpg" }]
     },
-    "firstSceneId":"Entrance",
-    "scenes":[
-        {
-            "id":"Entrance",
-            "photopanos":[
-                {"src": "Dentist_Entrance.jpg"}
-            ]
-        },
-        {
-            "id":"Pharmacy",
-            "photopanos":[
-                {"src":"Dentist_Pharmacy.jpg"}
-            ]
-        },
-        {
-            "id": "Lift-Floor-1",
-            "photopanos":[
-                {"src": "Dentist_1_Lift.jpg"}
-            ]
-        },
-        {
-            "id": "Orth-Reception",
-            "photopanos":[
-                {"src": "Dentist_1_Reception.jpg"}
-            ]
-        },
-        {
-            "id": "Lift-Ground",
-            "photopanos":[
-                {"src": "Dentist_Lift.jpg"}
-            ]
-        },
-        {
-            "id": "X-Ray",
-            "photopanos":[
-                {"src": "Dentist_X-Ray.jpg"}
-            ]
-        }
-    ]
+    {
+      "id": "Pharmacy",
+      "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }]
+    },
+    {
+      "id": "Lift-Floor-1",
+      "photopanos": [{ "src": "Dentist_1_Lift.jpg" }]
+    },
+    {
+      "id": "Orth-Reception",
+      "photopanos": [{ "src": "Dentist_1_Reception.jpg" }]
+    },
+    {
+      "id": "Lift-Ground",
+      "photopanos": [{ "src": "Dentist_Lift.jpg" }]
+    },
+    {
+      "id": "X-Ray",
+      "photopanos": [{ "src": "Dentist_X-Ray.jpg" }]
+    },
+    {
+      "id": "First-Floor-Hallway",
+      "photopanos": [{ "src": "First-Floor-Hallway.jpg" }]
+    },
+    {
+      "id": "First-Floor-Ortjodontics",
+      "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }]
+    }
+  ]
 }
