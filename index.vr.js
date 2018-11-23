@@ -5,7 +5,7 @@ import { LiveTour } from 'live-tour-lab';
 export default class MyLiveTour extends React.Component {
   render() {
     return (
-      <LiveTour tourURI='demo-dentist-tour.json' />
+      <LiveTour tourURI='dentist-tour.json' />
     );
   }
 };
