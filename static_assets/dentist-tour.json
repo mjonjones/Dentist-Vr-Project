@@ -5,8 +5,20 @@
             "icon":"icons/red-heart.png"
         }
     },
-    "firstSceneId":"X-Ray",
+    "firstSceneId":"Entrance",
     "scenes":[
+        {
+            "id":"Entrance",
+            "photopanos":[
+                {"src": "Dentist_Entrance.jpg"}
+            ]
+        },
+        {
+            "id":"Pharmacy",
+            "photopanos":[
+                {"src":"Dentist_Pharmacy.jpg"}
+            ]
+        },
         {
             "id": "Lift-Floor-1",
             "photopanos":[
