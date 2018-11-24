@@ -5,15 +5,23 @@
       "icon": "icons/red-heart.png"
     }
   },
-  "firstSceneId": "First-Floor-Hallway",
+  "firstSceneId": "Entrance",
   "scenes": [
     {
       "id": "Entrance",
-      "photopanos": [{ "src": "Dentist_Entrance.jpg" }]
+      "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
+      "navs":[
+        {"to":"Pharmacy", "txt": "Pharmacy","rotateY":1016, "rotateX":3}
+      ]
     },
+
     {
       "id": "Pharmacy",
-      "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }]
+      "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }],
+      "navs":[
+        {"to":"Lift-Ground", "txt": "Lifts","rotateY":209, "rotateX":3},
+        {"to":"Entrance", "txt": "Reception","rotateY":28, "rotateX":3}
+      ]
     },
     {
       "id": "Lift-Floor-1",
