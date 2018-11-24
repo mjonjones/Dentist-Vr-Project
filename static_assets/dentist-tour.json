@@ -45,11 +45,26 @@
     {
       "id": "X-Ray",
       "photopanos": [
-        { "src": "Dentist_X-Ray.jpg", "rotateY":90}
+        { "src": "Dentist_X-Ray.jpg", "rotateY":270}
       ],
       "navs":[
         {"to":"Lift-Ground", "txt": "To the Lifts", "rotateY": -7, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"}
       ],
+      "infos":[
+				{
+					"card":[
+            {"type":"header","txt":"X-Ray room.","textColor":"#f1c40f"},
+						{"type":"video","src":"Dental_Video_Placeholder.mp4","ratio":1.5},
+						{"type":"content","txt":"Here's a video showing you how it works.","textColor":"#f1c40f"}
+					],
+					"width":3.5,
+					"backgroundColor":"#2c3e50",
+          "rotateY":270,
+          "rotateX":-2,
+          "cardBorderWidth":0.05,
+          "borderColor": "#f1c40f"
+				}
+			],
       "preloads":[
         {"src": "Dentist_Lift.jpg"}
       ]
