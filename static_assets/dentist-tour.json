@@ -33,11 +33,27 @@
     },
     {
       "id": "First-Floor-Hallway",
-      "photopanos": [{ "src": "First-Floor-Hallway.jpg" }]
+      "photopanos": [{ "src": "First-Floor-Hallway.jpg" }],
+      "navs": [{ "to": "Orthodontics", "txt": "Orthodontics", "rotateY": 10 }],
+      "infos": [
+        {
+          "card": [{ "type": "content", "txt": "Lorem Ipsum" }],
+          "rotateX": -90
+        }
+      ],
+      "preloads": [{ "src": "First-Floor-Orthodontics1.jpg" }]
     },
     {
       "id": "First-Floor-Orthodontics",
-      "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }]
+      "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
+      "navs": [{ "to": "Hallway", "txt": "Hallway", "rotateY": 10 }],
+      "infos": [
+        {
+          "card": [{ "type": "content", "txt": "Lorem Ipsum" }],
+          "rotateX": -90
+        }
+      ],
+      "preloads": [{ "src": "First-Floor-Hallway.jpg" }]
     }
   ]
 }
