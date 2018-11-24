@@ -5,7 +5,7 @@
       "icon": "icons/red-heart.png"
     }
   },
-  "firstSceneId": "First-Floor-Hallway",
+  "firstSceneId": "Lift-Ground",
   "scenes": [
     {
       "id": "Entrance",
@@ -25,11 +25,31 @@
     },
     {
       "id": "Lift-Ground",
-      "photopanos": [{ "src": "Dentist_Lift.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_Lift.jpg" }
+      ],
+      "navs":[
+        {"to":"X-Ray", "txt": "To X-Ray", "rotateY":102, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"},
+        {"to":"Pharmacy", "txt": "To the Pharmacy", "rotateY":20, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"},
+        {"to":"Lift-Floor-1", "txt": "Use Lift to go to First Floor", "rotateY":65, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"}
+      ],
+      "preloads":[
+        {"src": "Dentist_1_Lift.jpg"},
+        {"src": "Dentist_X-Ray.jpg"},
+        {"src": "Dentist_Pharmacy.jpg"}
+      ]
     },
     {
       "id": "X-Ray",
-      "photopanos": [{ "src": "Dentist_X-Ray.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_X-Ray.jpg" }
+      ],
+      "navs":[
+        {"to":"Lift-Ground", "txt": "To the Lifts", "rotateY": -7, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"}
+      ],
+      "preloads":[
+        {"src": "Dentist_Lift.jpg"}
+      ]
     },
     {
       "id": "First-Floor-Hallway",
