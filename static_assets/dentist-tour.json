@@ -45,12 +45,14 @@
       "infos": [
         {
           "card": [
+            { "type": "header", "txt": "Dental School" },
             { "type": "content", "txt": "Welcome to the Paediatric Dentistry" }
           ],
           "rotateY": 285,
           "rotateX": 8
         }
       ],
+      "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
       "preloads": [{ "src": "First-Floor-Orthodontics1.jpg" }]
     },
     {
@@ -61,7 +63,10 @@
       ],
       "infos": [
         {
-          "card": [{ "type": "content", "txt": "Welcome to the orthodontics" }],
+          "card": [
+            { "type": "header", "txt": "Dental School" },
+            { "type": "content", "txt": "Welcome to the orthodontics" }
+          ],
           "rotateX": 8,
           "rotateY": 200
         }
