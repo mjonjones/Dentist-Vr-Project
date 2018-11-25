@@ -38,13 +38,17 @@
         {
           "to": "First-Floor-Orthodontics",
           "txt": "Orthodontics",
-          "rotateY": 10
+          "rotateY": 109,
+          "rotateX": 6
         }
       ],
       "infos": [
         {
-          "card": [{ "type": "content", "txt": "Lorem Ipsum" }],
-          "rotateX": -90
+          "card": [
+            { "type": "content", "txt": "Welcome to the Paediatric Dentistry" }
+          ],
+          "rotateY": 285,
+          "rotateX": 8
         }
       ],
       "preloads": [{ "src": "First-Floor-Orthodontics1.jpg" }]
@@ -53,12 +57,13 @@
       "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
       "navs": [
-        { "to": "First-Floor-Hallway", "txt": "Hallway", "rotateY": 10 }
+        { "to": "First-Floor-Hallway", "txt": "Hallway", "rotateY": 25 }
       ],
       "infos": [
         {
-          "card": [{ "type": "content", "txt": "Lorem Ipsum" }],
-          "rotateX": -90
+          "card": [{ "type": "content", "txt": "Welcome to the orthodontics" }],
+          "rotateX": 8,
+          "rotateY": 200
         }
       ],
       "preloads": [{ "src": "First-Floor-Hallway.jpg" }]
