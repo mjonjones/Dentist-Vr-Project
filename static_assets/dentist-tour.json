@@ -34,7 +34,13 @@
     {
       "id": "First-Floor-Hallway",
       "photopanos": [{ "src": "First-Floor-Hallway.jpg" }],
-      "navs": [{ "to": "Orthodontics", "txt": "Orthodontics", "rotateY": 10 }],
+      "navs": [
+        {
+          "to": "First-Floor-Orthodontics",
+          "txt": "Orthodontics",
+          "rotateY": 10
+        }
+      ],
       "infos": [
         {
           "card": [{ "type": "content", "txt": "Lorem Ipsum" }],
@@ -46,7 +52,9 @@
     {
       "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
-      "navs": [{ "to": "Hallway", "txt": "Hallway", "rotateY": 10 }],
+      "navs": [
+        { "to": "First-Floor-Hallway", "txt": "Hallway", "rotateY": 10 }
+      ],
       "infos": [
         {
           "card": [{ "type": "content", "txt": "Lorem Ipsum" }],
