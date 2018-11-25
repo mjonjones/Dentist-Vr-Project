@@ -5,7 +5,7 @@
       "icon": "icons/red-heart.png"
     }
   },
-  "firstSceneId": "First-Floor-Hallway",
+  "firstSceneId": "Lift-Floor-1",
   "scenes": [
     {
       "id": "Entrance",
@@ -17,7 +17,31 @@
     },
     {
       "id": "Lift-Floor-1",
-      "photopanos": [{ "src": "Dentist_1_Lift.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_1_Lift.jpg" }
+      ],
+      "navs":[
+        {"to": "Lift-Ground", "txt": "Ground Floor"},
+        {"to": "Orth-Reception", "txt": "Reception", "rotateY": 285}
+      ],
+      "infos":[
+        {
+            "card":[
+                {"type":"header","txt": "The Dental School!"},
+                {"type":"image","src":"super-tooth-2d.jpg"},
+                {"type":"content", "txt": 
+                  "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!"
+                }
+            ],
+            "rotateY":120
+        }
+      ],
+      "sounds":[
+				{"src":"background_filla.mp3","volume":1}
+			],
+      "preloads":[
+        {"src":"Dentist_Lift.jpg"}
+      ]
     },
     {
       "id": "Orth-Reception",
