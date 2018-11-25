@@ -40,12 +40,37 @@
 				{"src":"background_filla.mp3","volume":1}
 			],
       "preloads":[
-        {"src":"Dentist_Lift.jpg"}
+        {"src":"Dentist_Lift.jpg"},
+        {"src":"Dentist_1_Reception.jpg"}
       ]
     },
     {
       "id": "Orth-Reception",
-      "photopanos": [{ "src": "Dentist_1_Reception.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_1_Reception.jpg", "rotateY":200}
+      ],
+      "navs":[
+        {"to":"First-Floor-Hallway", "txt": "Paediatrics", "rotateY": 25},
+        {"to": "Lift-Floor-1", "txt": "Lifts", "rotateY": 115},
+        {"to": "First-Floor-Orthodontics", "txt": "Orthodontics", "rotateY": 205}
+
+      ],
+      "infos":[
+        {
+          "card":[
+            {"type":"video","src":"videoplayback.mp4", "volume":5}
+          ]
+        }
+      ],
+      "sounds":[
+				{"src":"background_filla.mp3","volume":1}
+			],
+      "preloads":[
+        {"src":"videoplayback.mp4"},
+        {"src":"Dentist_Lift.jpg"},
+        {"src":"Dentist_1_Reception.jpg"},
+        {"src":"First-Floor-Orthodontics1.jpg"}
+      ]
     },
     {
       "id": "Lift-Ground",
@@ -60,7 +85,7 @@
       "photopanos": [{ "src": "First-Floor-Hallway.jpg" }]
     },
     {
-      "id": "First-Floor-Ortjodontics",
+      "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }]
     }
   ]
