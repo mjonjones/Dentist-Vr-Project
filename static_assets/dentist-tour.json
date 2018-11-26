@@ -211,8 +211,8 @@
       "photopanos": [{ "src": "First-Floor-Hallway.jpg" }],
       "navs": [
         {
-          "to": "First-Floor-Orthodontics",
-          "txt": "Orthodontics",
+          "to": "Orth-Reception",
+          "txt": "Reception",
           "rotateY": 109,
           "rotateX": 6
         }
@@ -228,13 +228,13 @@
         }
       ],
       "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
-      "preloads": [{ "src": "First-Floor-Orthodontics1.jpg" }]
+      "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     },
     {
       "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
       "navs": [
-        { "to": "First-Floor-Hallway", "txt": "Hallway", "rotateY": 25 }
+        { "to": "Orth-Reception", "txt": "Reception", "rotateY": 25 }
       ],
       "infos": [
         {
@@ -266,7 +266,7 @@
           "rotateY": 290
         }
       ],
-      "preloads": [{ "src": "First-Floor-Hallway.jpg" }]
+      "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     }
   ]
 }
