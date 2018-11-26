@@ -5,7 +5,7 @@
       "icon": "icons/red-heart.png"
     }
   },
-  "firstSceneId": "Lift-Floor-1",
+  "firstSceneId": "Entrance",
   "scenes": [
     {
       "id": "Entrance",
@@ -62,11 +62,17 @@
           ]
         }
       ],
+      "videoautos":[
+				{
+					"src":"blend.mp4","imgWidth":512,"imgHeight":512,"cmWidth":0.25,"rotateY":173, "pretransform":[]
+				}
+			],
       "sounds":[
 				{"src":"background_filla.mp3","volume":1}
 			],
       "preloads":[
         {"src":"videoplayback.mp4"},
+        {"src":"blend.mp4"},
         {"src":"Dentist_Lift.jpg"},
         {"src":"Dentist_1_Reception.jpg"},
         {"src":"First-Floor-Orthodontics1.jpg"}
