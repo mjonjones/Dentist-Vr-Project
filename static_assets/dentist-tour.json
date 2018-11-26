@@ -88,11 +88,65 @@
     },
     {
       "id": "First-Floor-Hallway",
-      "photopanos": [{ "src": "First-Floor-Hallway.jpg" }]
+      "photopanos": [{ "src": "First-Floor-Hallway.jpg" }],
+      "navs": [
+        {
+          "to": "First-Floor-Orthodontics",
+          "txt": "Orthodontics",
+          "rotateY": 109,
+          "rotateX": 6
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            { "type": "header", "txt": "Dental School" },
+            { "type": "content", "txt": "Welcome to the Paediatric Dentistry" }
+          ],
+          "rotateY": 285,
+          "rotateX": 8
+        }
+      ],
+      "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
+      "preloads": [{ "src": "First-Floor-Orthodontics1.jpg" }]
     },
     {
       "id": "First-Floor-Orthodontics",
-      "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }]
+      "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
+      "navs": [
+        { "to": "First-Floor-Hallway", "txt": "Hallway", "rotateY": 25 }
+      ],
+      "infos": [
+        {
+          "card": [
+            { "type": "header", "txt": "Dental School" },
+            { "type": "content", "txt": "Welcome to the orthodontics" }
+          ],
+          "rotateX": 8,
+          "rotateY": 200
+        },
+        {
+          "card": [
+            { "type": "image", "src": "prevention_tips.jpg", "ratio": 1 },
+            { "type": "header", "txt": "Tooth Decay Prevention Tips" },
+            {
+              "type": "content",
+              "txt": "Here are some tips for you to ensure your Oral Hygiene is good!"
+            },
+            {
+              "type": "row",
+              "buttons": [
+                {
+                  "txt": "More dental tips",
+                  "uri": "https://www.nhs.uk/live-well/healthy-body/how-to-keep-your-teeth-clean/"
+                }
+              ]
+            }
+          ],
+          "rotateY": 290
+        }
+      ],
+      "preloads": [{ "src": "First-Floor-Hallway.jpg" }]
     }
   ]
 }
