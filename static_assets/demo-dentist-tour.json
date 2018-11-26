@@ -1,57 +1,35 @@
 {
-    "name":"Dentist tour",
-    "defaults":{
-        "infos":{
-            "icon":"icons/red-heart.png"
-        },
-        "sound":{
-            "icon":"icons/red-heart-big.png"
+  "name": "Dentist tour",
+  "defaults": {
+    "infos": {
+      "icon": "icons/red-heart.png"
+    }
+  },
+  "firstSceneId": "Entrance",
+  "scenes": [
+    {
+      "id": "Entrance",
+      "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
+      "navs": [{ "to": "Pharmacy", "txt": "Pharmacy", "rotateY": 10 }],
+      "infos": [
+        {
+          "card": [{ "type": "content", "txt": "Lorem Ipsum" }],
+          "rotateX": -90
         }
+      ],
+      "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
     },
-    "firstSceneId":"Entrance",
-    "scenes":[
+    {
+      "id": "Pharmacy",
+      "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }],
+      "navs": [{ "to": "Entrance", "txt": "Entrance" }],
+      "infos": [
         {
-            "id":"Entrance",
-            "photopanos":[
-                {"src": "Dentist_Entrance.jpg"}
-            ],
-            "navs":[
-                {"to":"Pharmacy", "txt": "Pharmacy","rotateY":10}
-            ],
-            "infos":[
-                {
-                    "card":[
-                        {"type":"content","txt": "Lorem Ipsum"}
-                    ],
-                    "rotateX":-90
-                }
-            ],
-
-            "preloads":[
-                {"src": "Dentist_Pharmacy.jpg"}
-            ]
-        },
-        {
-            "id":"Pharmacy",
-            "photopanos":[
-                {"src":"Dentist_Pharmacy.jpg"}
-            ],
-            "navs":[
-                {"to":"Entrance", "txt": "Entrance"}
-            ],
-            "infos":[
-                {
-                    "card":[
-                        {"type":"content","txt": "Hello there"}
-                    ]  
-                }
-            ],
-            "sounds":[
-                {"src":"sparrow.mp3","volume":3}
-            ],
-            "preloads":[
-                {"src":"Dentist_Entrance.jpg"}
-            ]
+          "card": [{ "type": "content", "txt": "Hello there" }]
         }
-    ]
+      ],
+      "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
+      "preloads": [{ "src": "Dentist_Entrance.jpg" }]
+    }
+  ]
 }
