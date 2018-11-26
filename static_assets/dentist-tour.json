@@ -5,7 +5,7 @@
       "icon": "icons/red-heart.png"
     }
   },
-  "firstSceneId": "First-Floor-Hallway",
+  "firstSceneId": "Entrance",
   "scenes": [
     {
       "id": "Entrance",
@@ -17,11 +17,66 @@
     },
     {
       "id": "Lift-Floor-1",
-      "photopanos": [{ "src": "Dentist_1_Lift.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_1_Lift.jpg" }
+      ],
+      "navs":[
+        {"to": "Lift-Ground", "txt": "Ground Floor"},
+        {"to": "Orth-Reception", "txt": "Reception", "rotateY": 285}
+      ],
+      "infos":[
+        {
+            "card":[
+                {"type":"header","txt": "The Dental School!"},
+                {"type":"image","src":"super-tooth-2d.jpg"},
+                {"type":"content", "txt": 
+                  "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!"
+                }
+            ],
+            "rotateY":120
+        }
+      ],
+      "sounds":[
+				{"src":"background_filla.mp3","volume":1}
+			],
+      "preloads":[
+        {"src":"Dentist_Lift.jpg"},
+        {"src":"Dentist_1_Reception.jpg"}
+      ]
     },
     {
       "id": "Orth-Reception",
-      "photopanos": [{ "src": "Dentist_1_Reception.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_1_Reception.jpg", "rotateY":200}
+      ],
+      "navs":[
+        {"to":"First-Floor-Hallway", "txt": "Paediatrics", "rotateY": 25},
+        {"to": "Lift-Floor-1", "txt": "Lifts", "rotateY": 115},
+        {"to": "First-Floor-Orthodontics", "txt": "Orthodontics", "rotateY": 205}
+
+      ],
+      "infos":[
+        {
+          "card":[
+            {"type":"video","src":"videoplayback.mp4", "volume":5}
+          ]
+        }
+      ],
+      "videoautos":[
+				{
+					"src":"blend.mp4","imgWidth":512,"imgHeight":512,"cmWidth":0.25,"rotateY":173, "pretransform":[]
+				}
+			],
+      "sounds":[
+				{"src":"background_filla.mp3","volume":1}
+			],
+      "preloads":[
+        {"src":"videoplayback.mp4"},
+        {"src":"blend.mp4"},
+        {"src":"Dentist_Lift.jpg"},
+        {"src":"Dentist_1_Reception.jpg"},
+        {"src":"First-Floor-Orthodontics1.jpg"}
+      ]
     },
     {
       "id": "Lift-Ground",
@@ -36,7 +91,7 @@
       "photopanos": [{ "src": "First-Floor-Hallway.jpg" }]
     },
     {
-      "id": "First-Floor-Ortjodontics",
+      "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }]
     }
   ]
