@@ -5,7 +5,7 @@
       "icon": "icons/red-heart.png"
     }
   },
-  "firstSceneId": "Lift-Ground",
+  "firstSceneId": "Entrance",
   "scenes": [
     {
       "id": "Entrance",
