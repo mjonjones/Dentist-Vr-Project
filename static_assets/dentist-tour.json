@@ -3,17 +3,58 @@
   "defaults": {
     "infos": {
       "icon": "icons/red-heart.png"
+    },
+    "sounds":{
+      "icon":"icons/sound-icon.png"
     }
   },
-  "firstSceneId": "Entrance",
+  "firstSceneId": "Pharmacy",
   "scenes": [
     {
       "id": "Entrance",
       "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
       "navs":[
-        {"to":"Pharmacy", "txt": "Pharmacy","rotateY":1016, "rotateX":3}
+        {"to":"Pharmacy", "txt": "Pharmacy","rotateY":1016, "rotateX":3, "gazeDelay":1800}
 
       ],
+      "infos":[
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "This is the waiting area"
+            }
+          ],
+          "rotateY": 10,
+          "rotateX": 3
+        },
+        {
+          "card":[
+            {"type":"content","txt": "This is the reception desk, this is where you check in", "textColor":"white"}
+          ],
+          "backgroundColor":"#88888800",
+          "rotateY":1600, "rotateX":3
+
+        }
+
+      ],
+      "sounds":[
+
+      ],
+
+      "photos":[
+        {
+          "src":"people/Receptionist.png",
+          "imgWidth":400,
+          "imgHeight":870,
+          "cmWidth":0.15,
+          "rotateY":1610,
+          "rotateX":-15,
+          "pretransform":[ {"translate": [-72, 25, 100]}, {"rotateY": 30} ]
+        }
+      ],
+
+
       "preloads":[
         {"src": "Dentist_Pharmacy.jpg"}
 
@@ -28,10 +69,33 @@
         {"to":"Lift-Ground", "txt": "Lifts","rotateY":209, "rotateX":3},
         {"to":"Entrance", "txt": "Reception","rotateY":28, "rotateX":3}
       ],
+
+      "infos":[
+        {
+          "card":[
+            {"type":"content","txt": "This is the Pharmacy"}
+            ],
+          "rotateY":280, "rotateX":3
+        }
+      ],
+
+      "photos":[
+        {
+          "src":"people/woman.png",
+          "imgWidth":300,
+          "imgHeight":300,
+          "cmWidth":0.15,
+          "rotateY":275,
+          "rotateX":-15,
+          "pretransform":[ {"translate": [-72, 25, 100]}, {"rotateY": 35} ]
+        }
+      ],
+
       "preloads":[
         {"src": "Dentist_Entrance.jpg"},
         {"src": "Dentist_Lift.jpg"}
       ]
+
     },
     {
       "id": "Lift-Floor-1",
@@ -59,3 +123,4 @@
     }
   ]
 }
+

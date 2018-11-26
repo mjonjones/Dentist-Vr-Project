@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f3f911-3ebc-46e7-b036-07dc627432dd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/static_assets/demo-dentist-tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/demo-dentist-tour.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_assets/dentist-tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/dentist-tour.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="dentist-tour.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static_assets/dentist-tour.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="102">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -25,8 +26,8 @@
       <file leaf-file-name="demo-dentist-tour.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static_assets/demo-dentist-tour.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="24" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -39,6 +40,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/static_assets/demo-dentist-tour.json" />
         <option value="$PROJECT_DIR$/static_assets/dentist-tour.json" />
       </list>
     </option>
@@ -57,9 +59,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="1" />
     <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -78,6 +81,12 @@
               <item name="Dentist-Vr-Project" type="462c0819:PsiDirectoryNode" />
               <item name="static_assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Dentist-Vr-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dentist-Vr-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="static_assets" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -93,6 +102,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,15 +170,15 @@
       <option name="presentableId" value="Default" />
       <updated>1543059110761</updated>
       <workItem from="1543059112305" duration="2100000" />
-      <workItem from="1543061289827" duration="430000" />
+      <workItem from="1543061289827" duration="11713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2530000" />
+    <option name="totallyTimeSpent" value="13813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1386" height="788" extended-state="0" />
+    <frame x="0" y="1" width="1386" height="787" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -223,15 +233,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static_assets/demo-dentist-tour.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static_assets/dentist-tour.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>

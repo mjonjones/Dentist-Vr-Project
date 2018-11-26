@@ -3,6 +3,9 @@
     "defaults":{
         "infos":{
             "icon":"icons/red-heart.png"
+        },
+        "sound":{
+            "icon":"icons/red-heart-big.png"
         }
     },
     "firstSceneId":"Entrance",
@@ -23,6 +26,7 @@
                     "rotateX":-90
                 }
             ],
+
             "preloads":[
                 {"src": "Dentist_Pharmacy.jpg"}
             ]
