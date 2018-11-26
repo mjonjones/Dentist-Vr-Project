@@ -2,10 +2,17 @@
   "name": "Dentist tour",
   "defaults": {
     "infos": {
-      "icon": "icons/wisdom-tooth.png"
+      "icon": "icons/wisdom-tooth.png",
+      "backgroundColor":"#2c3e50",
+      "cardBorderWidth":0.05,
+      "borderColor": "#f1c40f"
     },
     "sounds":{
       "icon":"icons/sound-icon.png"
+    },
+    "navs":{
+      "backgroundColor":"#2c3e50",
+      "textColor":"#f1c40f"
     }
   },
   "firstSceneId": "Entrance",
@@ -14,25 +21,27 @@
       "id": "Entrance",
       "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
       "navs":[
-        {"to":"Pharmacy", "txt": "Pharmacy","rotateY":1016, "rotateX":3, "gazeDelay":1800}
+        {"to":"Pharmacy", "txt": "Pharmacy","rotateY":1012, "rotateX":3, "gazeDelay":1800}
 
       ],
       "infos":[
         {
           "card": [
             {
+              "textColor":"#f1c40f",
+              "cardBorderWidth":0.03,
               "type": "content",
               "txt": "This is the waiting area"
             }
           ],
           "rotateY": 10,
-          "rotateX": 3
+          "rotateX": 3,
+          "textColor":"#f1c40f"
         },
         {
           "card":[
-            {"type":"content","txt": "This is the reception desk, this is where you check in", "textColor":"white"}
+            {"type":"content","txt": "This is the reception desk, this is where you check in", "textColor":"#f1c40f"}
           ],
-          "backgroundColor":"#88888800",
           "rotateY":1600, "rotateX":3
 
         }
@@ -41,7 +50,6 @@
       "sounds":[
 
       ],
-
       "photos":[
         {
           "src":"people/Receptionist.png",
@@ -57,8 +65,7 @@
 
       "preloads":[
         {"src": "Dentist_Pharmacy.jpg"}
-
-        ]
+       ]
 
     },
 
@@ -73,7 +80,7 @@
       "infos":[
         {
           "card":[
-            {"type":"content","txt": "This is the Pharmacy"}
+            {"type":"content","txt": "This is the Pharmacy","textColor":"#f1c40f", "cardBorderWidth":0.02}
             ],
           "rotateY":280, "rotateX":3
         }
@@ -109,9 +116,9 @@
       "infos":[
         {
             "card":[
-                {"type":"header","txt": "The Dental School!"},
+                {"type":"header","txt": "The Dental School!", "textColor":"#f1c40f"},
                 {"type":"image","src":"super-tooth-2d.jpg"},
-                {"type":"content", "txt": 
+                {"type":"content","textColor":"#f1c40f", "txt": 
                   "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!"
                 }
             ],
@@ -166,9 +173,9 @@
         { "src": "Dentist_Lift.jpg" }
       ],
       "navs":[
-        {"to":"X-Ray", "txt": "To X-Ray", "rotateY":102, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"},
-        {"to":"Pharmacy", "txt": "To the Pharmacy", "rotateY":20, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"},
-        {"to":"Lift-Floor-1", "txt": "Use Lift to go to First Floor", "rotateY":65, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"}
+        {"to":"X-Ray", "txt": "To X-Ray", "rotateY":102},
+        {"to":"Pharmacy", "txt": "To the Pharmacy", "rotateY":20},
+        {"to":"Lift-Floor-1", "txt": "Use Lift to go to First Floor", "rotateY":65}
       ],
       "sounds":[
         {"src":"lift_opening.mp3","volume":1,"rotateY":80}
@@ -211,8 +218,8 @@
       "photopanos": [{ "src": "First-Floor-Hallway.jpg" }],
       "navs": [
         {
-          "to": "First-Floor-Orthodontics",
-          "txt": "Orthodontics",
+          "to": "Orth-Reception",
+          "txt": "Reception",
           "rotateY": 109,
           "rotateX": 6
         }
@@ -220,27 +227,27 @@
       "infos": [
         {
           "card": [
-            { "type": "header", "txt": "Dental School" },
-            { "type": "content", "txt": "Welcome to the Paediatric Dentistry" }
+            { "type": "header", "txt": "Dental School", "textColor":"#f1c40f"},
+            { "type": "content", "txt": "Welcome to the Paediatric Dentistry", "textColor":"#f1c40f" }
           ],
           "rotateY": 285,
           "rotateX": 8
         }
       ],
       "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
-      "preloads": [{ "src": "First-Floor-Orthodontics1.jpg" }]
+      "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     },
     {
       "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
       "navs": [
-        { "to": "First-Floor-Hallway", "txt": "Hallway", "rotateY": 25 }
+        { "to": "Orth-Reception", "txt": "Reception", "rotateY": 25 }
       ],
       "infos": [
         {
           "card": [
-            { "type": "header", "txt": "Dental School" },
-            { "type": "content", "txt": "Welcome to the orthodontics" }
+            { "type": "header", "txt": "Dental School","textColor":"#f1c40f"},
+            { "type": "content", "txt": "Welcome to the orthodontics", "textColor":"#f1c40f" }
           ],
           "rotateX": 8,
           "rotateY": 200
@@ -248,13 +255,15 @@
         {
           "card": [
             { "type": "image", "src": "prevention_tips.jpg", "ratio": 1 },
-            { "type": "header", "txt": "Tooth Decay Prevention Tips" },
+            { "type": "header", "txt": "Tooth Decay Prevention Tips", "textColor":"#f1c40f"},
             {
               "type": "content",
-              "txt": "Here are some tips for you to ensure your Oral Hygiene is good!"
+              "txt": "Here are some tips for you to ensure your Oral Hygiene is good!",
+              "textColor":"#f1c40f"
             },
             {
               "type": "row",
+              "textColor":"#f1c40f",
               "buttons": [
                 {
                   "txt": "More dental tips",
@@ -263,10 +272,11 @@
               ]
             }
           ],
-          "rotateY": 290
+          "rotateY": 290,
+          "textColor":"#f1c40f"
         }
       ],
-      "preloads": [{ "src": "First-Floor-Hallway.jpg" }]
+      "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     }
   ]
 }
