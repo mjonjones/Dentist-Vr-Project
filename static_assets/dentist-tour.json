@@ -2,7 +2,7 @@
   "name": "Dentist tour",
   "defaults": {
     "infos": {
-      "icon": "icons/red-heart.png"
+      "icon": "icons/wisdom-tooth.png"
     },
     "sounds":{
       "icon":"icons/sound-icon.png"
