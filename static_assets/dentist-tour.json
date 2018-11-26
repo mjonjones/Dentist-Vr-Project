@@ -80,11 +80,49 @@
     },
     {
       "id": "Lift-Ground",
-      "photopanos": [{ "src": "Dentist_Lift.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_Lift.jpg" }
+      ],
+      "navs":[
+        {"to":"X-Ray", "txt": "To X-Ray", "rotateY":102, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"},
+        {"to":"Pharmacy", "txt": "To the Pharmacy", "rotateY":20, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"},
+        {"to":"Lift-Floor-1", "txt": "Use Lift to go to First Floor", "rotateY":65, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"}
+      ],
+      "sounds":[
+        {"src":"lift_opening.mp3","volume":1,"rotateY":80}
+      ],
+      "preloads":[
+        {"src": "Dentist_1_Lift.jpg"},
+        {"src": "Dentist_X-Ray.jpg"},
+        {"src": "Dentist_Pharmacy.jpg"}
+      ]
     },
     {
       "id": "X-Ray",
-      "photopanos": [{ "src": "Dentist_X-Ray.jpg" }]
+      "photopanos": [
+        { "src": "Dentist_X-Ray.jpg", "rotateY":270}
+      ],
+      "navs":[
+        {"to":"Lift-Ground", "txt": "To the Lifts", "rotateY": -7, "backgroundColor":"#2c3e50", "textColor":"#f1c40f"}
+      ],
+      "infos":[
+				{
+					"card":[
+            {"type":"header","txt":"X-Ray room.","textColor":"#f1c40f"},
+						{"type":"video","src":"Dental_Video_Placeholder.mp4","ratio":1.5},
+						{"type":"content","txt":"Here's a video showing you how it works.","textColor":"#f1c40f"}
+					],
+					"width":3.5,
+					"backgroundColor":"#2c3e50",
+          "rotateY":270,
+          "rotateX":-2,
+          "cardBorderWidth":0.05,
+          "borderColor": "#f1c40f"
+				}
+			],
+      "preloads":[
+        {"src": "Dentist_Lift.jpg"}
+      ]
     },
     {
       "id": "First-Floor-Hallway",
