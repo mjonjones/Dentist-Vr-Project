@@ -2,42 +2,323 @@
   "name": "Dentist tour",
   "defaults": {
     "infos": {
-      "icon": "icons/red-heart.png"
+      "icon": "icons/wisdom-tooth.png",
+      "backgroundColor": "#2c3e50",
+      "cardBorderWidth": 0.05,
+      "borderColor": "#f1c40f"
+    },
+    "sounds": {
+      "icon": "icons/sound-icon.png"
+    },
+    "navs": {
+      "iconColorStart": "rgb(241,196,15)",
+      "iconColorEnd": "rgb(52,152,219)",
+      "icon": "icons/arrow.png",
+      "backgroundColor": "#2c3e50",
+      "textColor": "#f1c40f"
     }
   },
-  "firstSceneId": "First-Floor-Hallway",
+  "firstSceneId": "Entrance",
   "scenes": [
     {
       "id": "Entrance",
-      "photopanos": [{ "src": "Dentist_Entrance.jpg" }]
+      "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
+      "navs": [
+        {
+          "to": "Pharmacy",
+          "txt": "Pharmacy",
+          "rotateY": 1012,
+          "rotateX": 3,
+          "gazeDelay": 1800
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "textColor": "#f1c40f",
+              "cardBorderWidth": 0.03,
+              "type": "content",
+              "txt": "This is the waiting area"
+            }
+          ],
+          "rotateY": 10,
+          "rotateX": 3,
+          "textColor": "#f1c40f"
+        },
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "This is the reception desk, this is where you check in",
+              "textColor": "#f1c40f"
+            }
+          ],
+          "rotateY": 1600,
+          "rotateX": 3
+        }
+      ],
+      "sounds": [],
+      "photos": [
+        {
+          "src": "people/Receptionist.png",
+          "imgWidth": 400,
+          "imgHeight": 870,
+          "cmWidth": 0.15,
+          "rotateY": 1610,
+          "rotateX": -15,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+        }
+      ],
+
+      "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
     },
+
     {
       "id": "Pharmacy",
-      "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }]
+      "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }],
+      "navs": [
+        { "to": "Lift-Ground", "txt": "Lifts", "rotateY": 209, "rotateX": 3 },
+        { "to": "Entrance", "txt": "Reception", "rotateY": 28, "rotateX": 3 }
+      ],
+
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "This is the Pharmacy",
+              "textColor": "#f1c40f",
+              "cardBorderWidth": 0.02
+            }
+          ],
+          "rotateY": 280,
+          "rotateX": 3
+        }
+      ],
+
+      "photos": [
+        {
+          "src": "people/woman.png",
+          "imgWidth": 300,
+          "imgHeight": 300,
+          "cmWidth": 0.15,
+          "rotateY": 275,
+          "rotateX": -15,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 35 }]
+        }
+      ],
+
+      "preloads": [
+        { "src": "Dentist_Entrance.jpg" },
+        { "src": "Dentist_Lift.jpg" }
+      ]
     },
     {
       "id": "Lift-Floor-1",
-      "photopanos": [{ "src": "Dentist_1_Lift.jpg" }]
+      "photopanos": [{ "src": "Dentist_1_Lift.jpg" }],
+      "navs": [
+        { "to": "Lift-Ground", "txt": "Ground Floor" },
+        { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285 }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "header",
+              "txt": "The Dental School!",
+              "textColor": "#f1c40f"
+            },
+            { "type": "image", "src": "super-tooth-2d.jpg" },
+            {
+              "type": "content",
+              "textColor": "#f1c40f",
+              "txt": "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!"
+            }
+          ],
+          "rotateY": 120
+        }
+      ],
+      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
+      "preloads": [
+        { "src": "Dentist_Lift.jpg" },
+        { "src": "Dentist_1_Reception.jpg" }
+      ]
     },
     {
       "id": "Orth-Reception",
-      "photopanos": [{ "src": "Dentist_1_Reception.jpg" }]
+      "photopanos": [{ "src": "Dentist_1_Reception.jpg", "rotateY": 200 }],
+      "navs": [
+        { "to": "First-Floor-Hallway", "txt": "Paediatrics", "rotateY": 25 },
+        { "to": "Lift-Floor-1", "txt": "Lifts", "rotateY": 115 },
+        {
+          "to": "First-Floor-Orthodontics",
+          "txt": "Orthodontics",
+          "rotateY": 205
+        }
+      ],
+      "infos": [
+        {
+          "card": [{ "type": "video", "src": "videoplayback.mp4", "volume": 5 }]
+        }
+      ],
+      "videoautos": [
+        {
+          "src": "blend.mp4",
+          "imgWidth": 512,
+          "imgHeight": 512,
+          "cmWidth": 0.25,
+          "rotateY": 173,
+          "pretransform": []
+        }
+      ],
+      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
+      "preloads": [
+        { "src": "videoplayback.mp4" },
+        { "src": "blend.mp4" },
+        { "src": "Dentist_Lift.jpg" },
+        { "src": "Dentist_1_Reception.jpg" },
+        { "src": "First-Floor-Orthodontics1.jpg" }
+      ]
     },
     {
       "id": "Lift-Ground",
-      "photopanos": [{ "src": "Dentist_Lift.jpg" }]
+      "photopanos": [{ "src": "Dentist_Lift.jpg" }],
+      "navs": [
+        { "to": "X-Ray", "txt": "To X-Ray", "rotateY": 102 },
+        { "to": "Pharmacy", "txt": "To the Pharmacy", "rotateY": 20 },
+        {
+          "to": "Lift-Floor-1",
+          "txt": "Use Lift to go to First Floor",
+          "rotateY": 65
+        }
+      ],
+      "sounds": [{ "src": "lift_opening.mp3", "volume": 1, "rotateY": 80 }],
+      "preloads": [
+        { "src": "Dentist_1_Lift.jpg" },
+        { "src": "Dentist_X-Ray.jpg" },
+        { "src": "Dentist_Pharmacy.jpg" }
+      ]
     },
     {
       "id": "X-Ray",
-      "photopanos": [{ "src": "Dentist_X-Ray.jpg" }]
+      "photopanos": [{ "src": "Dentist_X-Ray.jpg", "rotateY": 270 }],
+      "navs": [
+        {
+          "to": "Lift-Ground",
+          "txt": "To the Lifts",
+          "rotateY": -7,
+          "backgroundColor": "#2c3e50",
+          "textColor": "#f1c40f"
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            { "type": "header", "txt": "X-Ray room.", "textColor": "#f1c40f" },
+            {
+              "type": "video",
+              "src": "Dental_Video_Placeholder.mp4",
+              "ratio": 1.5
+            },
+            {
+              "type": "content",
+              "txt": "Here's a video showing you how it works.",
+              "textColor": "#f1c40f"
+            }
+          ],
+          "width": 3.5,
+          "backgroundColor": "#2c3e50",
+          "rotateY": 270,
+          "rotateX": -2,
+          "cardBorderWidth": 0.05,
+          "borderColor": "#f1c40f"
+        }
+      ],
+      "preloads": [{ "src": "Dentist_Lift.jpg" }]
     },
     {
       "id": "First-Floor-Hallway",
-      "photopanos": [{ "src": "First-Floor-Hallway.jpg" }]
+      "photopanos": [{ "src": "First-Floor-Hallway.jpg" }],
+      "navs": [
+        {
+          "to": "Orth-Reception",
+          "txt": "Reception",
+          "rotateY": 109,
+          "rotateX": 6
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "header",
+              "txt": "Dental School",
+              "textColor": "#f1c40f"
+            },
+            {
+              "type": "content",
+              "txt": "Welcome to the Paediatric Dentistry",
+              "textColor": "#f1c40f"
+            }
+          ],
+          "rotateY": 285,
+          "rotateX": 8
+        }
+      ],
+      "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
+      "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     },
     {
-      "id": "First-Floor-Ortjodontics",
-      "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }]
+      "id": "First-Floor-Orthodontics",
+      "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
+      "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25 }],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "header",
+              "txt": "Dental School",
+              "textColor": "#f1c40f"
+            },
+            {
+              "type": "content",
+              "txt": "Welcome to the orthodontics",
+              "textColor": "#f1c40f"
+            }
+          ],
+          "rotateX": 8,
+          "rotateY": 200
+        },
+        {
+          "card": [
+            { "type": "image", "src": "prevention_tips.jpg", "ratio": 1 },
+            {
+              "type": "header",
+              "txt": "Tooth Decay Prevention Tips",
+              "textColor": "#f1c40f"
+            },
+            {
+              "type": "content",
+              "txt": "Here are some tips for you to ensure your Oral Hygiene is good!",
+              "textColor": "#f1c40f"
+            },
+            {
+              "type": "row",
+              "textColor": "#f1c40f",
+              "buttons": [
+                {
+                  "txt": "More dental tips",
+                  "uri": "https://www.nhs.uk/live-well/healthy-body/how-to-keep-your-teeth-clean/"
+                }
+              ]
+            }
+          ],
+          "rotateY": 290,
+          "textColor": "#f1c40f"
+        }
+      ],
+      "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     }
   ]
 }
