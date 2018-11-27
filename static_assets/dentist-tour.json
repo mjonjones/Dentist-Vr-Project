@@ -203,6 +203,17 @@
           "rotateY": 330
         }
       ],
+      "photos": [
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 340,
+          "rotateX": -15,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+        }
+      ],
       "videoautos": [
         {
           "src": "blend.mp4",
