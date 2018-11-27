@@ -150,10 +150,21 @@
               "txt": "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!",
               "fontSize": 0.25,
               "fontWeight": "bold"
-
             }
           ],
           "rotateY": 120
+        },
+        {
+          "card":[
+            {
+              "type": "content",
+              "txt": "When you finishing brushing your teeth, spit into the sink and do not rinse with water!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
+          "rotateY": 180
         }
       ],
       "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
@@ -180,8 +191,14 @@
       ],
       "infos": [
         {
-          "card": [{ "type": "video", "src": "videoplayback.mp4", "volume": 5, "fontSize": 0.25,
-            "fontWeight": "bold" }]
+          "card": [{
+            "type": "content",
+            "txt": "Super Tooth says brush 2 minutes, so your teeth are squeaky clean!",
+            "textColor": "#fff200",
+            "fontSize": 0.25,
+            "fontWeight": "bold"
+          }],
+          "rotateY": 330
         }
       ],
       "videoautos": [
@@ -214,7 +231,25 @@
         {
           "to": "Lift-Floor-1",
           "txt": "Use Lift to go to First Floor",
-          "rotateY": 65
+          "rotateY": 65,
+          "fontSize": 0.15,
+          "fontWeight": "bold" 
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            { "type": "image", "src": "super-tooth-2d.jpg" },
+            {
+              "type": "content",
+              "textColor": "#fff200",
+              "txt": "Remember! Do not eat your toothpaste! Its for cleaning your teeth, not feeding your tummy!",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+
+            }
+          ],
+          "rotateY": 150
         }
       ],
       "sounds": [{ "src": "lift_opening.mp3", "volume": 1, "rotateY": 80 }],
@@ -310,13 +345,8 @@
         {
           "card": [
             {
-              "type": "header",
-              "txt": "Dental School",
-              "textColor": "#fff200"
-            },
-            {
               "type": "content",
-              "txt": "Welcome to the orthodontics",
+              "txt": "Don't eat too many sugary treats, to keep your teeth healthy!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
