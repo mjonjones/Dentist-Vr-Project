@@ -32,6 +32,9 @@
           "gazeDelay": 1800
         }
       ],
+      "titles":[
+        {"title": "Entrance"}
+      ],
       "infos": [
         {
           "card": [
