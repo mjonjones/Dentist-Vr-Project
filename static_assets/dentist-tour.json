@@ -8,9 +8,7 @@
 
     },
     "sounds": {
-      "icon": "icons/sound-icon.png",
-      "src": "bensound-littleidea.mp3",
-      "volume": 1
+      "icon": "icons/sound-icon.png"
     },
     "navs": {
       "iconColorStart": "rgb(255, 242, 0)",
@@ -43,7 +41,7 @@
               "textColor": "#fff200",
               "cardBorderWidth": 0.03,
               "type": "content",
-              "txt": "This is the waiting area",
+              "txt": "Remember to brush your teeth twice a day! The best time to brush your teeth is before bed!",
               "fontSize": 0.25,
               "fontWeight": "bold"
             }
@@ -66,7 +64,7 @@
           "rotateX": 3
         }
       ],
-      "sounds": [{}],
+      "sounds": [],
       "photos": [
         {
           "src": "people/Receptionist.png",
@@ -97,17 +95,20 @@
           "card": [
             {
               "type": "content",
-              "txt": "This is the Pharmacy",
+              "txt": "Use a pea sized amount of toothpaste on your tooth brush!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
+            },
+            {
+              "type": "image", "src": "pea-size.png"
             }
           ],
-          "rotateY": 280,
+          "rotateY": 255,
           "rotateX": 3
         }
       ],
-      "sounds": [{}],
+
       "photos": [
         {
           "src": "people/woman.png",
@@ -134,7 +135,6 @@
         { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285,  "fontSize": 0.15,
           "fontWeight": "bold"}
       ],
-      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -156,6 +156,7 @@
           "rotateY": 120
         }
       ],
+      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
       "preloads": [
         { "src": "Dentist_Lift.jpg" },
         { "src": "Dentist_1_Reception.jpg" }
@@ -177,7 +178,6 @@
           "fontWeight": "bold"
         }
       ],
-      "sounds": [{}],
       "infos": [
         {
           "card": [{ "type": "video", "src": "videoplayback.mp4", "volume": 5, "fontSize": 0.25,
@@ -194,6 +194,7 @@
           "pretransform": []
         }
       ],
+      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
       "preloads": [
         { "src": "videoplayback.mp4" },
         { "src": "blend.mp4" },
@@ -216,7 +217,7 @@
           "rotateY": 65
         }
       ],
-      "sounds": [{}],
+      "sounds": [{ "src": "lift_opening.mp3", "volume": 1, "rotateY": 80 }],
       "preloads": [
         { "src": "Dentist_1_Lift.jpg" },
         { "src": "Dentist_X-Ray.jpg" },
@@ -237,7 +238,6 @@
           "fontWeight": "bold"
         }
       ],
-      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -278,7 +278,6 @@
           "fontWeight": "bold"
         }
       ],
-      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -299,6 +298,7 @@
           "rotateX": 8
         }
       ],
+      "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     },
     {
@@ -306,7 +306,6 @@
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
       "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25,  "fontSize": 0.15,
         "fontWeight": "bold" }],
-      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -326,7 +325,6 @@
           "rotateX": 8,
           "rotateY": 200
         },
-        
         {
           "card": [
             { "type": "image", "src": "prevention_tips.jpg", "ratio": 1 },
