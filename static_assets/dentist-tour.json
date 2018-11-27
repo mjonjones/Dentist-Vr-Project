@@ -7,10 +7,10 @@
       "cardBorderWidth": 0.05
 
     },
-
-
     "sounds": {
-      "icon": "icons/sound-icon.png"
+      "icon": "icons/sound-icon.png",
+      "src": "bensound-littleidea.mp3",
+      "volume": 1
     },
     "navs": {
       "iconColorStart": "rgb(255, 242, 0)",
@@ -66,7 +66,7 @@
           "rotateX": 3
         }
       ],
-      "sounds": [],
+      "sounds": [{}],
       "photos": [
         {
           "src": "people/Receptionist.png",
@@ -107,7 +107,7 @@
           "rotateX": 3
         }
       ],
-
+      "sounds": [{}],
       "photos": [
         {
           "src": "people/woman.png",
@@ -134,6 +134,7 @@
         { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285,  "fontSize": 0.15,
           "fontWeight": "bold"}
       ],
+      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -155,7 +156,6 @@
           "rotateY": 120
         }
       ],
-      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
       "preloads": [
         { "src": "Dentist_Lift.jpg" },
         { "src": "Dentist_1_Reception.jpg" }
@@ -177,6 +177,7 @@
           "fontWeight": "bold"
         }
       ],
+      "sounds": [{}],
       "infos": [
         {
           "card": [{ "type": "video", "src": "videoplayback.mp4", "volume": 5, "fontSize": 0.25,
@@ -193,7 +194,6 @@
           "pretransform": []
         }
       ],
-      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
       "preloads": [
         { "src": "videoplayback.mp4" },
         { "src": "blend.mp4" },
@@ -216,7 +216,7 @@
           "rotateY": 65
         }
       ],
-      "sounds": [{ "src": "lift_opening.mp3", "volume": 1, "rotateY": 80 }],
+      "sounds": [{}],
       "preloads": [
         { "src": "Dentist_1_Lift.jpg" },
         { "src": "Dentist_X-Ray.jpg" },
@@ -237,6 +237,7 @@
           "fontWeight": "bold"
         }
       ],
+      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -277,6 +278,7 @@
           "fontWeight": "bold"
         }
       ],
+      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -297,7 +299,6 @@
           "rotateX": 8
         }
       ],
-      "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     },
     {
@@ -305,6 +306,7 @@
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
       "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25,  "fontSize": 0.15,
         "fontWeight": "bold" }],
+      "sounds": [{}],
       "infos": [
         {
           "card": [
@@ -324,6 +326,7 @@
           "rotateX": 8,
           "rotateY": 200
         },
+        
         {
           "card": [
             { "type": "image", "src": "prevention_tips.jpg", "ratio": 1 },
