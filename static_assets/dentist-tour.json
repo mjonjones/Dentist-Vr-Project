@@ -35,6 +35,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles": [
+        { "src": "titles/title-Entrance.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+      ],
       "infos": [
         {
           "card": [
@@ -78,7 +81,6 @@
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
         }
       ],
-
       "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
     },
 
