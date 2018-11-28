@@ -279,7 +279,6 @@
       "infos": [
         {
           "card": [
-            { "type": "image", "src": "super-tooth-2d.jpg" },
             {
               "type": "content",
               "textColor": "#fff200",
@@ -290,6 +289,35 @@
             }
           ],
           "rotateY": 150
+        },
+
+        {
+          "card": [
+            {
+              
+              "type": "content",
+              "txt": "These are the lifts, you can use them to go look at rooms upstairs",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 205,
+          "rotateX": 1,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "photos":[
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 178,
+          "rotateX": -25,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 35 }]
+          
         }
       ],
       "sounds":[{}],
@@ -298,6 +326,7 @@
         { "src": "Dentist_X-Ray.jpg" },
         { "src": "Dentist_Pharmacy.jpg" }
       ]
+      
     },
     {
       "id": "X-Ray",
