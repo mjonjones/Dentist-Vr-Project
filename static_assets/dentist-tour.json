@@ -78,8 +78,8 @@
               "iconDuration": 1500
             }
           ],
-          "rotateY": 115,
-          "rotateX": 4,
+          "rotateY": 113,
+          "rotateX": 8,
           "icon":"icons/speech-icon.png"
         }
       ],
