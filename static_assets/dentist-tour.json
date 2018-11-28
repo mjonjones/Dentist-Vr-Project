@@ -295,7 +295,6 @@
         {
           "card": [
             {
-              
               "type": "content",
               "txt": "These are the lifts, you can use them to go look at rooms upstairs",
               "textColor": "#fff200",
@@ -365,6 +364,33 @@
           "rotateX": -2,
           "cardBorderWidth": 0.05
 
+        },
+        {
+          "card": [
+            {
+              
+              "type": "content",
+              "txt": "The X-Ray machine is down this corridor.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 205,
+          "rotateX": 0,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "photos":[
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 200,
+          "rotateX": -15
+           
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
