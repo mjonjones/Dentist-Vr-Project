@@ -222,13 +222,13 @@
         {
           "card": [{
             "type": "content",
-            "txt": "Super Tooth says brush 2 minutes, so your teeth are squeaky clean!",
+            "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
             "textColor": "#fff200",
             "fontSize": 0.25,
             "fontWeight": "bold"
           }],
-          "rotateY": 210,
-          "rotateX": -20,
+          "rotateY": 220,
+          "rotateX": -18,
           "icon":"icons/speech-icon.png"
         }
       ],
@@ -283,7 +283,7 @@
             {
               "type": "content",
               "textColor": "#fff200",
-              "txt": "Remember! Do not eat your toothpaste! Its for cleaning your teeth, not feeding your tummy!",
+              "txt": "Remember! Do not eat your toothpaste! It's for cleaning your teeth, not feeding your tummy!",
               "fontSize": 0.25,
               "fontWeight": "bold"
 
@@ -382,6 +382,7 @@
           "icon":"icons/speech-icon.png"
         }
       ],
+      "sounds":[{}],
       "photos":[
         {
           "src": "icons/supertooth.png",
