@@ -51,7 +51,7 @@
           "rotateX": 3,
           "textColor": "#fff200"
         },
-        
+      
         {
           "card": [
             {
@@ -64,6 +64,23 @@
           ],
           "rotateY": 1600,
           "rotateX": 3
+        },
+
+        {
+          "card": [
+            {
+              
+              "type": "content",
+              "txt": "Hi there!  My name is SuperTooth and I want to be your friend.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 115,
+          "rotateX": 4,
+          "icon":"icons/speech-icon.png"
         }
       ],
       "sounds": [{}],
@@ -76,6 +93,16 @@
           "rotateY": 1610,
           "rotateX": -15,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+        },
+        {
+          "src": "icons/supertooth-2.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 83,
+          "rotateX": -18,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+          
         }
       ],
 
