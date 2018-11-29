@@ -35,6 +35,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles": [
+        { "src": "titles/title-Entrance.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+      ],
       "infos": [
         {
           "card": [
@@ -105,7 +108,6 @@
           
         }
       ],
-
       "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
     },
 
@@ -118,7 +120,9 @@
         { "to": "Entrance", "txt": "Reception", "rotateY": 28, "rotateX": 3,  "fontSize": 0.15,
           "fontWeight": "bold" }
       ],
-
+      "titles": [
+        { "src": "titles/title-Pharmacy.png", "width": 2, "height": 2, "rotateY": 160, "op": 0.9 }
+      ],
       "infos": [
         {
           "card": [
@@ -163,6 +167,9 @@
           "fontWeight": "bold" },
         { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285,  "fontSize": 0.15,
           "fontWeight": "bold"}
+      ],
+      "titles": [
+        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 60, "op": 0.9 }
       ],
       "infos": [
         {
@@ -217,6 +224,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+      ],
+      "titles": [
+        { "src": "titles/title-Reception.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
       ],
       "infos": [
         {
@@ -276,6 +286,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold" 
         }
+      ],
+      "titles": [
+        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 200, "op": 0.9 }
       ],
       "infos": [
         {
@@ -340,6 +353,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+      ],
+      "titles": [
+        { "src": "titles/title-X-ray.png", "width": 2, "height": 2, "rotateY": 170, "op": 0.9 }
       ],
       "infos": [
         {
@@ -408,6 +424,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles": [
+        { "src": "titles/title-Hallway.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+      ],
       "infos": [
         {
           "card": [
@@ -437,6 +456,9 @@
       "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25,  "fontSize": 0.15,
         "fontWeight": "bold" }],
       "sounds":[{}],
+      "titles": [
+        { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 150, "op": 0.9 }
+      ],
       "infos": [
         {
           "card": [
