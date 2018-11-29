@@ -3,19 +3,20 @@
   "defaults": {
     "infos": {
       "icon": "icons/wisdom-tooth.png",
-      "backgroundColor": "#2c3e50",
-      "cardBorderWidth": 0.05,
-      "borderColor": "#f1c40f"
+      "backgroundColor": "#3498db",
+      "cardBorderWidth": 0.05
+
     },
     "sounds": {
-      "icon": "icons/sound-icon.png"
+      "src": "bensound-littleidea.mp3",
+      "volume": 1
     },
     "navs": {
-      "iconColorStart": "rgb(241,196,15)",
+      "iconColorStart": "rgb(255, 242, 0)",
       "iconColorEnd": "rgb(52,152,219)",
       "icon": "icons/arrow.png",
-      "backgroundColor": "#2c3e50",
-      "textColor": "#f1c40f"
+      "backgroundColor": "#3498db",
+      "textColor": "#fff200"
     }
   },
   "firstSceneId": "Entrance",
@@ -29,39 +30,64 @@
           "txt": "Pharmacy",
           "rotateY": 1012,
           "rotateX": 3,
-          "gazeDelay": 1800
+          "gazeDelay": 1800,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
         }
       ],
-      "titles":[
-        {"title": "Entrance"}
+
+      "titles": [
+        { "src": "titles/title-Entrance.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
       ],
       "infos": [
         {
           "card": [
             {
-              "textColor": "#f1c40f",
+              "textColor": "#fff200",
               "cardBorderWidth": 0.03,
               "type": "content",
-              "txt": "This is the waiting area"
+              "txt": "Remember to brush your teeth twice a day! The best time to brush your teeth is before bed!",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
             }
           ],
           "rotateY": 10,
           "rotateX": 3,
-          "textColor": "#f1c40f"
+          "textColor": "#fff200"
         },
+      
         {
           "card": [
             {
               "type": "content",
               "txt": "This is the reception desk, this is where you check in",
-              "textColor": "#f1c40f"
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
             }
           ],
           "rotateY": 1600,
           "rotateX": 3
+        },
+
+        {
+          "card": [
+            {
+              
+              "type": "content",
+              "txt": "Hi there!  My name is SuperTooth and I want to be your friend.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 113,
+          "rotateX": 8,
+          "icon":"icons/speech-icon.png"
         }
       ],
-      "sounds": [],
+      "sounds": [{}],
       "photos": [
         {
           "src": "people/Receptionist.png",
@@ -71,9 +97,18 @@
           "rotateY": 1610,
           "rotateX": -15,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+        },
+        {
+          "src": "icons/supertooth-2.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 83,
+          "rotateX": -18,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+          
         }
       ],
-
       "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
     },
 
@@ -81,25 +116,33 @@
       "id": "Pharmacy",
       "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }],
       "navs": [
-        { "to": "Lift-Ground", "txt": "Lifts", "rotateY": 209, "rotateX": 3 },
-        { "to": "Entrance", "txt": "Reception", "rotateY": 28, "rotateX": 3 }
+        { "to": "Lift-Ground", "txt": "Lifts", "rotateY": 209, "rotateX": 3,  "fontSize": 0.15,
+          "fontWeight": "bold" },
+        { "to": "Entrance", "txt": "Reception", "rotateY": 28, "rotateX": 3,  "fontSize": 0.15,
+          "fontWeight": "bold" }
       ],
-
+      "titles": [
+        { "src": "titles/title-Pharmacy.png", "width": 2, "height": 2, "rotateY": 160, "op": 0.9 }
+      ],
       "infos": [
         {
           "card": [
             {
               "type": "content",
-              "txt": "This is the Pharmacy",
-              "textColor": "#f1c40f",
-              "cardBorderWidth": 0.02
+              "txt": "Use a pea sized amount of toothpaste on your tooth brush!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "image", "src": "pea-size.png"
             }
           ],
-          "rotateY": 280,
+          "rotateY": 255,
           "rotateX": 3
         }
       ],
-
+      "sounds":[{}],
       "photos": [
         {
           "src": "people/woman.png",
@@ -121,8 +164,13 @@
       "id": "Lift-Floor-1",
       "photopanos": [{ "src": "Dentist_1_Lift.jpg" }],
       "navs": [
-        { "to": "Lift-Ground", "txt": "Ground Floor" },
-        { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285 }
+        { "to": "Lift-Ground", "txt": "Ground Floor",  "fontSize": 0.15,
+          "fontWeight": "bold" },
+        { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285,  "fontSize": 0.15,
+          "fontWeight": "bold"}
+      ],
+      "titles": [
+        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 60, "op": 0.9 }
       ],
       "infos": [
         {
@@ -130,19 +178,33 @@
             {
               "type": "header",
               "txt": "The Dental School!",
-              "textColor": "#f1c40f"
+              "textColor": "#fff200"
             },
-            { "type": "image", "src": "super-tooth-2d.jpg" },
+            { "type": "image", "src": "icons/supertooth-2.png" },
             {
               "type": "content",
-              "textColor": "#f1c40f",
-              "txt": "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!"
+              "textColor": "#fff200",
+              "txt": "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
             }
           ],
           "rotateY": 120
+        },
+        {
+          "card":[
+            {
+              "type": "content",
+              "txt": "When you finishing brushing your teeth, spit into the sink and do not rinse with water!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
+          "rotateY": 180
         }
       ],
-      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
+      "sounds": [{}],
       "preloads": [
         { "src": "Dentist_Lift.jpg" },
         { "src": "Dentist_1_Reception.jpg" }
@@ -152,17 +214,43 @@
       "id": "Orth-Reception",
       "photopanos": [{ "src": "Dentist_1_Reception.jpg", "rotateY": 200 }],
       "navs": [
-        { "to": "First-Floor-Hallway", "txt": "Paediatrics", "rotateY": 25 },
-        { "to": "Lift-Floor-1", "txt": "Lifts", "rotateY": 115 },
+        { "to": "First-Floor-Hallway", "txt": "Paediatrics", "rotateY": 25,  "fontSize": 0.15,
+          "fontWeight": "bold" },
+        { "to": "Lift-Floor-1", "txt": "Lifts", "rotateY": 115,  "fontSize": 0.15,
+          "fontWeight": "bold" },
         {
           "to": "First-Floor-Orthodontics",
           "txt": "Orthodontics",
-          "rotateY": 205
+          "rotateY": 205,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
         }
+      ],
+      "titles": [
+        { "src": "titles/title-Reception.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
       ],
       "infos": [
         {
-          "card": [{ "type": "video", "src": "videoplayback.mp4", "volume": 5 }]
+          "card": [{
+            "type": "content",
+            "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
+            "textColor": "#fff200",
+            "fontSize": 0.25,
+            "fontWeight": "bold"
+          }],
+          "rotateY": 220,
+          "rotateX": -18,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "photos": [
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 205,
+          "rotateX": -35
         }
       ],
       "videoautos": [
@@ -175,7 +263,7 @@
           "pretransform": []
         }
       ],
-      "sounds": [{ "src": "background_filla.mp3", "volume": 1 }],
+      "sounds":[{}],
       "preloads": [
         { "src": "videoplayback.mp4" },
         { "src": "blend.mp4" },
@@ -188,20 +276,70 @@
       "id": "Lift-Ground",
       "photopanos": [{ "src": "Dentist_Lift.jpg" }],
       "navs": [
-        { "to": "X-Ray", "txt": "To X-Ray", "rotateY": 102 },
-        { "to": "Pharmacy", "txt": "To the Pharmacy", "rotateY": 20 },
+        { "to": "X-Ray", "txt": "To X-Ray", "rotateY": 102,  "fontSize": 0.15,
+          "fontWeight": "bold" },
+        { "to": "Pharmacy", "txt": "To the Pharmacy", "rotateY": 20,  "fontSize": 0.15,
+          "fontWeight": "bold" },
         {
           "to": "Lift-Floor-1",
           "txt": "Use Lift to go to First Floor",
-          "rotateY": 65
+          "rotateY": 65,
+          "fontSize": 0.15,
+          "fontWeight": "bold" 
         }
       ],
-      "sounds": [{ "src": "lift_opening.mp3", "volume": 1, "rotateY": 80 }],
+      "titles": [
+        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 200, "op": 0.9 }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "content",
+              "textColor": "#fff200",
+              "txt": "Remember! Do not eat your toothpaste! It's for cleaning your teeth, not feeding your tummy!",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+
+            }
+          ],
+          "rotateY": 150
+        },
+
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "These are the lifts, you can use them to go look at rooms upstairs",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 205,
+          "rotateX": 1,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "photos":[
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 200,
+          "rotateX": -15
+          
+        }
+      ],
+      "sounds":[{}],
       "preloads": [
         { "src": "Dentist_1_Lift.jpg" },
         { "src": "Dentist_X-Ray.jpg" },
         { "src": "Dentist_Pharmacy.jpg" }
       ]
+      
     },
     {
       "id": "X-Ray",
@@ -211,9 +349,14 @@
           "to": "Lift-Ground",
           "txt": "To the Lifts",
           "rotateY": -7,
-          "backgroundColor": "#2c3e50",
-          "textColor": "#f1c40f"
+          "backgroundColor": "#3498db",
+          "textColor": "#fff200",
+          "fontSize": 0.15,
+          "fontWeight": "bold"
         }
+      ],
+      "titles": [
+        { "src": "titles/title-X-ray.png", "width": 2, "height": 2, "rotateY": 170, "op": 0.9 }
       ],
       "infos": [
         {
@@ -227,15 +370,44 @@
             {
               "type": "content",
               "txt": "Here's a video showing you how it works.",
-              "textColor": "#f1c40f"
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
             }
           ],
           "width": 3.5,
-          "backgroundColor": "#2c3e50",
+          "backgroundColor": "#3498db",
           "rotateY": 270,
           "rotateX": -2,
-          "cardBorderWidth": 0.05,
-          "borderColor": "#f1c40f"
+          "cardBorderWidth": 0.05
+
+        },
+        {
+          "card": [
+            {
+              
+              "type": "content",
+              "txt": "The X-Ray machine is down this corridor.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 205,
+          "rotateX": 0,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "sounds":[{}],
+      "photos":[
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 200,
+          "rotateX": -15   
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
@@ -248,8 +420,13 @@
           "to": "Orth-Reception",
           "txt": "Reception",
           "rotateY": 109,
-          "rotateX": 6
+          "rotateX": 6,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
         }
+      ],
+      "titles": [
+        { "src": "titles/title-Hallway.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
       ],
       "infos": [
         {
@@ -257,37 +434,41 @@
             {
               "type": "header",
               "txt": "Dental School",
-              "textColor": "#f1c40f"
+              "textColor": "#fff200"
             },
             {
               "type": "content",
               "txt": "Welcome to the Paediatric Dentistry",
-              "textColor": "#f1c40f"
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
             }
           ],
           "rotateY": 285,
           "rotateX": 8
         }
       ],
-      "sounds": [{ "src": "sparrow.mp3", "volume": 3 }],
+      "sounds": [{}],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     },
     {
       "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
-      "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25 }],
+      "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25,  "fontSize": 0.15,
+        "fontWeight": "bold" }],
+      "sounds":[{}],
+      "titles": [
+        { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 150, "op": 0.9 }
+      ],
       "infos": [
         {
           "card": [
             {
-              "type": "header",
-              "txt": "Dental School",
-              "textColor": "#f1c40f"
-            },
-            {
               "type": "content",
-              "txt": "Welcome to the orthodontics",
-              "textColor": "#f1c40f"
+              "txt": "Don't eat too many sugary treats, to keep your teeth healthy!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
             }
           ],
           "rotateX": 8,
@@ -299,16 +480,18 @@
             {
               "type": "header",
               "txt": "Tooth Decay Prevention Tips",
-              "textColor": "#f1c40f"
+              "textColor": "#fff200"
             },
             {
               "type": "content",
               "txt": "Here are some tips for you to ensure your Oral Hygiene is good!",
-              "textColor": "#f1c40f"
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
             },
             {
               "type": "row",
-              "textColor": "#f1c40f",
+              "textColor": "#fff200",
               "buttons": [
                 {
                   "txt": "More dental tips",
@@ -318,7 +501,32 @@
             }
           ],
           "rotateY": 290,
-          "textColor": "#f1c40f"
+          "textColor": "#fff200"
+        },
+        {
+          "card": [
+            { 
+              "type": "content",
+              "txt": "You will need to sit in a chair like this.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 136,
+          "rotateX": 10,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "photos":[
+        {
+          "src": "icons/supertooth-2.png",
+          "imgWidth": 200,
+          "imgHeight": 200,
+          "cmWidth": 0.1,
+          "rotateY": 130,
+          "rotateX": -1   
         }
       ],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
