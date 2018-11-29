@@ -51,7 +51,7 @@
           "rotateX": 3,
           "textColor": "#fff200"
         },
-        
+      
         {
           "card": [
             {
@@ -64,6 +64,23 @@
           ],
           "rotateY": 1600,
           "rotateX": 3
+        },
+
+        {
+          "card": [
+            {
+              
+              "type": "content",
+              "txt": "Hi there!  My name is SuperTooth and I want to be your friend.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 113,
+          "rotateX": 8,
+          "icon":"icons/speech-icon.png"
         }
       ],
       "sounds": [{}],
@@ -76,6 +93,16 @@
           "rotateY": 1610,
           "rotateX": -15,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+        },
+        {
+          "src": "icons/supertooth-2.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 83,
+          "rotateX": -18,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+          
         }
       ],
 
@@ -145,7 +172,7 @@
               "txt": "The Dental School!",
               "textColor": "#fff200"
             },
-            { "type": "image", "src": "super-tooth-2d.jpg" },
+            { "type": "image", "src": "icons/supertooth-2.png" },
             {
               "type": "content",
               "textColor": "#fff200",
@@ -195,12 +222,14 @@
         {
           "card": [{
             "type": "content",
-            "txt": "Super Tooth says brush 2 minutes, so your teeth are squeaky clean!",
+            "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
             "textColor": "#fff200",
             "fontSize": 0.25,
             "fontWeight": "bold"
           }],
-          "rotateY": 330
+          "rotateY": 220,
+          "rotateX": -18,
+          "icon":"icons/speech-icon.png"
         }
       ],
       "photos": [
@@ -209,9 +238,8 @@
           "imgWidth": 500,
           "imgHeight": 500,
           "cmWidth": 0.15,
-          "rotateY": 340,
-          "rotateX": -15,
-          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+          "rotateY": 205,
+          "rotateX": -35
         }
       ],
       "videoautos": [
@@ -252,17 +280,43 @@
       "infos": [
         {
           "card": [
-            { "type": "image", "src": "super-tooth-2d.jpg" },
             {
               "type": "content",
               "textColor": "#fff200",
-              "txt": "Remember! Do not eat your toothpaste! Its for cleaning your teeth, not feeding your tummy!",
+              "txt": "Remember! Do not eat your toothpaste! It's for cleaning your teeth, not feeding your tummy!",
               "fontSize": 0.25,
               "fontWeight": "bold"
 
             }
           ],
           "rotateY": 150
+        },
+
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "These are the lifts, you can use them to go look at rooms upstairs",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 205,
+          "rotateX": 1,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "photos":[
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 200,
+          "rotateX": -15
+          
         }
       ],
       "sounds":[{}],
@@ -271,6 +325,7 @@
         { "src": "Dentist_X-Ray.jpg" },
         { "src": "Dentist_Pharmacy.jpg" }
       ]
+      
     },
     {
       "id": "X-Ray",
@@ -309,6 +364,33 @@
           "rotateX": -2,
           "cardBorderWidth": 0.05
 
+        },
+        {
+          "card": [
+            {
+              
+              "type": "content",
+              "txt": "The X-Ray machine is down this corridor.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 205,
+          "rotateX": 0,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "sounds":[{}],
+      "photos":[
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 200,
+          "rotateX": -15   
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
@@ -397,6 +479,31 @@
           ],
           "rotateY": 290,
           "textColor": "#fff200"
+        },
+        {
+          "card": [
+            { 
+              "type": "content",
+              "txt": "You will need to sit in a chair like this.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 136,
+          "rotateX": 10,
+          "icon":"icons/speech-icon.png"
+        }
+      ],
+      "photos":[
+        {
+          "src": "icons/supertooth-2.png",
+          "imgWidth": 200,
+          "imgHeight": 200,
+          "cmWidth": 0.1,
+          "rotateY": 130,
+          "rotateX": -1   
         }
       ],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
