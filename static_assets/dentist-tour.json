@@ -252,16 +252,6 @@
           "rotateX": -35
         }
       ],
-      "videoautos": [
-        {
-          "src": "blend.mp4",
-          "imgWidth": 512,
-          "imgHeight": 512,
-          "cmWidth": 0.25,
-          "rotateY": 173,
-          "pretransform": []
-        }
-      ],
       "sounds":[{}],
       "preloads": [
         { "src": "videoplayback.mp4" },
@@ -288,7 +278,7 @@
         }
       ],
       "titles": [
-        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 200, "op": 0.9 }
+        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
       ],
       "infos": [
         {
@@ -457,7 +447,7 @@
         "fontWeight": "bold" }],
       "sounds":[{}],
       "titles": [
-        { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 150, "op": 0.9 }
+        { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 250, "op": 0.9 }
       ],
       "infos": [
         {
