@@ -296,6 +296,16 @@
         },
 
         {
+          "card":[
+            {"type":"video","src":"ElevatorDoor.mp4", "ratioX": 0.02, "ratioY":0.04}
+          ],
+          "rotateY": 75,
+          "rotateX": 4,
+          "icon": "icons/button.png",
+          "iconWidth": 0.5,
+          "iconHeight": 0.3
+        },
+        {
           "card": [
             {
               "type": "content",
@@ -419,23 +429,16 @@
       ],
       "infos": [
         {
-          "card": [
-            {
-              "type": "header",
-              "txt": "Dental School",
-              "textColor": "#fff200"
-            },
-            {
-              "type": "content",
-              "txt": "Welcome to the Paediatric Dentistry",
-              "textColor": "#fff200",
-              "fontSize": 0.25,
-              "fontWeight": "bold"
-            }
+          "card":[
+            {"type":"video","src":"ElevatorDoor.mp4", "ratioX": 0.02, "ratioY":0.04}
           ],
           "rotateY": 285,
-          "rotateX": 8
+          "rotateX": -7,
+          "icon": "icons/button.png",
+          "iconWidth": 0.5,
+          "iconHeight": 0.3
         }
+
       ],
       "sounds": [{}],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
