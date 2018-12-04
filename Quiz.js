@@ -8,31 +8,34 @@ export default class Quiz extends React.Component {
     answer1: "",
     answer2: "",
     answer3: "",
-    correct: ""
+    correct: "",
+    right: ""
   };
 
   constructor(props) {
     super();
-    state = {
-      textStyle: {
-        color: "#fff200",
-        fontWeight: "bold"
-      },
+    this.state = {
       output: ""
     };
-    // bind here
+    this.textStyle = {
+      color: "#fff200",
+      fontWeight: "bold"
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = answer => {
-    if (answer == this.props.correct) {
-      this.setState.output("Correct");
+  handleClick(answerVar) {
+    console.log(answerVar);
+    if (answerVar == this.props.correct) {
+      this.setState({ output: "Correct" });
     } else {
-      this.setState.output("Try Again");
+      this.setState({ output: "Try Again" });
     }
-  };
+  }
 
   render() {
     return (
+      // Styling
       <View
         style={{
           backgroundColor: "#3498db",
@@ -45,12 +48,12 @@ export default class Quiz extends React.Component {
         }}
       >
         <Text style={this.textStyle}>{this.props.question}</Text>
-        <VrButton onClick={this.handleClick(answer1)}>
+        <VrButton onClick={() => this.handleClick(this.props.answer1)}>
           <Text style={this.textStyle}>{this.props.answer1}</Text>
         </VrButton>
-
-        <Text style={this.textStyle}>{this.props.answer2}</Text>
-        <Text style={this.textStyle}>{this.props.answer3}</Text>
+        <Text class="outputBox" style={this.textStyle}>
+          {this.state.outputt}
+        </Text>
       </View>
     );
   }

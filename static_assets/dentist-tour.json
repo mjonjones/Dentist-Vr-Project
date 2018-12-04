@@ -50,6 +50,7 @@
           "answer2": "Answer 2",
           "answer3": "Answer 3",
           "correct": "Answer 1",
+          "right": "",
           "rotateY": 330
         }
       ],
