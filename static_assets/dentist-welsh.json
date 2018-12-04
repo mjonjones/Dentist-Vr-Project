@@ -1,0 +1,536 @@
+{
+    "name": "Dentist tour",
+    "defaults": {
+      "infos": {
+        "icon": "icons/wisdom-tooth.png",
+        "backgroundColor": "#3498db",
+        "cardBorderWidth": 0.05
+  
+      },
+      "sounds": {
+        "src": "bensound-littleidea.mp3",
+        "volume": 1
+      },
+      "navs": {
+        "iconColorStart": "rgb(255, 242, 0)",
+        "iconColorEnd": "rgb(52,152,219)",
+        "icon": "icons/arrow.png",
+        "backgroundColor": "#3498db",
+        "textColor": "#fff200"
+      }
+    },
+    "firstSceneId": "Entrance",
+    "scenes": [
+      {
+        "id": "Entrance",
+        "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
+        "navs": [
+          {
+            "to": "Pharmacy",
+            "txt": "Fferylliaeth",
+            "rotateY": 1012,
+            "rotateX": 3,
+            "gazeDelay": 1800,
+            "fontSize": 0.15,
+            "fontWeight": "bold"
+          }
+        ],
+  
+        "titles": [
+          { "src": "titles/title-Entrance.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [
+              {
+                "textColor": "#fff200",
+                "cardBorderWidth": 0.03,
+                "type": "content",
+                "txt": "Cofiwch frwsio eich dannedd ddwywaith y dydd! Yr amser gorau i frwsio eich dannedd yn cyn mynd i'r gwely!",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              }
+            ],
+            "rotateY": 10,
+            "rotateX": 3,
+            "textColor": "#fff200"
+          },
+        
+          {
+            "card": [
+              {
+                "type": "content",
+                "txt": "Dyma desg y dderbynfa, mae hyn yn lle eich bod yn gwirio!",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              }
+            ],
+            "rotateY": 1600,
+            "rotateX": 3
+          },
+  
+          {
+            "card": [
+              {
+                
+                "type": "content",
+                "txt": "Siwmae! Fy enw i yw dant-arbennig ac yr wyf am fod yn ffrind!",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold",
+                "iconDuration": 1500
+              }
+            ],
+            "rotateY": 113,
+            "rotateX": 8,
+            "icon":"icons/speech-icon.png"
+          }
+        ],
+        "sounds": [{}],
+        "photos": [
+          {
+            "src": "people/Receptionist.png",
+            "imgWidth": 400,
+            "imgHeight": 870,
+            "cmWidth": 0.15,
+            "rotateY": 1610,
+            "rotateX": -15,
+            "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+          },
+          {
+            "src": "icons/supertooth-2.png",
+            "imgWidth": 500,
+            "imgHeight": 500,
+            "cmWidth": 0.15,
+            "rotateY": 83,
+            "rotateX": -18,
+            "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+            
+          }
+        ],
+        "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
+      },
+  
+      {
+        "id": "Pharmacy",
+        "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }],
+        "navs": [
+          { "to": "Lift-Ground", "txt": "Lifftiau", "rotateY": 209, "rotateX": 3,  "fontSize": 0.15,
+            "fontWeight": "bold" },
+          { "to": "Entrance", "txt": "Derbyniad", "rotateY": 28, "rotateX": 3,  "fontSize": 0.15,
+            "fontWeight": "bold" }
+        ],
+        "titles": [
+          { "src": "titles/title-Pharmacy.png", "width": 2, "height": 2, "rotateY": 160, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [
+              {
+                "type": "content",
+                "txt": "Roedd defnydd pea canolig eu maint dannedd o faint pysen ar eich brwsh dannedd!",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              },
+              {
+                "type": "image", "src": "pea-size.png"
+              }
+            ],
+            "rotateY": 255,
+            "rotateX": 3
+          }
+        ],
+        "sounds":[{}],
+        "photos": [
+          {
+            "src": "people/woman.png",
+            "imgWidth": 300,
+            "imgHeight": 300,
+            "cmWidth": 0.15,
+            "rotateY": 275,
+            "rotateX": -15,
+            "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 35 }]
+          }
+        ],
+  
+        "preloads": [
+          { "src": "Dentist_Entrance.jpg" },
+          { "src": "Dentist_Lift.jpg" }
+        ]
+      },
+      {
+        "id": "Lift-Floor-1",
+        "photopanos": [{ "src": "Dentist_1_Lift.jpg" }],
+        "navs": [
+          { "to": "Lift-Ground", "txt": "Ground Floor",  "fontSize": 0.15,
+            "fontWeight": "bold" },
+          { "to": "Orth-Reception", "txt": "Derbyniad", "rotateY": 285,  "fontSize": 0.15,
+            "fontWeight": "bold"}
+        ],
+        "titles": [
+          { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 60, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [
+              {
+                "type": "header",
+                "txt": "Ysgol ddeintyddol!",
+                "textColor": "#fff200"
+              },
+              { "type": "image", "src": "icons/supertooth-2.png" },
+              {
+                "type": "content",
+                "textColor": "#fff200",
+                "txt": "I lawr yma yn yr ysgol ddeintyddol, lle rydym yn addysgu myfyrwyr i fod yn ddeintyddion! Cyn gynted ag y byddant yn helpu chi gadw eich dannedd iach a glân!",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              }
+            ],
+            "rotateY": 120
+          },
+          {
+            "card":[
+              {
+                "type": "content",
+                "txt": "Pan fydd eich pesgi brwsio eich dannedd, boeri i'r sinc a wneud nid Golchwch gyda dŵr!",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              }
+            ],
+            "rotateY": 180
+          }
+        ],
+        "sounds": [{}],
+        "preloads": [
+          { "src": "Dentist_Lift.jpg" },
+          { "src": "Dentist_1_Reception.jpg" }
+        ]
+      },
+      {
+        "id": "Orth-Reception",
+        "photopanos": [{ "src": "Dentist_1_Reception.jpg", "rotateY": 200 }],
+        "navs": [
+          { "to": "First-Floor-Hallway", "txt": "Pediatreg", "rotateY": 25,  "fontSize": 0.15,
+            "fontWeight": "bold" },
+          { "to": "Lift-Floor-1", "txt": "Lifftiau", "rotateY": 115,  "fontSize": 0.15,
+            "fontWeight": "bold" },
+          {
+            "to": "First-Floor-Orthodontics",
+            "txt": "Orthodontics",
+            "rotateY": 205,
+            "fontSize": 0.15,
+            "fontWeight": "bold"
+          }
+        ],
+        "titles": [
+          { "src": "titles/title-Reception.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [{
+              "type": "content",
+              "txt": "Dant-arbenning arch 'dylai chi brwsiwch eich dannedd am 2 funud, felly mae eich dannedd yn gwichlyd lân!'",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }],
+            "rotateY": 220,
+            "rotateX": -18,
+            "icon":"icons/speech-icon.png"
+          }
+        ],
+        "photos": [
+          {
+            "src": "icons/supertooth.png",
+            "imgWidth": 500,
+            "imgHeight": 500,
+            "cmWidth": 0.15,
+            "rotateY": 205,
+            "rotateX": -35
+          }
+        ],
+        "videoautos": [
+          {
+            "src": "blend.mp4",
+            "imgWidth": 512,
+            "imgHeight": 512,
+            "cmWidth": 0.25,
+            "rotateY": 173,
+            "pretransform": []
+          }
+        ],
+        "sounds":[{}],
+        "preloads": [
+          { "src": "videoplayback.mp4" },
+          { "src": "blend.mp4" },
+          { "src": "Dentist_Lift.jpg" },
+          { "src": "Dentist_1_Reception.jpg" },
+          { "src": "First-Floor-Orthodontics1.jpg" }
+        ]
+      },
+      {
+        "id": "Lift-Ground",
+        "photopanos": [{ "src": "Dentist_Lift.jpg" }],
+        "navs": [
+          { "to": "X-Ray", "txt": "Pelydr-x", "rotateY": 102,  "fontSize": 0.15,
+            "fontWeight": "bold" },
+          { "to": "Pharmacy", "txt": "Fferylliaeth", "rotateY": 20,  "fontSize": 0.15,
+            "fontWeight": "bold" },
+          {
+            "to": "Lift-Floor-1",
+            "txt": "Use Lift to go to First Floor",
+            "rotateY": 65,
+            "fontSize": 0.15,
+            "fontWeight": "bold" 
+          }
+        ],
+        "titles": [
+          { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 200, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [
+              {
+                "type": "content",
+                "textColor": "#fff200",
+                "txt": "Cofiwch! Peidiwch â bwyta eich past dannedd! Mae'n ar gyfer glanhau eich dannedd, nid bwydo eich bol!",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+  
+              }
+            ],
+            "rotateY": 150
+          },
+  
+          {
+            "card": [
+              {
+                "type": "content",
+                "txt": "Mae'r rhain yn y lifftiau, gallwch eu defnyddio i fynd i edrych ar ystafelloedd i fyny'r grisiau.",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold",
+                "iconDuration": 1500
+              }
+            ],
+            "rotateY": 205,
+            "rotateX": 1,
+            "icon":"icons/speech-icon.png"
+          }
+        ],
+        "photos":[
+          {
+            "src": "icons/supertooth.png",
+            "imgWidth": 500,
+            "imgHeight": 500,
+            "cmWidth": 0.15,
+            "rotateY": 200,
+            "rotateX": -15
+            
+          }
+        ],
+        "sounds":[{}],
+        "preloads": [
+          { "src": "Dentist_1_Lift.jpg" },
+          { "src": "Dentist_X-Ray.jpg" },
+          { "src": "Dentist_Pharmacy.jpg" }
+        ]
+        
+      },
+      {
+        "id": "X-Ray",
+        "photopanos": [{ "src": "Dentist_X-Ray.jpg", "rotateY": 270 }],
+        "navs": [
+          {
+            "to": "Lift-Ground",
+            "txt": "Lifftiau",
+            "rotateY": -7,
+            "backgroundColor": "#3498db",
+            "textColor": "#fff200",
+            "fontSize": 0.15,
+            "fontWeight": "bold"
+          }
+        ],
+        "titles": [
+          { "src": "titles/title-X-ray.png", "width": 2, "height": 2, "rotateY": 170, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [
+              { "type": "header", "txt": "X-Ray room.", "textColor": "#f1c40f" },
+              {
+                "type": "video",
+                "src": "Dental_Video_Placeholder.mp4",
+                "ratio": 1.5
+              },
+              {
+                "type": "content",
+                "txt": "Dyma fideo sy'n dangos ichi sut mae'n gweithio.",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              }
+            ],
+            "width": 3.5,
+            "backgroundColor": "#3498db",
+            "rotateY": 270,
+            "rotateX": -2,
+            "cardBorderWidth": 0.05
+  
+          },
+          {
+            "card": [
+              {
+                
+                "type": "content",
+                "txt": "Mae peiriant pelydr-x i lawr y coridor hwn.",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold",
+                "iconDuration": 1500
+              }
+            ],
+            "rotateY": 205,
+            "rotateX": 0,
+            "icon":"icons/speech-icon.png"
+          }
+        ],
+        "sounds":[{}],
+        "photos":[
+          {
+            "src": "icons/supertooth.png",
+            "imgWidth": 500,
+            "imgHeight": 500,
+            "cmWidth": 0.15,
+            "rotateY": 200,
+            "rotateX": -15   
+          }
+        ],
+        "preloads": [{ "src": "Dentist_Lift.jpg" }]
+      },
+      {
+        "id": "First-Floor-Hallway",
+        "photopanos": [{ "src": "First-Floor-Hallway.jpg" }],
+        "navs": [
+          {
+            "to": "Orth-Reception",
+            "txt": "Derbyniad",
+            "rotateY": 109,
+            "rotateX": 6,
+            "fontSize": 0.15,
+            "fontWeight": "bold"
+          }
+        ],
+        "titles": [
+          { "src": "titles/title-Hallway.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [
+              {
+                "type": "header",
+                "txt": "Ysgol ddeintyddol!",
+                "textColor": "#fff200"
+              },
+              {
+                "type": "content",
+                "txt": "Croeso i ddeintyddiaeth bediatrig",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              }
+            ],
+            "rotateY": 285,
+            "rotateX": 8
+          }
+        ],
+        "sounds": [{}],
+        "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
+      },
+      {
+        "id": "First-Floor-Orthodontics",
+        "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
+        "navs": [{ "to": "Orth-Reception", "txt": "Derbyniad", "rotateY": 25,  "fontSize": 0.15,
+          "fontWeight": "bold" }],
+        "sounds":[{}],
+        "titles": [
+          { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 150, "op": 0.9 }
+        ],
+        "infos": [
+          {
+            "card": [
+              {
+                "type": "content",
+                "txt": "Peidiwch â bwyta gormod o ddanteithion melys, i gadw eich dannedd yn iach!",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              }
+            ],
+            "rotateX": 8,
+            "rotateY": 200
+          },
+          {
+            "card": [
+              { "type": "image", "src": "prevention_tips.jpg", "ratio": 1 },
+              {
+                "type": "header",
+                "txt": "Tooth Decay Prevention Tips",
+                "textColor": "#fff200"
+              },
+              {
+                "type": "content",
+                "txt": "Dyma rai awgrymiadau i chi sicrhau bod eich hylendid y geg yn dda!",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold"
+              },
+              {
+                "type": "row",
+                "textColor": "#fff200",
+                "buttons": [
+                  {
+                    "txt": "Mwy o awgrymiadau deintyddol:",
+                    "uri": "https://www.nhs.uk/live-well/healthy-body/how-to-keep-your-teeth-clean/"
+                  }
+                ]
+              }
+            ],
+            "rotateY": 290,
+            "textColor": "#fff200"
+          },
+          {
+            "card": [
+              { 
+                "type": "content",
+                "txt": "Bydd angen i chi i eistedd mewn cadair fel hyn.",
+                "textColor": "#fff200",
+                "fontSize": 0.25,
+                "fontWeight": "bold",
+                "iconDuration": 1500
+              }
+            ],
+            "rotateY": 136,
+            "rotateX": 10,
+            "icon":"icons/speech-icon.png"
+          }
+        ],
+        "photos":[
+          {
+            "src": "icons/supertooth-2.png",
+            "imgWidth": 200,
+            "imgHeight": 200,
+            "cmWidth": 0.1,
+            "rotateY": 130,
+            "rotateX": -1   
+          }
+        ],
+        "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
+      }
+    ]
+  }
+  
