@@ -37,7 +37,7 @@
         ],
   
         "titles": [
-          { "src": "titles/title-Entrance.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+          { "txt":"Fynedfa", "rotateY": 215}
         ],
         "infos": [
           {
@@ -122,7 +122,7 @@
             "fontWeight": "bold" }
         ],
         "titles": [
-          { "src": "titles/title-Pharmacy.png", "width": 2, "height": 2, "rotateY": 160, "op": 0.9 }
+          { "txt":"Fferylliaeth", "rotateY": 215}
         ],
         "infos": [
           {
@@ -170,7 +170,7 @@
             "fontWeight": "bold"}
         ],
         "titles": [
-          { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 60, "op": 0.9 }
+          { "txt":"Lifftiau", "rotateY": 215}
         ],
         "infos": [
           {
@@ -227,7 +227,7 @@
           }
         ],
         "titles": [
-          { "src": "titles/title-Reception.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
+          { "txt":"Derbyniad", "rotateY": 215}
         ],
         "infos": [
           {
@@ -289,7 +289,7 @@
           }
         ],
         "titles": [
-          { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 200, "op": 0.9 }
+          { "txt":"Lifftiau", "rotateY": 215}
         ],
         "infos": [
           {
@@ -356,7 +356,7 @@
           }
         ],
         "titles": [
-          { "src": "titles/title-X-ray.png", "width": 2, "height": 2, "rotateY": 170, "op": 0.9 }
+          { "txt":"Pelydr-x", "rotateY": 215}
         ],
         "infos": [
           {
@@ -426,7 +426,7 @@
           }
         ],
         "titles": [
-          { "src": "titles/title-Hallway.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+          { "txt":"Cyntedd", "rotateY": 215}
         ],
         "infos": [
           {
@@ -458,7 +458,7 @@
           "fontWeight": "bold" }],
         "sounds":[{}],
         "titles": [
-          { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 150, "op": 0.9 }
+          { "txt":"Orthodonteg", "rotateY": 215}
         ],
         "infos": [
           {
