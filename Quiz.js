@@ -52,7 +52,7 @@ export default class Quiz extends React.Component {
           <Text style={this.textStyle}>{this.props.answer1}</Text>
         </VrButton>
         <Text class="outputBox" style={this.textStyle}>
-          {this.state.outputt}
+          {this.state.output}
         </Text>
       </View>
     );
