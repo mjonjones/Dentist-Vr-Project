@@ -2,6 +2,7 @@ import React from 'react';
 import { AppRegistry } from 'react-vr';
 import { LiveTour } from 'live-tour-lab';
 import Title from './Title';
+import Quiz from './Quiz';
 
 // LOaded after client
 export default class MyLiveTour extends React.Component {
@@ -9,6 +10,7 @@ export default class MyLiveTour extends React.Component {
     return (
       <LiveTour tourURI='dentist-tour.json' >
         <Title entries="titles" />
+        <Quiz entries="questions"/>
       </LiveTour>
     );
   }
