@@ -19,15 +19,18 @@ export default class Quiz extends React.Component {
     };
     this.textStyle = {
       color: "#fff200",
-      fontWeight: "bold"
+      fontWeight: "bold",
+      margin: 0.02,
     };
     this.correctStyle = {
-        color: "#009432",
-        fontWeight: "bold"
+        color: "#23FE01",
+        fontWeight: "bold",
+        backgroundColor: "#0984e3",
     };
     this.incorrectStyle = {
         color: "#e74c3c",
-        fontWeight: "bold"
+        fontWeight: "bold",
+        backgroundColor: "#0984e3",
     }
     this.handleClick = this.handleClick.bind(this);
   }
@@ -49,10 +52,10 @@ export default class Quiz extends React.Component {
           backgroundColor: "#3498db",
           position: "absolute",
           layoutOrigin: [0.5, 0.5, 0.5],
-          width: 1,
-          height: 0.65,
+          width: 1.1,
+          height: 0.78,
           transform: [{ rotateY: this.props.rotateY }, { translateZ: -3 }],
-          opacity: 1
+          opacity: 0.9,
         }}
       >
         <Text style={this.textStyle}>{this.props.question}</Text>
