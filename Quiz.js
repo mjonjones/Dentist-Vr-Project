@@ -26,11 +26,15 @@ export default class Quiz extends React.Component {
         color: "#23FE01",
         fontWeight: "bold",
         backgroundColor: "#0984e3",
+        borderRadius: 0.06,
+        textAlign: "center",
     };
     this.incorrectStyle = {
         color: "#e74c3c",
         fontWeight: "bold",
         backgroundColor: "#0984e3",
+        borderRadius: 0.06,
+        textAlign: "center",
     }
     this.handleClick = this.handleClick.bind(this);
   }
@@ -55,7 +59,8 @@ export default class Quiz extends React.Component {
           width: 1.1,
           height: 0.78,
           transform: [{ rotateY: this.props.rotateY }, { translateZ: -3 }],
-          opacity: 0.9,
+          opacity: 0.85,
+          borderRadius: 0.07,
         }}
       >
         <Text style={this.textStyle}>{this.props.question}</Text>
@@ -70,7 +75,7 @@ export default class Quiz extends React.Component {
         </VrButton>
         {this.state.answered &&
             <Text style={this.state.output ? this.correctStyle : this.incorrectStyle} >
-            {this.state.output ? 'Correct' : 'Incorrect'}
+            {this.state.output ? 'Correct' : 'Try Again'}
           </Text>
         }
       </View>
