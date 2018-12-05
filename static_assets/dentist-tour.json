@@ -225,6 +225,7 @@
           "fontWeight": "bold"
         }
       ],
+
       "titles": [
         { "src": "titles/title-Reception.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
       ],
@@ -250,8 +251,20 @@
           "cmWidth": 0.15,
           "rotateY": 205,
           "rotateX": -35
+        },
+
+        {
+          "src": "people/man.png",
+          "imgWidth": 400,
+          "imgHeight": 870,
+          "cmWidth": 0.15,
+          "rotateY": 1610,
+          "rotateX": -15,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
         }
+
       ],
+
       "sounds":[{}],
       "preloads": [
         { "src": "videoplayback.mp4" },
@@ -414,6 +427,7 @@
           "fontWeight": "bold"
         }
       ],
+
       "titles": [
         { "src": "titles/title-Hallway.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
       ],
@@ -449,6 +463,7 @@
       "titles": [
         { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 250, "op": 0.9 }
       ],
+
       "infos": [
         {
           "card": [
@@ -516,6 +531,15 @@
           "cmWidth": 0.1,
           "rotateY": 130,
           "rotateX": -1   
+        },
+        {
+          "src": "people/man.png",
+          "imgWidth": 80,
+          "imgHeight": 150,
+          "cmWidth": 0.15,
+          "rotateY": 55,
+          "rotateX": -20,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
         }
       ],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
