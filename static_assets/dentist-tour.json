@@ -400,6 +400,16 @@
           "cmWidth": 0.15,
           "rotateY": 200,
           "rotateX": -15   
+        },
+
+        {
+          "src": "people/man3.png",
+          "imgWidth": 40,
+          "imgHeight": 100,
+          "cmWidth": 0.15,
+          "rotateY": 325,
+          "rotateX": -15,
+          "translateZ": -10
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
