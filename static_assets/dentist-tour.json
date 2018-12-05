@@ -38,6 +38,11 @@
       "titles": [
         { "src": "titles/title-Entrance.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
       ],
+
+      "clickSounds": [
+          { "soundName": "test",  "rotateY": 270}
+        ],
+
       "infos": [
         {
           "card": [
