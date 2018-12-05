@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95f3f911-3ebc-46e7-b036-07dc627432dd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/static_assets/dentist-tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/dentist-tour.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_assets/people/man.png" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/people/man.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="dentist-tour.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static_assets/dentist-tour.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="540" column="23" selection-start-line="540" selection-start-column="23" selection-end-line="540" selection-end-column="23" />
+            <state relative-caret-position="3289">
+              <caret line="253" column="9" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -111,7 +110,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1378" />
@@ -228,10 +227,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19193000" />
+    <option name="totallyTimeSpent" value="19981000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1378" height="733" extended-state="1" />
+    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -479,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static_assets/dentist-tour.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="540" column="23" selection-start-line="540" selection-start-column="23" selection-end-line="540" selection-end-column="23" />
+        <state relative-caret-position="3289">
+          <caret line="253" column="9" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
         </state>
       </provider>
     </entry>
