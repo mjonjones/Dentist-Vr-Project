@@ -409,7 +409,7 @@
           "to": "Orth-Reception",
           "txt": "Reception",
           "rotateY": 109,
-          "rotateX": 6,
+          "rotateX": 3,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
