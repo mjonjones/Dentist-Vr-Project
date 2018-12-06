@@ -13,9 +13,11 @@
     "live-tour-lab": "^0.2.2",
     "ovrui": "~2.0.0",
     "react": "16.0.0",
+    "react-dom": "^16.6.3",
     "react-native": "~0.48.0",
     "react-vr": "~2.0.0",
     "react-vr-web": "~2.0.0",
+    "reactjs-popup": "^1.3.1",
     "three": "^0.87.0"
   },
   "devDependencies": {
