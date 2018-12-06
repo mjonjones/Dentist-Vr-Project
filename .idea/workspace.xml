@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f3f911-3ebc-46e7-b036-07dc627432dd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_assets/dentist-tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/dentist-tour.json" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/static_assets/dentist-tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/dentist-tour.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sounds.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_assets/dentist-tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/dentist-tour.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_assets/hallway-crowd.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/sounds/hallway-crowd.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_assets/lift_opening.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static_assets/sounds/lift_opening.mp3" afterDir="false" />
+
 
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +27,16 @@
         <entry file="file://$PROJECT_DIR$/static_assets/dentist-tour.json">
           <provider selected="true" editor-type-id="text-editor">
 
+            <state relative-caret-position="76">
+              <caret line="434" column="24" selection-start-line="434" selection-start-column="24" selection-end-line="434" selection-end-column="24" />
+
+
             <state relative-caret-position="382">
               <caret line="409" column="24" selection-start-line="409" selection-start-column="24" selection-end-line="409" selection-end-column="24" />
 
             <state relative-caret-position="306">
               <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+
 
             </state>
           </provider>
@@ -123,9 +132,14 @@
       <find>back</find>
       <find>navs</find>
       <find>card</find>
+
+      <find>icons</find>
+      <find>pae</find>
+
       <find>pae</find>
 
       <find>click</find>
+
 
     </findStrings>
   </component>
@@ -136,8 +150,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/static_assets/demo-dentist-tour.json" />
+
+        <option value="$PROJECT_DIR$/Quiz.js" />
+
         <option value="$PROJECT_DIR$/index.vr.js" />
         <option value="$PROJECT_DIR$/../../Quiz.js" />
+
         <option value="$PROJECT_DIR$/static_assets/dentist-tour.json" />
         <option value="$PROJECT_DIR$/Sounds.js" />
       </list>
@@ -190,7 +208,17 @@
               <item name="Dentist-Vr-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dentist-Vr-Project" type="462c0819:PsiDirectoryNode" />
               <item name="static_assets" type="462c0819:PsiDirectoryNode" />
+
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dentist-Vr-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dentist-Vr-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="static_assets" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
+
               <item name="sounds" type="462c0819:PsiDirectoryNode" />
+
             </path>
           </expand>
           <select />
@@ -205,7 +233,11 @@
     <property name="SearchEverywhereHistoryKey" value="cli&#9;FILE&#9;file://C:/Users/C1620353/Documents/Dental-client-project/Dentist-Vr-Project/vr/client.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FrameWorks/pair-app/pair-app" />
+
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Quiz.js" />
+
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -286,9 +318,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
+    <option name="totallyTimeSpent" value="20354000" />
+
     <option name="totallyTimeSpent" value="20646000" />
 
     <option name="totallyTimeSpent" value="30235000" />
+
 
   </component>
   <component name="ToolWindowManager">
@@ -409,6 +445,15 @@
     <entry file="file://$PROJECT_DIR$/static_assets/icons/arrow.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/Quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="file://$PROJECT_DIR$/static_assets/dentist-tour.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -605,6 +650,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="434" column="24" selection-start-line="434" selection-start-column="24" selection-end-line="434" selection-end-column="24" />
+
+
         </state>
       </provider>
     </entry>
@@ -697,6 +744,7 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+
 
         </state>
       </provider>
