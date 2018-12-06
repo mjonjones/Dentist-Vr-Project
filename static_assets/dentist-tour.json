@@ -53,6 +53,11 @@
           "rotateY": 330
         }
       ],
+
+      "clickSounds": [
+          { "src": "sounds/lift_opening.mp3", "soundName": "test",  "rotateY": 270}
+        ],
+
       "infos": [
         {
           "card": [
