@@ -587,9 +587,7 @@
             {"type":"video","src":"ElevatorDoor.mp4", "ratioX": 0.02, "ratioY":0.04}
           ],
           "rotateY": 285,
-
-          "rotateX": 10
-          "rotateX": -7,
+          "rotateX": 10,
           "icon": "icons/button.png",
           "iconWidth": 0.5,
           "iconHeight": 0.3
@@ -710,8 +708,7 @@
           "cmWidth": 0.15,
           "rotateY": 55,
           "rotateX": -20,
-          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }],
-          "rotateX": -1
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
 
         }
       ],
