@@ -5,7 +5,6 @@
       "icon": "icons/wisdom-tooth.png",
       "backgroundColor": "#3498db",
       "cardBorderWidth": 0.05
-
     },
     "sounds": {
       "src": "bensound-littleidea.mp3",
@@ -36,10 +35,36 @@
         }
       ],
 
-      "titles": [
-        { "txt":"Entrance", "rotateY": 215}
-      ],
+      "titles": [{ "txt": "Entrance", "rotateY": 215 }],
+
       "infos": [
+        {
+          "card": [
+            { "type": "header", "txt": "Hello" },
+            {
+              "type": "content",
+              "txt": "Welcome to the Virtual Dental tour, this app is intended for educational purposes only",
+              "textColor": "#fff200",
+              "fontSize": 0.15,
+              "iconDuration": 1500
+            },
+            {
+              "type": "row",
+              "textColor": "#fff200",
+              "buttons": [
+                {
+                  "txt": "Click here for Welsh Language",
+                  "uri": "http://localhost:8081/vr/"
+                }
+              ]
+            }
+          ],
+          "rotateY": 250,
+          "rotateX": 3,
+          "icon": "icons/welcome.png",
+          "iconWidth": 2,
+          "iconHeight": 2
+        },
         {
           "card": [
             {
@@ -55,7 +80,7 @@
           "rotateX": 3,
           "textColor": "#fff200"
         },
-      
+
         {
           "card": [
             {
@@ -73,7 +98,6 @@
         {
           "card": [
             {
-              
               "type": "content",
               "txt": "Hi there!  My name is SuperTooth and I want to be your friend.",
               "textColor": "#fff200",
@@ -84,7 +108,7 @@
           ],
           "rotateY": 113,
           "rotateX": 8,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
       "sounds": [{}],
@@ -106,7 +130,6 @@
           "rotateY": 83,
           "rotateX": -18,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
-          
         }
       ],
       "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
@@ -116,14 +139,24 @@
       "id": "Pharmacy",
       "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }],
       "navs": [
-        { "to": "Lift-Ground", "txt": "Lifts", "rotateY": 209, "rotateX": 3,  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Entrance", "txt": "Reception", "rotateY": 28, "rotateX": 3,  "fontSize": 0.15,
-          "fontWeight": "bold" }
+        {
+          "to": "Lift-Ground",
+          "txt": "Lifts",
+          "rotateY": 209,
+          "rotateX": 3,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Entrance",
+          "txt": "Reception",
+          "rotateY": 28,
+          "rotateX": 3,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        }
       ],
-      "titles": [
-        { "txt":"Pharmacy", "rotateY": 215}
-      ],
+      "titles": [{ "txt": "Pharmacy", "rotateY": 215 }],
       "infos": [
         {
           "card": [
@@ -135,14 +168,15 @@
               "fontWeight": "bold"
             },
             {
-              "type": "image", "src": "pea-size.png"
+              "type": "image",
+              "src": "pea-size.png"
             }
           ],
           "rotateY": 255,
           "rotateX": 3
         }
       ],
-      "sounds":[{}],
+      "sounds": [{}],
       "photos": [
         {
           "src": "people/woman.png",
@@ -164,14 +198,21 @@
       "id": "Lift-Floor-1",
       "photopanos": [{ "src": "Dentist_1_Lift.jpg" }],
       "navs": [
-        { "to": "Lift-Ground", "txt": "Ground Floor",  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285,  "fontSize": 0.15,
-          "fontWeight": "bold"}
+        {
+          "to": "Lift-Ground",
+          "txt": "Ground Floor",
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Orth-Reception",
+          "txt": "Reception",
+          "rotateY": 285,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        }
       ],
-      "titles": [
-        { "txt":"Lifts", "rotateY": 215}
-      ],
+      "titles": [{ "txt": "Lifts", "rotateY": 215 }],
       "infos": [
         {
           "card": [
@@ -192,7 +233,7 @@
           "rotateY": 120
         },
         {
-          "card":[
+          "card": [
             {
               "type": "content",
               "txt": "When you finishing brushing your teeth, spit into the sink and do not rinse with water!",
@@ -214,10 +255,20 @@
       "id": "Orth-Reception",
       "photopanos": [{ "src": "Dentist_1_Reception.jpg", "rotateY": 200 }],
       "navs": [
-        { "to": "First-Floor-Hallway", "txt": "Paediatrics", "rotateY": 25,  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Lift-Floor-1", "txt": "Lifts", "rotateY": 115,  "fontSize": 0.15,
-          "fontWeight": "bold" },
+        {
+          "to": "First-Floor-Hallway",
+          "txt": "Paediatrics",
+          "rotateY": 25,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Lift-Floor-1",
+          "txt": "Lifts",
+          "rotateY": 115,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
         {
           "to": "First-Floor-Orthodontics",
           "txt": "Orthodontics",
@@ -226,21 +277,21 @@
           "fontWeight": "bold"
         }
       ],
-      "titles": [
-        { "txt":"Reception", "rotateY": 215}
-      ],
+      "titles": [{ "txt": "Reception", "rotateY": 215 }],
       "infos": [
         {
-          "card": [{
-            "type": "content",
-            "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
-            "textColor": "#fff200",
-            "fontSize": 0.25,
-            "fontWeight": "bold"
-          }],
+          "card": [
+            {
+              "type": "content",
+              "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
           "rotateY": 220,
           "rotateX": -18,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
       "photos": [
@@ -253,7 +304,7 @@
           "rotateX": -35
         }
       ],
-      "sounds":[{}],
+      "sounds": [{}],
       "preloads": [
         { "src": "videoplayback.mp4" },
         { "src": "blend.mp4" },
@@ -266,21 +317,29 @@
       "id": "Lift-Ground",
       "photopanos": [{ "src": "Dentist_Lift.jpg" }],
       "navs": [
-        { "to": "X-Ray", "txt": "To X-Ray", "rotateY": 102,  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Pharmacy", "txt": "To the Pharmacy", "rotateY": 20,  "fontSize": 0.15,
-          "fontWeight": "bold" },
+        {
+          "to": "X-Ray",
+          "txt": "To X-Ray",
+          "rotateY": 102,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Pharmacy",
+          "txt": "To the Pharmacy",
+          "rotateY": 20,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
         {
           "to": "Lift-Floor-1",
           "txt": "Use Lift to go to First Floor",
           "rotateY": 65,
           "fontSize": 0.15,
-          "fontWeight": "bold" 
+          "fontWeight": "bold"
         }
       ],
-      "titles": [
-        { "txt":"Lifts", "rotateY": 215}
-      ],
+      "titles": [{ "txt": "Lifts", "rotateY": 215 }],
       "infos": [
         {
           "card": [
@@ -290,7 +349,6 @@
               "txt": "Remember! Do not eat your toothpaste! It's for cleaning your teeth, not feeding your tummy!",
               "fontSize": 0.25,
               "fontWeight": "bold"
-
             }
           ],
           "rotateY": 150
@@ -309,10 +367,10 @@
           ],
           "rotateY": 205,
           "rotateX": 1,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
-      "photos":[
+      "photos": [
         {
           "src": "icons/supertooth.png",
           "imgWidth": 500,
@@ -320,16 +378,14 @@
           "cmWidth": 0.15,
           "rotateY": 200,
           "rotateX": -15
-          
         }
       ],
-      "sounds":[{}],
+      "sounds": [{}],
       "preloads": [
         { "src": "Dentist_1_Lift.jpg" },
         { "src": "Dentist_X-Ray.jpg" },
         { "src": "Dentist_Pharmacy.jpg" }
       ]
-      
     },
     {
       "id": "X-Ray",
@@ -345,9 +401,7 @@
           "fontWeight": "bold"
         }
       ],
-      "titles": [
-        { "txt":"X-Ray", "rotateY": 215}
-      ],
+      "titles": [{ "txt": "X-Ray", "rotateY": 215 }],
       "infos": [
         {
           "card": [
@@ -370,12 +424,10 @@
           "rotateY": 270,
           "rotateX": -2,
           "cardBorderWidth": 0.05
-
         },
         {
           "card": [
             {
-              
               "type": "content",
               "txt": "The X-Ray machine is down this corridor.",
               "textColor": "#fff200",
@@ -386,18 +438,18 @@
           ],
           "rotateY": 205,
           "rotateX": 0,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
-      "sounds":[{}],
-      "photos":[
+      "sounds": [{}],
+      "photos": [
         {
           "src": "icons/supertooth.png",
           "imgWidth": 500,
           "imgHeight": 500,
           "cmWidth": 0.15,
           "rotateY": 200,
-          "rotateX": -15   
+          "rotateX": -15
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
@@ -415,9 +467,7 @@
           "fontWeight": "bold"
         }
       ],
-      "titles": [
-        { "txt":"Hallway", "rotateY": 215}
-      ],
+      "titles": [{ "txt": "Hallway", "rotateY": 215 }],
       "infos": [
         {
           "card": [
@@ -444,12 +494,17 @@
     {
       "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
-      "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25,  "fontSize": 0.15,
-        "fontWeight": "bold" }],
-      "sounds":[{}],
-      "titles": [
-        { "txt":"Orthodontics", "rotateY": 215}
+      "navs": [
+        {
+          "to": "Orth-Reception",
+          "txt": "Reception",
+          "rotateY": 25,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        }
       ],
+      "sounds": [{}],
+      "titles": [{ "txt": "Orthodontics", "rotateY": 215 }],
       "infos": [
         {
           "card": [
@@ -495,7 +550,7 @@
         },
         {
           "card": [
-            { 
+            {
               "type": "content",
               "txt": "You will need to sit in a chair like this.",
               "textColor": "#fff200",
@@ -506,17 +561,17 @@
           ],
           "rotateY": 136,
           "rotateX": 10,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
-      "photos":[
+      "photos": [
         {
           "src": "icons/supertooth-2.png",
           "imgWidth": 200,
           "imgHeight": 200,
           "cmWidth": 0.1,
           "rotateY": 130,
-          "rotateX": -1   
+          "rotateX": -1
         }
       ],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
