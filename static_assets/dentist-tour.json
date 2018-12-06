@@ -559,7 +559,14 @@
           "to": "Orth-Reception",
           "txt": "Reception",
           "rotateY": 109,
-          "rotateX": 6,
+          "rotateX": 3,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to":"Paediatric",
+          "txt":"Paediatrics",
+          "rotateY":285,
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
@@ -580,15 +587,20 @@
             {"type":"video","src":"ElevatorDoor.mp4", "ratioX": 0.02, "ratioY":0.04}
           ],
           "rotateY": 285,
+
+          "rotateX": 10
           "rotateX": -7,
           "icon": "icons/button.png",
           "iconWidth": 0.5,
           "iconHeight": 0.3
+
         }
 
       ],
       "sounds": [{}],
-      "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
+      "preloads": [
+        { "src": "Dentist_1_Reception.jpg" },
+        { "src": "First-Floor-Paediatrics.jpg"}]
     },
     {
       "id": "First-Floor-Orthodontics",
@@ -704,6 +716,20 @@
         }
       ],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
+    },
+    {
+      "id":"Paediatric",
+      "photopanos": [{ "src": "First-Floor-Paediatrics.jpg" }],
+      "navs": [
+        { "to": "First-Floor-Hallway", 
+          "txt": "Hallway", 
+          "rotateY": 242,
+          "rotateX": -1,  
+          "fontSize": 0.15,
+        "fontWeight": "bold" }],
+      "sounds":[{}],
+      "preloads": [
+        { "src": "Dentist_1_Reception.jpg" }]
     }
   ]
 }
