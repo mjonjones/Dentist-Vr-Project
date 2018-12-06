@@ -69,7 +69,6 @@
           "rotateX": 3,
           "textColor": "#fff200"
         },
-
         {
           "card": [
             {
@@ -598,7 +597,6 @@
           "answer2": "100",
           "answer3": "1",
           "correct": "32",
-          "right": "",
           "rotateY": 60
         }
       ],
