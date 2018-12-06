@@ -190,7 +190,7 @@
           "to": "Lift-Ground",
           "txt": "Ground Floor",
           "fontSize": 0.15,
-          "icon": "icons/Curved-arrow.png",
+          "icon": "icons/arrow.png",
           "fontWeight": "bold"
         },
         {
@@ -347,9 +347,10 @@
       "titles": [
         {
           "src": "titles/title-lifts.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 280,
+          "width": 0.5,
+          "height": 0.5,
+          "rotateY": 75,
+          "rotateX": 100,
           "op": 0.9
         }
       ],
