@@ -1,11 +1,12 @@
 import React from "react";
-import { Text, View, VrButton } from "react-vr";
+import { asset, Text, View, VrButton, Sound } from "react-vr";
 
 
 export default class Sounds extends React.Component {
     static defaultProps = {
         soundName: "",
         rotateY: 0,
+        src: "",
 
 
     };
@@ -13,21 +14,13 @@ export default class Sounds extends React.Component {
     constructor(props) {
         super();
         this.state = {
-            play: false,
+
         };
         this.textStyle = {
             color: "#fff200",
             fontWeight: "bold"
         };
 
-        this.togglePlay = this.togglePlay.bind(this);
-    }
-
-
-
-
-    togglePlay() {
-       console.log("Pressed")
     }
 
 
@@ -47,7 +40,7 @@ export default class Sounds extends React.Component {
                     ],
                 }}
             >
-                <VrButton onClick={this.togglePlay}>
+                <VrButton loop = {false} onClickSound={{ wav: asset(this.props.src) }}>
                     <Text style={this.textStyle}>{this.props.soundName}</Text>
                 </VrButton>
             </View>

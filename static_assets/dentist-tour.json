@@ -40,7 +40,7 @@
       ],
 
       "clickSounds": [
-          { "soundName": "test",  "rotateY": 270}
+          { "src": "sounds/lift_opening.mp3", "soundName": "test",  "rotateY": 270}
         ],
 
       "infos": [
