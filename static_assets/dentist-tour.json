@@ -228,6 +228,17 @@
           "op": 0.9
         }
       ],
+      "questions": [
+        {
+          "question": "How many times a day should you brush your teeth?",
+          "answer1": "2",
+          "answer2": "10",
+          "answer3": "100",
+          "correct": "2",
+          "right": "",
+          "rotateY": 240
+        }
+      ],
       "infos": [
         {
           "card": [
@@ -578,6 +589,17 @@
           "height": 2,
           "rotateY": 250,
           "op": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "question": "How many teeth do you think you have?",
+          "answer1": "32",
+          "answer2": "100",
+          "answer3": "1",
+          "correct": "32",
+          "right": "",
+          "rotateY": 60
         }
       ],
       "infos": [
