@@ -5,7 +5,6 @@
       "icon": "icons/wisdom-tooth.png",
       "backgroundColor": "#3498db",
       "cardBorderWidth": 0.05
-
     },
     "sounds": {
       "src": "bensound-littleidea.mp3",
@@ -36,7 +35,23 @@
         }
       ],
       "titles": [
-        { "src": "titles/title-Entrance.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+        {
+          "src": "titles/title-Entrance.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 215,
+          "op": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "question": "How long should you brush your teeth for?",
+          "answer1": "1 minute",
+          "answer2": "2 minutes",
+          "answer3": "3 minutes",
+          "correct": "2 minutes",
+          "rotateY": 330
+        }
       ],
 
       "clickSounds": [
@@ -59,7 +74,6 @@
           "rotateX": 3,
           "textColor": "#fff200"
         },
-      
         {
           "card": [
             {
@@ -77,7 +91,6 @@
         {
           "card": [
             {
-              
               "type": "content",
               "txt": "Hi there!  My name is SuperTooth and I want to be your friend.",
               "textColor": "#fff200",
@@ -88,7 +101,7 @@
           ],
           "rotateY": 113,
           "rotateX": 8,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
       "sounds": [{}],
@@ -110,7 +123,6 @@
           "rotateY": 83,
           "rotateX": -18,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
-          
         }
       ],
       "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
@@ -120,13 +132,41 @@
       "id": "Pharmacy",
       "photopanos": [{ "src": "Dentist_Pharmacy.jpg" }],
       "navs": [
-        { "to": "Lift-Ground", "txt": "Lifts", "rotateY": 209, "rotateX": 3,  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Entrance", "txt": "Reception", "rotateY": 28, "rotateX": 3,  "fontSize": 0.15,
-          "fontWeight": "bold" }
+        {
+          "to": "Lift-Ground",
+          "txt": "Lifts",
+          "rotateY": 209,
+          "rotateX": 3,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Entrance",
+          "txt": "Reception",
+          "rotateY": 28,
+          "rotateX": 3,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        }
       ],
       "titles": [
-        { "src": "titles/title-Pharmacy.png", "width": 2, "height": 2, "rotateY": 160, "op": 0.9 }
+        {
+          "src": "titles/title-Pharmacy.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 160,
+          "op": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "question": "How much fruit and veg should you eat everyday?",
+          "answer1": "3",
+          "answer2": "4",
+          "answer3": "5",
+          "correct": "5",
+          "rotateY": 327
+        }
       ],
       "infos": [
         {
@@ -139,14 +179,15 @@
               "fontWeight": "bold"
             },
             {
-              "type": "image", "src": "pea-size.png"
+              "type": "image",
+              "src": "pea-size.png"
             }
           ],
           "rotateY": 255,
           "rotateX": 3
         }
       ],
-      "sounds":[{}],
+      "sounds": [{}],
       "photos": [
         {
           "src": "people/woman.png",
@@ -168,13 +209,39 @@
       "id": "Lift-Floor-1",
       "photopanos": [{ "src": "Dentist_1_Lift.jpg" }],
       "navs": [
-        { "to": "Lift-Ground", "txt": "Ground Floor",  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Orth-Reception", "txt": "Reception", "rotateY": 285,  "fontSize": 0.15,
-          "fontWeight": "bold"}
+        {
+          "to": "Lift-Ground",
+          "txt": "Ground Floor",
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Orth-Reception",
+          "txt": "Reception",
+          "rotateY": 285,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        }
       ],
       "titles": [
-        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 60, "op": 0.9 }
+        {
+          "src": "titles/title-lifts.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 60,
+          "op": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "question": "How many times a day should you brush your teeth?",
+          "answer1": "2",
+          "answer2": "10",
+          "answer3": "100",
+          "correct": "2",
+          "right": "",
+          "rotateY": 240
+        }
       ],
       "infos": [
         {
@@ -196,7 +263,7 @@
           "rotateY": 120
         },
         {
-          "card":[
+          "card": [
             {
               "type": "content",
               "txt": "When you finishing brushing your teeth, spit into the sink and do not rinse with water!",
@@ -218,10 +285,20 @@
       "id": "Orth-Reception",
       "photopanos": [{ "src": "Dentist_1_Reception.jpg", "rotateY": 200 }],
       "navs": [
-        { "to": "First-Floor-Hallway", "txt": "Paediatrics", "rotateY": 25,  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Lift-Floor-1", "txt": "Lifts", "rotateY": 115,  "fontSize": 0.15,
-          "fontWeight": "bold" },
+        {
+          "to": "First-Floor-Hallway",
+          "txt": "Paediatrics",
+          "rotateY": 25,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Lift-Floor-1",
+          "txt": "Lifts",
+          "rotateY": 115,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
         {
           "to": "First-Floor-Orthodontics",
           "txt": "Orthodontics",
@@ -231,20 +308,28 @@
         }
       ],
       "titles": [
-        { "src": "titles/title-Reception.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
+        {
+          "src": "titles/title-Reception.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 280,
+          "op": 0.9
+        }
       ],
       "infos": [
         {
-          "card": [{
-            "type": "content",
-            "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
-            "textColor": "#fff200",
-            "fontSize": 0.25,
-            "fontWeight": "bold"
-          }],
+          "card": [
+            {
+              "type": "content",
+              "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
           "rotateY": 220,
           "rotateX": -18,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
       "photos": [
@@ -257,7 +342,7 @@
           "rotateX": -35
         }
       ],
-      "sounds":[{}],
+      "sounds": [{}],
       "preloads": [
         { "src": "videoplayback.mp4" },
         { "src": "blend.mp4" },
@@ -270,20 +355,46 @@
       "id": "Lift-Ground",
       "photopanos": [{ "src": "Dentist_Lift.jpg" }],
       "navs": [
-        { "to": "X-Ray", "txt": "To X-Ray", "rotateY": 102,  "fontSize": 0.15,
-          "fontWeight": "bold" },
-        { "to": "Pharmacy", "txt": "To the Pharmacy", "rotateY": 20,  "fontSize": 0.15,
-          "fontWeight": "bold" },
+        {
+          "to": "X-Ray",
+          "txt": "To X-Ray",
+          "rotateY": 102,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
+        {
+          "to": "Pharmacy",
+          "txt": "To the Pharmacy",
+          "rotateY": 20,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        },
         {
           "to": "Lift-Floor-1",
           "txt": "Use Lift to go to First Floor",
           "rotateY": 65,
           "fontSize": 0.15,
-          "fontWeight": "bold" 
+          "fontWeight": "bold"
         }
       ],
       "titles": [
-        { "src": "titles/title-lifts.png", "width": 2, "height": 2, "rotateY": 280, "op": 0.9 }
+        {
+          "src": "titles/title-lifts.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 280,
+          "op": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which drink helps your bones grow stronger?",
+          "answer1": "Milk",
+          "answer2": "Water",
+          "answer3": "Orange Juice",
+          "correct": "Milk",
+          "rotateY": 345
+        }
       ],
       "infos": [
         {
@@ -294,7 +405,6 @@
               "txt": "Remember! Do not eat your toothpaste! It's for cleaning your teeth, not feeding your tummy!",
               "fontSize": 0.25,
               "fontWeight": "bold"
-
             }
           ],
           "rotateY": 150
@@ -313,10 +423,10 @@
           ],
           "rotateY": 205,
           "rotateX": 1,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
-      "photos":[
+      "photos": [
         {
           "src": "icons/supertooth.png",
           "imgWidth": 500,
@@ -324,16 +434,14 @@
           "cmWidth": 0.15,
           "rotateY": 200,
           "rotateX": -15
-          
         }
       ],
-      "sounds":[{}],
+      "sounds": [{}],
       "preloads": [
         { "src": "Dentist_1_Lift.jpg" },
         { "src": "Dentist_X-Ray.jpg" },
         { "src": "Dentist_Pharmacy.jpg" }
       ]
-      
     },
     {
       "id": "X-Ray",
@@ -350,7 +458,23 @@
         }
       ],
       "titles": [
-        { "src": "titles/title-X-ray.png", "width": 2, "height": 2, "rotateY": 170, "op": 0.9 }
+        {
+          "src": "titles/title-X-ray.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 170,
+          "op": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "question": "Who are you visiting today?",
+          "answer1": "The Doctor",
+          "answer2": "The Dentist",
+          "answer3": "The Nurse",
+          "correct": "The Dentist",
+          "rotateY": 90
+        }
       ],
       "infos": [
         {
@@ -374,12 +498,10 @@
           "rotateY": 270,
           "rotateX": -2,
           "cardBorderWidth": 0.05
-
         },
         {
           "card": [
             {
-              
               "type": "content",
               "txt": "The X-Ray machine is down this corridor.",
               "textColor": "#fff200",
@@ -390,18 +512,18 @@
           ],
           "rotateY": 205,
           "rotateX": 0,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
-      "sounds":[{}],
-      "photos":[
+      "sounds": [{}],
+      "photos": [
         {
           "src": "icons/supertooth.png",
           "imgWidth": 500,
           "imgHeight": 500,
           "cmWidth": 0.15,
           "rotateY": 200,
-          "rotateX": -15   
+          "rotateX": -15
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
@@ -420,7 +542,13 @@
         }
       ],
       "titles": [
-        { "src": "titles/title-Hallway.png", "width": 2, "height": 2, "rotateY": 215, "op": 0.9 }
+        {
+          "src": "titles/title-Hallway.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 215,
+          "op": 0.9
+        }
       ],
       "infos": [
         {
@@ -448,11 +576,34 @@
     {
       "id": "First-Floor-Orthodontics",
       "photopanos": [{ "src": "First-Floor-Orthodontics1.jpg" }],
-      "navs": [{ "to": "Orth-Reception", "txt": "Reception", "rotateY": 25,  "fontSize": 0.15,
-        "fontWeight": "bold" }],
-      "sounds":[{}],
+      "navs": [
+        {
+          "to": "Orth-Reception",
+          "txt": "Reception",
+          "rotateY": 25,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        }
+      ],
+      "sounds": [{}],
       "titles": [
-        { "src": "titles/title-Orth.png", "width": 2, "height": 2, "rotateY": 250, "op": 0.9 }
+        {
+          "src": "titles/title-Orth.png",
+          "width": 2,
+          "height": 2,
+          "rotateY": 250,
+          "op": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "question": "How many teeth do you think you have?",
+          "answer1": "32",
+          "answer2": "100",
+          "answer3": "1",
+          "correct": "32",
+          "rotateY": 60
+        }
       ],
       "infos": [
         {
@@ -499,7 +650,7 @@
         },
         {
           "card": [
-            { 
+            {
               "type": "content",
               "txt": "You will need to sit in a chair like this.",
               "textColor": "#fff200",
@@ -510,17 +661,17 @@
           ],
           "rotateY": 136,
           "rotateX": 10,
-          "icon":"icons/speech-icon.png"
+          "icon": "icons/speech-icon.png"
         }
       ],
-      "photos":[
+      "photos": [
         {
           "src": "icons/supertooth-2.png",
           "imgWidth": 200,
           "imgHeight": 200,
           "cmWidth": 0.1,
           "rotateY": 130,
-          "rotateX": -1   
+          "rotateX": -1
         }
       ],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
