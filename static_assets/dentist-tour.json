@@ -34,15 +34,6 @@
           "fontWeight": "bold"
         }
       ],
-      "titles": [
-        {
-          "src": "titles/title-Entrance.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 215,
-          "op": 0.9
-        }
-      ],
       "questions": [
         {
           "question": "How long should you brush your teeth for?",
@@ -53,11 +44,6 @@
           "rotateY": 330
         }
       ],
-
-      "clickSounds": [
-          { "src": "sounds/lift_opening.mp3", "soundName": "test",  "rotateY": 270}
-        ],
-
       "infos": [
         {
           "card": [
@@ -151,15 +137,6 @@
           "fontWeight": "bold"
         }
       ],
-      "titles": [
-        {
-          "src": "titles/title-Pharmacy.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 160,
-          "op": 0.9
-        }
-      ],
       "questions": [
         {
           "question": "How much fruit and veg should you eat everyday?",
@@ -224,15 +201,6 @@
           "rotateY": 285,
           "fontSize": 0.15,
           "fontWeight": "bold"
-        }
-      ],
-      "titles": [
-        {
-          "src": "titles/title-lifts.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 60,
-          "op": 0.9
         }
       ],
       "questions": [
@@ -310,16 +278,6 @@
           "fontWeight": "bold"
         }
       ],
-
-      "titles": [
-        {
-          "src": "titles/title-Reception.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 280,
-          "op": 0.9
-        }
-      ],
       "infos": [
         {
           "card": [
@@ -382,16 +340,6 @@
           "fontWeight": "bold"
         }
       ],
-      "titles": [
-        {
-          "src": "titles/title-lifts.png",
-          "width": 0.5,
-          "height": 0.5,
-          "rotateY": 75,
-          "rotateX": 100,
-          "op": 0.9
-        }
-      ],
       "questions": [
         {
           "question": "Which drink helps your bones grow stronger?",
@@ -415,7 +363,6 @@
           ],
           "rotateY": 150
         },
-
         {
           "card":[
             {"type":"video","src":"ElevatorDoor.mp4", "ratioX": 0.02, "ratioY":0.04}
@@ -441,6 +388,9 @@
           "rotateX": 1,
           "icon": "icons/speech-icon.png"
         }
+      ],
+      "clickSounds": [
+        { "src": "sounds/lift_opening.mp3",  "rotateY": 75, "rotateX": -5}
       ],
       "photos": [
         {
@@ -471,15 +421,15 @@
           "textColor": "#fff200",
           "fontSize": 0.15,
           "fontWeight": "bold"
-        }
-      ],
-      "titles": [
+        },
         {
-          "src": "titles/title-X-ray.png",
-          "width": 2,
-          "height": 2,
+          "to": "X-Ray_Room",
+          "txt": "To X-Ray Room",
           "rotateY": 170,
-          "op": 0.9
+          "backgroundColor": "#3498db",
+          "textColor": "#fff200",
+          "fontSize": 0.15,
+          "fontWeight": "bold"
         }
       ],
       "questions": [
@@ -549,10 +499,58 @@
           "cmWidth": 0.15,
           "rotateY": 325,
           "rotateX": -15,
-          "translateZ": -10,
+          "translateZ": -10
         }
       ],
-      "preloads": [{ "src": "Dentist_Lift.jpg" }]
+      "preloads": [
+        { "src": "Dentist_Lift.jpg" },
+        {"src": "XRay_Room.jpeg"}
+      ]
+    },
+    {
+      "id": "X-Ray_Room",
+      "photopanos":[
+        {"src": "XRay_Room.jpeg"}
+      ],
+      "navs":[
+        {
+        "to": "X-Ray",
+        "txt": "To X-Ray Reception",
+        "rotateY": 160,
+        "fontSize": 0.15,
+        "fontWeight": "bold"
+        },
+        {
+          "to":"X-Ray_Machine",
+          "txt": "Enter Machine",
+          "rotateY": -60,
+          "fontSize": 0.15,
+          "fontWeight": "bold"
+        }
+    ],
+    "sounds": [{}],
+      "preloads":[
+        {"src": "Dentist_X-Ray.jpg"},
+        {"src": "XRay_Working_New.MP4"}
+      ]
+    },
+    {
+      "id": "X-Ray_Machine",
+      "videopanos":[
+        {"src": "XRay_Working_New.MP4"}
+      ],
+      "navs":[
+        {
+        "to": "X-Ray_Room",
+        "txt": "Leave Machine",
+        "rotateY": 0,
+        "fontSize": 0.15,
+        "fontWeight": "bold"
+        }
+    ],
+      "preloads":[{
+        "src": "XRay_Room.jpeg"
+      }]
     },
     {
       "id": "First-Floor-Hallway",
@@ -572,16 +570,6 @@
           "rotateY":285,
           "fontSize": 0.15,
           "fontWeight": "bold"
-        }
-      ],
-
-      "titles": [
-        {
-          "src": "titles/title-Hallway.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 215,
-          "op": 0.9
         }
       ],
       "infos": [
@@ -616,15 +604,6 @@
         }
       ],
       "sounds": [{}],
-      "titles": [
-        {
-          "src": "titles/title-Orth.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 250,
-          "op": 0.9
-        }
-      ],
       "questions": [
         {
           "question": "How many teeth do you think you have?",
@@ -727,10 +706,67 @@
           "rotateY": 242,
           "rotateX": -1,  
           "fontSize": 0.15,
-        "fontWeight": "bold" }],
+          "fontWeight": "bold" 
+        },
+        { "to": "Paediatric-Room", 
+          "txt": "Paediatric Room", 
+          "rotateY": 225,
+          "rotateX": -1,  
+          "fontSize": 0.15,
+          "fontWeight": "bold" 
+        }
+      ],
       "sounds":[{}],
       "preloads": [
-        { "src": "Dentist_1_Reception.jpg" }]
+        {"src": "Dentist_1_Reception.jpg" },
+        {"src": "Paediatric_Room.jpeg"}]
+    },
+    {
+      "id":"Paediatric-Room",
+      "photopanos": [
+        { "src": "Paediatric-Room.jpeg" }
+      ],
+      "navs": [
+        { 
+          "to": "Paediatric", 
+          "txt": "Paediatrics", 
+          "rotateY": 20,  
+          "fontSize": 0.15,
+          "fontWeight": "bold" 
+        },
+        {
+          "to": "Paediatric-Chair", 
+          "txt": "Sit in Chair", 
+          "rotateY": 190,  
+          "rotateX": -5,
+          "fontSize": 0.15,
+          "fontWeight": "bold" 
+        }
+      ],
+      "sounds":[{}],
+      "preloads": [
+        { "src": "First-Floor-Paediatrics.jpg" },
+        { "src": "Paediatric_Chair_new.MP4" }
+      ]
+    },
+    {
+      "id":"Paediatric-Chair",
+      "videopanos": [
+        { "src": "Paediatric_Chair_new.MP4" }
+      ],
+      "navs": [
+        { "to": "Paediatric-Room", 
+          "txt": "Get out of Chair",
+          "rotateY": -10, 
+          "rotateX": -15,
+          "fontSize": 0.15,
+          "fontWeight": "bold" 
+        }
+      ],
+      "sounds":[{}],
+      "preloads": [
+        { "src": "Paediatric-Room.jpeg" }
+      ]
     }
   ]
 }
