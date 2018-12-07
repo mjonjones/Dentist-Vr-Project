@@ -4,11 +4,9 @@ import { asset, Text, View, VrButton, Sound } from "react-vr";
 
 export default class Sounds extends React.Component {
     static defaultProps = {
-        soundName: "",
+        soundName: "Play Sounds",
         rotateY: 0,
         src: "",
-
-
     };
 
     constructor(props) {
@@ -18,11 +16,11 @@ export default class Sounds extends React.Component {
         };
         this.textStyle = {
             color: "#fff200",
-            fontWeight: "bold"
+            fontWeight: "bold",
+            textAlign: "center"
         };
 
     }
-
 
     render() {
         return (
@@ -32,12 +30,13 @@ export default class Sounds extends React.Component {
                     backgroundColor: "#3498db",
                     position: "absolute",
                     layoutOrigin: [0.5, 0.5, 0.5],
-                    width: 1,
-                    height: 0.5,
+                    width: 0.6,
+                    height: 0.15,
                     transform: [
                         {rotateY: this.props.rotateY},
                         {translateZ: -3}
                     ],
+                    borderRadius: 0.07
                 }}
             >
                 <VrButton loop = {false} onClickSound={{ wav: asset(this.props.src) }}>
