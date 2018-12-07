@@ -137,6 +137,8 @@
           "txt": "Lifts",
           "rotateY": 209,
           "rotateX": 3,
+          "icon": "icons/curved-arrow.png",
+
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
@@ -213,6 +215,7 @@
           "to": "Lift-Ground",
           "txt": "Ground Floor",
           "fontSize": 0.15,
+          "icon": "icons/arrow.png",
           "fontWeight": "bold"
         },
         {
@@ -382,9 +385,10 @@
       "titles": [
         {
           "src": "titles/title-lifts.png",
-          "width": 2,
-          "height": 2,
-          "rotateY": 280,
+          "width": 0.5,
+          "height": 0.5,
+          "rotateY": 75,
+          "rotateX": 100,
           "op": 0.9
         }
       ],
@@ -546,7 +550,6 @@
           "rotateY": 325,
           "rotateX": -15,
           "translateZ": -10,
-          "rotateX": -15
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
@@ -631,6 +634,7 @@
           "correct": "32",
           "rotateY": 60
         }
+
       ],
 
       "infos": [
