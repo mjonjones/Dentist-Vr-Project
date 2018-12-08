@@ -726,6 +726,15 @@
       "photopanos": [
         { "src": "Paediatric-Room.jpeg" }
       ],
+      "images":[
+        {
+          "src": "Tools.JPG",
+          "rotateY": 180,
+          "height": 0.3,
+          "width": 0.5,
+          "opacity": 0.8
+        }
+      ],
       "navs": [
         { 
           "to": "Paediatric", 
