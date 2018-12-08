@@ -613,7 +613,6 @@
           "correct": "32",
           "rotateY": 60
         }
-
       ],
 
       "infos": [
@@ -752,10 +751,61 @@
           "fontWeight": "bold" 
         }
       ],
+      "infos":[
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "The Dentist will carry out the check up here!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 260,
+          "rotateX": 7,
+          "icon": "icons/speech-icon.png"
+        },
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "Your Mummy and/or Daddy will be sitting right here.",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
+          "rotateX": -3,
+          "rotateY": 93
+        }
+      ],
+      "photos": [
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 300,
+          "imgHeight": 300,
+          "cmWidth": 0.15,
+          "rotateY": 255,
+          "rotateX": -7   
+        }
+      ],
       "sounds":[{}],
       "preloads": [
         { "src": "First-Floor-Paediatrics.jpg" },
         { "src": "Paediatric_Chair_new.MP4" }
+      ],
+      "questions": [
+        {
+          "question": "What colour should your teeth be?",
+          "answer1": "Yellow",
+          "answer2": "Grey",
+          "answer3": "White",
+          "correct": "White",
+          "rotateY": 330,
+          "rotateX": 3
+        }
       ]
     },
     {
