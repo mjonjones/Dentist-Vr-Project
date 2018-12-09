@@ -728,11 +728,16 @@
       "images":[
         {
           "src": "Tools.JPG",
-          "rotateY": 180,
-          "height": 0.3,
-          "width": 0.5,
-          "opacity": 0.8
+          "rotateY": 140,
+          "height": 1,
+          "width": 1.4,
+          "opacity": 1
         }
+      ],
+      "clickSounds": [
+        { "src": "sounds/Blow-Air-2-Sound.mp3",  "rotateY": 148, "width":0.3, "height":0.3},
+        { "src": "sounds/handpiece1.mp3",  "rotateY": 143, "width":0.3, "height":0.3},
+        { "src": "sounds/Suction-Sound.mp3",  "rotateY": 136, "width":0.3, "height":0.3}
       ],
       "navs": [
         { 

@@ -6,6 +6,8 @@ export default class Sounds extends React.Component {
     static defaultProps = {
         soundName: "Play Sounds",
         rotateY: 0,
+        width: 0.6,
+        height: 0.15,
         src: "",
     };
 
@@ -30,8 +32,8 @@ export default class Sounds extends React.Component {
                     backgroundColor: "#3498db",
                     position: "absolute",
                     layoutOrigin: [0.5, 0.5, 0.5],
-                    width: 0.6,
-                    height: 0.15,
+                    width: this.props.width,
+                    height: this.props.height,
                     transform: [
                         {rotateY: this.props.rotateY},
                         {translateZ: -3}
