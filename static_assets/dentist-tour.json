@@ -86,8 +86,8 @@
               "iconDuration": 1500
             }
           ],
-          "rotateY": 113,
-          "rotateX": 8,
+          "rotateY": 123,
+          "rotateX": 4,
           "icon": "icons/speech-icon.png"
         }
       ],
@@ -98,18 +98,34 @@
           "imgWidth": 400,
           "imgHeight": 870,
           "cmWidth": 0.15,
-          "rotateY": 1610,
+          "rotateY": 170,
           "rotateX": -15,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
         },
         {
           "src": "icons/supertooth-2.png",
-          "imgWidth": 500,
-          "imgHeight": 500,
-          "cmWidth": 0.15,
-          "rotateY": 83,
+          "imgWidth": 300,
+          "imgHeight": 300,
+          "cmWidth": 0.11,
+          "rotateY": 95,
           "rotateX": -18,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+        },
+        {
+          "src": "icons/toilet.png",
+          "imgWidth": 100,
+          "imgHeight": 100,
+          "cmWidth": 0.04,
+          "rotateY": 101.5,
+          "rotateX": 2
+        },
+        {
+          "src": "icons/toilet.png",
+          "imgWidth": 100,
+          "imgHeight": 100,
+          "cmWidth": 0.04,
+          "rotateY": 132,
+          "rotateX": 3 
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
@@ -495,7 +511,6 @@
           "rotateY": 200,
           "rotateX": -15   
         },
-
         {
           "src": "people/man3.png",
           "imgWidth": 40,
@@ -586,10 +601,17 @@
           "icon": "icons/button.png",
           "iconWidth": 0.5,
           "iconHeight": 0.3
-
         }
-
       ],
+      "photos":[
+        {
+          "src": "icons/toilet.png",
+          "imgWidth": 100,
+          "imgHeight": 100,
+          "cmWidth": 0.05,
+          "rotateY": 128,
+          "rotateX": 5 
+        }],
       "sounds": [{}],
       "preloads": [
         { "src": "Dentist_1_Reception.jpg" },
@@ -705,7 +727,7 @@
       "photopanos": [{ "src": "First-Floor-Paediatrics.jpg" }],
       "navs": [
         { "to": "First-Floor-Hallway", 
-          "txt": "Hallway", 
+          "txt": "To Hallway", 
           "rotateY": 242,
           "rotateX": -1,  
           "fontSize": 0.15,
