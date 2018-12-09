@@ -720,9 +720,71 @@
         }
       ],
       "sounds":[{}],
+      "photos": [
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 300,
+          "imgHeight": 300,
+          "cmWidth": 0.15,
+          "rotateY": 75,
+          "rotateX": -14   
+        },
+        {
+          "src": "people/man4.png",
+          "imgWidth": 80,
+          "imgHeight": 160,
+          "cmWidth": 0.15,
+          "rotateY": 175,
+          "rotateX": -8,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "Brushing your teeth regularly will make your teeth look nice!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
+          "rotateX": 8.5,
+          "rotateY": 131
+        },
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "There will be lots of other kids, like you, here!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 80,
+          "rotateX": 1,
+          "icon": "icons/speech-icon.png"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What do you use to clean your teeth?",
+          "answer1": "Tooth Brush",
+          "answer2": "Tooth Broom",
+          "answer3": "Tooth Mop",
+          "correct": "Tooth Brush",
+          "rotateY": 30,
+          "rotateX": 4
+        }
+      ],
       "preloads": [
         {"src": "Dentist_1_Reception.jpg" },
-        {"src": "Paediatric_Room.jpeg"}]
+        {"src": "Paediatric_Room.jpeg"}
+      ]
     },
     {
       "id":"Paediatric-Room",
