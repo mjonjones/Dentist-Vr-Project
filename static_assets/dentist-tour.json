@@ -535,7 +535,7 @@
         {
         "to": "X-Ray",
         "txt": "To X-Ray Reception",
-        "rotateY": 160,
+        "rotateY": 135,
         "fontSize": 0.15,
         "fontWeight": "bold"
         },
@@ -547,10 +547,56 @@
           "fontWeight": "bold"
         }
     ],
-    "sounds": [{}],
+      "sounds": [{}],
       "preloads":[
         {"src": "Dentist_X-Ray.jpg"},
         {"src": "XRay_Working_New.MP4"}
+      ],
+      "photos": [
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 35,
+          "rotateX": 5   
+        },
+        {
+          "src": "people/receptionist.png",
+          "imgWidth": 60,
+          "imgHeight": 130,
+          "cmWidth": 0.15,
+          "rotateY": 175,
+          "rotateX": -7,
+          "translateZ": -10
+        }
+      ],
+      "questions":[
+        {
+          "question": "What is the substance used to brush your teeth called?",
+          "answer1": "ToothPlaster",
+          "answer2": "ToothPaste",
+          "answer3": "ToothGum",
+          "correct": "ToothPaste",
+          "rotateY": 250
+        }
+      ],
+      "infos":[
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "You are more likely to sit in the chair than stand in the machine!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 40,
+          "rotateX": 20,
+          "icon": "icons/speech-icon.png"
+        }
       ]
     },
     {
