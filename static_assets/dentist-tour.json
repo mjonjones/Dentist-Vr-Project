@@ -25,13 +25,14 @@
       "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
       "navs": [
         {
-          "to": "Pharmacy",
-          "txt": "Pharmacy",
-          "rotateY": 1012,
-          "rotateX": 3,
+          "to": "Lift-Ground",
+          "txt": "To the Lifts",
+          "rotateY": 291,
+          "rotateX": 1,
           "gazeDelay": 1800,
           "fontSize": 0.15,
-          "fontWeight": "bold"
+          "fontWeight": "bold",
+          "nextRotateY": 270
         }
       ],
       "questions": [
@@ -111,7 +112,7 @@
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
         }
       ],
-      "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
+      "preloads": [{ "src": "Dentist_Lift.jpg" }]
     },
 
     {
@@ -120,21 +121,22 @@
       "navs": [
         {
           "to": "Lift-Ground",
-          "txt": "Lifts",
+          "txt": "To the Lifts",
           "rotateY": 209,
           "rotateX": 3,
           "icon": "icons/curved-arrow.png",
-
           "fontSize": 0.15,
-          "fontWeight": "bold"
+          "fontWeight": "bold",
+          "nextRotateY":180
         },
         {
           "to": "Entrance",
-          "txt": "Reception",
-          "rotateY": 28,
-          "rotateX": 3,
+          "txt": "To Reception",
+          "rotateY": 25,
+          "rotateX": -3,
           "fontSize": 0.15,
-          "fontWeight": "bold"
+          "fontWeight": "bold",
+          "nextRotateY": 90
         }
       ],
       "questions": [
@@ -152,7 +154,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Use a pea sized amount of toothpaste on your tooth brush!",
+              "txt": "Use a pea sized amount of toothpaste on your tooth brush!  The amount you use will increase as you get bigger.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -197,7 +199,7 @@
         },
         {
           "to": "Orth-Reception",
-          "txt": "Reception",
+          "txt": "To Reception",
           "rotateY": 285,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -377,7 +379,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "These are the lifts, you can use them to go look at rooms upstairs",
+              "txt": "You don't need to go down here!  The lifts are over there, they will take you upstairs, where the dentist will examine your teeth!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -385,7 +387,7 @@
             }
           ],
           "rotateY": 205,
-          "rotateX": 1,
+          "rotateX": 6,
           "icon": "icons/speech-icon.png"
         }
       ],
@@ -416,7 +418,8 @@
         {
           "to": "Lift-Ground",
           "txt": "To the Lifts",
-          "rotateY": -7,
+          "rotateY": 352,
+          "rotateX": -4,
           "backgroundColor": "#3498db",
           "textColor": "#fff200",
           "fontSize": 0.15,
@@ -425,7 +428,8 @@
         {
           "to": "X-Ray_Room",
           "txt": "To X-Ray Room",
-          "rotateY": 170,
+          "rotateY": 172,
+          "rotateX": -4,
           "backgroundColor": "#3498db",
           "textColor": "#fff200",
           "fontSize": 0.15,
@@ -558,7 +562,7 @@
       "navs": [
         {
           "to": "Orth-Reception",
-          "txt": "Reception",
+          "txt": "To Reception",
           "rotateY": 109,
           "rotateX": 3,
           "fontSize": 0.15,
@@ -566,7 +570,7 @@
         },
         {
           "to":"Paediatric",
-          "txt":"Paediatrics",
+          "txt":"To Paediatrics",
           "rotateY":285,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -597,7 +601,7 @@
       "navs": [
         {
           "to": "Orth-Reception",
-          "txt": "Reception",
+          "txt": "To Reception",
           "rotateY": 25,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -737,7 +741,7 @@
       "navs": [
         { 
           "to": "Paediatric", 
-          "txt": "Paediatrics", 
+          "txt": "To Paediatrics", 
           "rotateY": 20,  
           "fontSize": 0.15,
           "fontWeight": "bold" 
@@ -815,7 +819,7 @@
       ],
       "navs": [
         { "to": "Paediatric-Room", 
-          "txt": "Get out of Chair",
+          "txt": "Get out of the Chair",
           "rotateY": -10, 
           "rotateX": -15,
           "fontSize": 0.15,
