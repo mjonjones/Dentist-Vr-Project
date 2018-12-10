@@ -208,7 +208,7 @@
       "navs": [
         {
           "to": "Lift-Ground",
-          "txt": "Ground Floor",
+          "txt": "Use Lift to go to Ground Floor",
           "fontSize": 0.15,
           "icon": "icons/arrow.png",
           "fontWeight": "bold"
@@ -918,7 +918,20 @@
           ],
           "rotateX": -3,
           "rotateY": 93
-        }
+        },
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "These are the handpieces! Click on them to hear them!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
+          "rotateX": 20,
+          "rotateY": 140
+        }    
       ],
       "photos": [
         {
