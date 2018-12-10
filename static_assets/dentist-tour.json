@@ -259,21 +259,21 @@
       "navs": [
         {
           "to": "First-Floor-Hallway",
-          "txt": "Paediatrics",
+          "txt": "To Paediatrics",
           "rotateY": 25,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
         {
           "to": "Lift-Floor-1",
-          "txt": "Lifts",
+          "txt": "To the Lifts",
           "rotateY": 115,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
         {
           "to": "First-Floor-Orthodontics",
-          "txt": "Orthodontics",
+          "txt": "To Orthodontics",
           "rotateY": 205,
           "fontSize": 0.15,
           "fontWeight": "bold"
