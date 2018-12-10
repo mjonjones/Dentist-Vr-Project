@@ -25,13 +25,14 @@
       "photopanos": [{ "src": "Dentist_Entrance.jpg" }],
       "navs": [
         {
-          "to": "Pharmacy",
-          "txt": "Pharmacy",
-          "rotateY": 1012,
-          "rotateX": 3,
+          "to": "Lift-Ground",
+          "txt": "To the Lifts",
+          "rotateY": 291,
+          "rotateX": 1,
           "gazeDelay": 1800,
           "fontSize": 0.15,
-          "fontWeight": "bold"
+          "fontWeight": "bold",
+          "nextRotateY": 270
         }
       ],
       "questions": [
@@ -85,8 +86,8 @@
               "iconDuration": 1500
             }
           ],
-          "rotateY": 113,
-          "rotateX": 8,
+          "rotateY": 123,
+          "rotateX": 4,
           "icon": "icons/speech-icon.png"
         }
       ],
@@ -97,21 +98,37 @@
           "imgWidth": 400,
           "imgHeight": 870,
           "cmWidth": 0.15,
-          "rotateY": 1610,
+          "rotateY": 170,
           "rotateX": -15,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
         },
         {
           "src": "icons/supertooth-2.png",
-          "imgWidth": 500,
-          "imgHeight": 500,
-          "cmWidth": 0.15,
-          "rotateY": 83,
+          "imgWidth": 300,
+          "imgHeight": 300,
+          "cmWidth": 0.11,
+          "rotateY": 95,
           "rotateX": -18,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+        },
+        {
+          "src": "icons/toilet.png",
+          "imgWidth": 100,
+          "imgHeight": 100,
+          "cmWidth": 0.04,
+          "rotateY": 101.5,
+          "rotateX": 2
+        },
+        {
+          "src": "icons/toilet.png",
+          "imgWidth": 100,
+          "imgHeight": 100,
+          "cmWidth": 0.04,
+          "rotateY": 132,
+          "rotateX": 3 
         }
       ],
-      "preloads": [{ "src": "Dentist_Pharmacy.jpg" }]
+      "preloads": [{ "src": "Dentist_Lift.jpg" }]
     },
 
     {
@@ -120,21 +137,22 @@
       "navs": [
         {
           "to": "Lift-Ground",
-          "txt": "Lifts",
+          "txt": "To the Lifts",
           "rotateY": 209,
           "rotateX": 3,
           "icon": "icons/curved-arrow.png",
-
           "fontSize": 0.15,
-          "fontWeight": "bold"
+          "fontWeight": "bold",
+          "nextRotateY":180
         },
         {
           "to": "Entrance",
-          "txt": "Reception",
-          "rotateY": 28,
-          "rotateX": 3,
+          "txt": "To Reception",
+          "rotateY": 25,
+          "rotateX": -3,
           "fontSize": 0.15,
-          "fontWeight": "bold"
+          "fontWeight": "bold",
+          "nextRotateY": 90
         }
       ],
       "questions": [
@@ -152,7 +170,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Use a pea sized amount of toothpaste on your tooth brush!",
+              "txt": "Use a pea sized amount of toothpaste on your tooth brush!  The amount you use will increase as you get bigger.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -197,7 +215,7 @@
         },
         {
           "to": "Orth-Reception",
-          "txt": "Reception",
+          "txt": "To Reception",
           "rotateY": 285,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -377,7 +395,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "These are the lifts, you can use them to go look at rooms upstairs",
+              "txt": "You don't need to go down here!  The lifts are over there, they will take you upstairs, where the dentist will examine your teeth!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -385,7 +403,7 @@
             }
           ],
           "rotateY": 205,
-          "rotateX": 1,
+          "rotateX": 6,
           "icon": "icons/speech-icon.png"
         }
       ],
@@ -416,7 +434,8 @@
         {
           "to": "Lift-Ground",
           "txt": "To the Lifts",
-          "rotateY": -7,
+          "rotateY": 352,
+          "rotateX": -4,
           "backgroundColor": "#3498db",
           "textColor": "#fff200",
           "fontSize": 0.15,
@@ -425,7 +444,8 @@
         {
           "to": "X-Ray_Room",
           "txt": "To X-Ray Room",
-          "rotateY": 170,
+          "rotateY": 172,
+          "rotateX": -4,
           "backgroundColor": "#3498db",
           "textColor": "#fff200",
           "fontSize": 0.15,
@@ -445,15 +465,15 @@
       "infos": [
         {
           "card": [
-            { "type": "header", "txt": "X-Ray room.", "textColor": "#f1c40f" },
+            { "type": "header", "txt": "X-Ray Waiting Room", "textColor": "#f1c40f" },
             {
               "type": "video",
-              "src": "Dental_Video_Placeholder.mp4",
+              "src": "XRAY_Placeholder.mp4",
               "ratio": 1.5
             },
             {
               "type": "content",
-              "txt": "Here's a video showing you how it works.",
+              "txt": "Here's what it'll be like to go in a grown up X-Ray machine!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -491,7 +511,6 @@
           "rotateY": 200,
           "rotateX": -15   
         },
-
         {
           "src": "people/man3.png",
           "imgWidth": 40,
@@ -516,7 +535,7 @@
         {
         "to": "X-Ray",
         "txt": "To X-Ray Reception",
-        "rotateY": 160,
+        "rotateY": 135,
         "fontSize": 0.15,
         "fontWeight": "bold"
         },
@@ -528,10 +547,56 @@
           "fontWeight": "bold"
         }
     ],
-    "sounds": [{}],
+      "sounds": [{}],
       "preloads":[
         {"src": "Dentist_X-Ray.jpg"},
         {"src": "XRay_Working_New.MP4"}
+      ],
+      "photos": [
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 500,
+          "imgHeight": 500,
+          "cmWidth": 0.15,
+          "rotateY": 35,
+          "rotateX": 5   
+        },
+        {
+          "src": "people/receptionist.png",
+          "imgWidth": 60,
+          "imgHeight": 130,
+          "cmWidth": 0.15,
+          "rotateY": 175,
+          "rotateX": -7,
+          "translateZ": -10
+        }
+      ],
+      "questions":[
+        {
+          "question": "What is the substance used to brush your teeth called?",
+          "answer1": "ToothPlaster",
+          "answer2": "ToothPaste",
+          "answer3": "ToothGum",
+          "correct": "ToothPaste",
+          "rotateY": 250
+        }
+      ],
+      "infos":[
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "You are more likely to sit in the chair than stand in the machine!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 40,
+          "rotateX": 20,
+          "icon": "icons/speech-icon.png"
+        }
       ]
     },
     {
@@ -558,7 +623,7 @@
       "navs": [
         {
           "to": "Orth-Reception",
-          "txt": "Reception",
+          "txt": "To Reception",
           "rotateY": 109,
           "rotateX": 3,
           "fontSize": 0.15,
@@ -566,7 +631,7 @@
         },
         {
           "to":"Paediatric",
-          "txt":"Paediatrics",
+          "txt":"To Paediatrics",
           "rotateY":285,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -582,10 +647,17 @@
           "icon": "icons/button.png",
           "iconWidth": 0.5,
           "iconHeight": 0.3
-
         }
-
       ],
+      "photos":[
+        {
+          "src": "icons/toilet.png",
+          "imgWidth": 100,
+          "imgHeight": 100,
+          "cmWidth": 0.05,
+          "rotateY": 128,
+          "rotateX": 5 
+        }],
       "sounds": [{}],
       "preloads": [
         { "src": "Dentist_1_Reception.jpg" },
@@ -597,7 +669,7 @@
       "navs": [
         {
           "to": "Orth-Reception",
-          "txt": "Reception",
+          "txt": "To Reception",
           "rotateY": 25,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -701,7 +773,7 @@
       "photopanos": [{ "src": "First-Floor-Paediatrics.jpg" }],
       "navs": [
         { "to": "First-Floor-Hallway", 
-          "txt": "Hallway", 
+          "txt": "To Hallway", 
           "rotateY": 242,
           "rotateX": -1,  
           "fontSize": 0.15,
@@ -716,9 +788,71 @@
         }
       ],
       "sounds":[{}],
+      "photos": [
+        {
+          "src": "icons/supertooth.png",
+          "imgWidth": 300,
+          "imgHeight": 300,
+          "cmWidth": 0.15,
+          "rotateY": 75,
+          "rotateX": -14   
+        },
+        {
+          "src": "people/man4.png",
+          "imgWidth": 80,
+          "imgHeight": 160,
+          "cmWidth": 0.15,
+          "rotateY": 175,
+          "rotateX": -8,
+          "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "Brushing your teeth regularly will make your teeth look nice!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold"
+            }
+          ],
+          "rotateX": 8.5,
+          "rotateY": 131
+        },
+        {
+          "card": [
+            {
+              "type": "content",
+              "txt": "There will be lots of other kids, like you, here!",
+              "textColor": "#fff200",
+              "fontSize": 0.25,
+              "fontWeight": "bold",
+              "iconDuration": 1500
+            }
+          ],
+          "rotateY": 80,
+          "rotateX": 1,
+          "icon": "icons/speech-icon.png"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What do you use to clean your teeth?",
+          "answer1": "Tooth Brush",
+          "answer2": "Tooth Broom",
+          "answer3": "Tooth Mop",
+          "correct": "Tooth Brush",
+          "rotateY": 30,
+          "rotateX": 4
+        }
+      ],
       "preloads": [
         {"src": "Dentist_1_Reception.jpg" },
-        {"src": "Paediatric_Room.jpeg"}]
+        {"src": "Paediatric_Room.jpeg"}
+      ]
     },
     {
       "id":"Paediatric-Room",
@@ -742,7 +876,7 @@
       "navs": [
         { 
           "to": "Paediatric", 
-          "txt": "Paediatrics", 
+          "txt": "To Paediatrics", 
           "rotateY": 20,  
           "fontSize": 0.15,
           "fontWeight": "bold" 
@@ -820,7 +954,7 @@
       ],
       "navs": [
         { "to": "Paediatric-Room", 
-          "txt": "Get out of Chair",
+          "txt": "Get out of the Chair",
           "rotateY": -10, 
           "rotateX": -15,
           "fontSize": 0.15,
