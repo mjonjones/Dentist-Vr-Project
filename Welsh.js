@@ -1,8 +1,19 @@
 import React from "react";
 import { LiveTour } from "live-tour-lab";
+import Title from "./Title";
+import Sounds from "./Sounds";
+import Quiz from "./Quiz";
+import RouteButton from "./RouteEnglish";
 
 export default class welsh extends React.Component {
   render() {
-    return <LiveTour tourURI="dentist-welsh.json" />;
+    return (
+      <LiveTour tourURI="dentist-welsh.json">
+        <Title entries="titles" />
+        <Sounds entries="clickSounds" />
+        <Quiz entries="questions" />
+        <RouteButton entries="links" />
+      </LiveTour>
+    );
   }
 }
