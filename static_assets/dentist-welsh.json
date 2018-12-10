@@ -234,7 +234,7 @@
         }
       ],
       "titles":[
-        {"txt": "Lifftiau llawr cyntaf", "rotateY": 0}
+        {"txt": "Lifftiau llawr cyntaf", "rotateY": 30, "width": 0.9}
       ],
       "questions": [
         {
@@ -466,7 +466,7 @@
         }
       ],
       "titles":[
-        {"txt": "Derbyniad pelydr-x", "rotateY": 215, "width": 1}
+        {"txt": "Derbyniad pelydr-x", "rotateY": 215, "width": 0.85}
       ],
       "questions": [
         {
@@ -564,7 +564,7 @@
         }
     ],
     "titles":[
-      {"txt": "X-pelydr-ystafell", "width": 0.7, "rotateY": 350}
+      {"txt": "X-pelydr-ystafell", "width": 0.75, "rotateY": 350}
     ],
       "sounds": [{}],
       "preloads":[
@@ -658,7 +658,7 @@
         }
       ],
       "titles":[
-        {"txt": "Cyntedd", "rotateY": 0}
+        {"txt": "Cyntedd", "rotateY": 247}
       ],
       "photos":[
         {
@@ -694,11 +694,11 @@
           "answer2": "100",
           "answer3": "1",
           "correct": "32",
-          "rotateY": 60
+          "rotateY": 240
         }
       ],
       "titles":[
-        {"txt": "Orthodonteg", "rotateY": 170, "width": 0.7}
+        {"txt": "Orthodonteg", "rotateY": 170, "width": 0.6}
       ],
       "infos": [
         {
@@ -801,7 +801,7 @@
         }
       ],
       "titles":[
-        {"txt": "Ystafell aros Pediatrig", "rotateY": 0, "width":0.5}
+        {"txt": "Ystafell aros Pediatrig", "rotateY": 90, "width":1}
       ],
       "sounds":[{}],
       "photos": [
@@ -862,7 +862,8 @@
           "answer3": "Mop dannedd",
           "correct": "Brwsh dannedd",
           "rotateY": 30,
-          "rotateX": 4
+          "rotateX": 4,
+          "height": 0.9
         }
       ],
       "preloads": [
@@ -890,7 +891,7 @@
         { "src": "sounds/Suction-Sound.mp3",  "rotateY": 136, "width":0.3, "height":0.3}
       ],
       "titles":[
-        {"txt": "Ystafell Pediatrig", "rotateY": 80, "width": 0.7}
+        {"txt": "Ystafell Pediatrig", "rotateY": 80, "width": 0.8}
       ],
       "navs": [
         {
