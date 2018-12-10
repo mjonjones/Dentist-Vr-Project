@@ -150,13 +150,17 @@ master and dev are both protected branches and require a review on the pull requ
 
 ## Authors
 
-* **Morgan Jones** - *Design, Development* - [mjonjones](https://github.com/mjonjones)
-* **Joey Gmaij** - *Design and Development* - LINK HERE
-* **Ciara Langton** - *Design and Development* - LINK HERE
-* **Masroor Unar** - *Design and Development* - LINK HERE
+* **Morgan Jones** - *Design and Development* - [mjonjones](https://github.com/mjonjones)
+* **Joey Gmaj** - *Design and Development* - [JoeyG448](https://github.com/JoeyG448)
+* **Masroor Unar** - *Design and Development* - [Masroor-Unar](https://github.com/Masroor-Unar)
+* **Ciara Langton** - *Design and Development* - [ciaraax](https://github.com/ciaraax)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Acknowledgments
 
-* The LiveTour Library was an incredible tool to use and we look forward to seeing its evolution in the future.
+* The LiveTour Library was an incredible tool to use and we look forward to seeing its evolution in the future, found [here](https://livetourlab.com/docs)
+* Toilet Icon made by [FreePik](https://www.flaticon.com/free-icon/toilet_195439) from www.flaticon.com 
+* Background music taken from [BenSound](https://www.bensound.com/royalty-free-music/track/little-idea) from www.bensound.com
+* Jared Nielson - April 2018 - ReactVR: Audio Spacialization and Click Events with the Sound Component - https://medium.com/@jarednielsen/reactvr-audio-spacialization-and-click-events-with-the-sound-component-4c5e9fd59388
+* The react docs were used with assitence with Conditional Rendering, found [here](https://reactjs.org/docs/conditional-rendering.html)
