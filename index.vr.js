@@ -1,21 +1,23 @@
-import React from 'react';
-import { AppRegistry } from 'react-vr';
-import { LiveTour } from 'live-tour-lab';
-import Title from './Title';
-import Sounds from './Sounds';
-import Quiz from './Quiz';
+import React from "react";
+import { AppRegistry, View } from "react-vr";
+import { MemoryRouter as Router, Redirect, Route, Switch } from "react-router";
+import Welsh from "./Welsh";
+import English from "./English";
+import RouteEnglish from "./RouteEnglish";
+import RouteWelsh from "./RouteWelsh";
 
 // LOaded after client
 export default class MyLiveTour extends React.Component {
   render() {
     return (
-      <LiveTour tourURI='dentist-tour.json' >
-        <Title entries="titles" />
-          <Sounds entries="clickSounds" />
-        <Quiz entries="questions"/>
-      </LiveTour>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={English} />
+          <Route exact path="/Welsh" component={Welsh} />
+        </Switch>
+      </Router>
     );
   }
-};
+}
 
-AppRegistry.registerComponent('MyLiveTour', () => MyLiveTour);
+AppRegistry.registerComponent("MyLiveTour", () => MyLiveTour);
