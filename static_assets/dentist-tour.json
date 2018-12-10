@@ -465,15 +465,15 @@
       "infos": [
         {
           "card": [
-            { "type": "header", "txt": "X-Ray room.", "textColor": "#f1c40f" },
+            { "type": "header", "txt": "X-Ray Waiting Room", "textColor": "#f1c40f" },
             {
               "type": "video",
-              "src": "Dental_Video_Placeholder.mp4",
+              "src": "XRAY_Placeholder.mp4",
               "ratio": 1.5
             },
             {
               "type": "content",
-              "txt": "Here's a video showing you how it works.",
+              "txt": "Here's what it'll be like to go in a grown up X-Ray machine!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
