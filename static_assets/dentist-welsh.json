@@ -30,7 +30,7 @@
       "navs": [
         {
           "to": "Lift-Ground",
-          "txt": "To the Lifts",
+          "txt": "I'r lifftiau",
           "rotateY": 291,
           "rotateX": 1,
           "gazeDelay": 1800,
@@ -41,15 +41,14 @@
       ],
       "questions": [
         {
-          "question": "How long should you brush your teeth for?",
-          "answer1": "1 minute",
-          "answer2": "2 minutes",
-          "answer3": "3 minutes",
-          "correct": "2 minutes",
+          "question": "Pa mor hir y dylai eich brwsiwch eich dannedd ar gyfer?",
+          "answer1": "1 funud",
+          "answer2": "2 funud",
+          "answer3": "3 funud",
+          "correct": "2 funud",
           "rotateY": 330
         }
       ],
-      "links": [{ "link": "Welsh", "rotateY": 270, "rotateX": -5 }],
       "infos": [
         {
           "card": [
@@ -57,7 +56,7 @@
               "textColor": "#fff200",
               "cardBorderWidth": 0.03,
               "type": "content",
-              "txt": "Remember to brush your teeth twice a day! The best time to brush your teeth is before bed!",
+              "txt": "Cofiwch frwsio eich dannedd ddwywaith y dydd! Yr amser gorau i frwsio eich dannedd yn cyn mynd i'r gwely!",
               "fontSize": 0.25,
               "fontWeight": "bold"
             }
@@ -70,7 +69,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "This is the reception desk, this is where you check in",
+              "txt": "Dyma desg y dderbynfa, mae hyn yn lle eich bod yn gwirio.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -84,7 +83,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Hi there!  My name is SuperTooth and I want to be your friend.",
+              "txt": "Siwmae!  Fy enw i yw SuperTooth, ac yr wyf am fod eich ffrind.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -130,7 +129,7 @@
           "imgHeight": 100,
           "cmWidth": 0.04,
           "rotateY": 132,
-          "rotateX": 3 
+          "rotateX": 3
         }
       ],
       "preloads": [{ "src": "Dentist_Lift.jpg" }]
@@ -142,7 +141,7 @@
       "navs": [
         {
           "to": "Lift-Ground",
-          "txt": "To the Lifts",
+          "txt": "I'r lifftiau",
           "rotateY": 209,
           "rotateX": 3,
           "icon": "icons/curved-arrow.png",
@@ -152,7 +151,7 @@
         },
         {
           "to": "Entrance",
-          "txt": "To Reception",
+          "txt": "Dderbynfa",
           "rotateY": 25,
           "rotateX": -3,
           "fontSize": 0.15,
@@ -162,7 +161,7 @@
       ],
       "questions": [
         {
-          "question": "How much fruit and veg should you eat everyday?",
+          "question": "Faint o ffrwythau a llysiau y dylid eich bwyta bob dydd?",
           "answer1": "3",
           "answer2": "4",
           "answer3": "5",
@@ -175,7 +174,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Use a pea sized amount of toothpaste on your tooth brush!  The amount you use will increase as you get bigger.",
+              "txt": "Roedd defnydd pea canolig eu maint dannedd o faint pysen ar eich brwsh dannedd!  Bydd y swm y byddwch yn defnyddio yn cynyddu wrth i chi fynd yn fwy.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -213,14 +212,14 @@
       "navs": [
         {
           "to": "Lift-Ground",
-          "txt": "Use Lift to go to Ground Floor",
+          "txt": "Defnyddio lifft i fynd i'r llawr gwaelod",
           "fontSize": 0.15,
           "icon": "icons/arrow.png",
           "fontWeight": "bold"
         },
         {
           "to": "Orth-Reception",
-          "txt": "To Reception",
+          "txt": "Dderbynfa",
           "rotateY": 285,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -228,12 +227,11 @@
       ],
       "questions": [
         {
-          "question": "How many times a day should you brush your teeth?",
+          "question": "Sut y sawl gwaith y dydd dylai brwsiwch eich dannedd?",
           "answer1": "2",
           "answer2": "10",
           "answer3": "100",
           "correct": "2",
-          "right": "",
           "rotateY": 240
         }
       ],
@@ -242,14 +240,14 @@
           "card": [
             {
               "type": "header",
-              "txt": "The Dental School!",
+              "txt": "Ysgol ddeintyddol!",
               "textColor": "#fff200"
             },
             { "type": "image", "src": "icons/supertooth-2.png" },
             {
               "type": "content",
               "textColor": "#fff200",
-              "txt": "Down here is the dental school, where we teach students to become dentists! Soon they will help you keep your teeth healthy and clean!",
+              "txt": "I lawr yma yn yr ysgol ddeintyddol, lle rydym yn addysgu myfyrwyr i fod yn ddeintyddion! Cyn gynted ag y byddant yn helpu chi gadw eich dannedd iach a glân!",
               "fontSize": 0.25,
               "fontWeight": "bold"
             }
@@ -260,7 +258,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "When you finishing brushing your teeth, spit into the sink and do not rinse with water!",
+              "txt": "Pan fydd eich pesgi brwsio eich dannedd, boeri i'r sinc a wneud nid Golchwch gyda dŵr!!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -281,21 +279,21 @@
       "navs": [
         {
           "to": "First-Floor-Hallway",
-          "txt": "To Paediatrics",
+          "txt": "I Pediatreg",
           "rotateY": 25,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
         {
           "to": "Lift-Floor-1",
-          "txt": "To the Lifts",
+          "txt": "I'r lifftiau",
           "rotateY": 115,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
         {
           "to": "First-Floor-Orthodontics",
-          "txt": "To Orthodontics",
+          "txt": "I orthodonteg",
           "rotateY": 205,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -306,7 +304,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Super Tooth says 'You should brush your teeth for 2 minutes, so your teeth are squeaky clean!'",
+              "txt": "Dywed dannedd arch ' dylai chi brwsiwch eich dannedd am 2 funud, felly mae eich dannedd yn gwichlyd lân!'",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -326,6 +324,7 @@
           "rotateY": 205,
           "rotateX": -35
         }
+
       ],
       "sounds": [{}],
       "preloads": [
@@ -342,21 +341,21 @@
       "navs": [
         {
           "to": "X-Ray",
-          "txt": "To X-Ray",
+          "txt": "I pelydr-x",
           "rotateY": 102,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
         {
           "to": "Pharmacy",
-          "txt": "To the Pharmacy",
+          "txt": "I'r fferyllfa",
           "rotateY": 20,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
         {
           "to": "Lift-Floor-1",
-          "txt": "Use Lift to go to First Floor",
+          "txt": "Defnyddio lifft i fynd i'r llawr cyntaf",
           "rotateY": 65,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -364,11 +363,11 @@
       ],
       "questions": [
         {
-          "question": "Which drink helps your bones grow stronger?",
-          "answer1": "Milk",
-          "answer2": "Water",
-          "answer3": "Orange Juice",
-          "correct": "Milk",
+          "question": "Diod sy'n helpu i dyfu eich esgyrn cryfach?",
+          "answer1": "Llaeth",
+          "answer2": "Dŵr",
+          "answer3": "Sudd oren",
+          "correct": "Llaeth",
           "rotateY": 345
         }
       ],
@@ -378,7 +377,7 @@
             {
               "type": "content",
               "textColor": "#fff200",
-              "txt": "Remember! Do not eat your toothpaste! It's for cleaning your teeth, not feeding your tummy!",
+              "txt": "Cofiwch! Peidiwch â bwyta eich past dannedd! Mae'n ar gyfer glanhau eich dannedd, nid bwydo eich bol!",
               "fontSize": 0.25,
               "fontWeight": "bold"
             }
@@ -389,7 +388,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "You don't need to go down here!  The lifts are over there, they will take you upstairs, where the dentist will examine your teeth!",
+              "txt": "Nid oes angen i chi fynd i lawr yma!  Lifftiau acw, byddant yn cymryd chi i fyny'r grisiau, lle y bydd y deintydd yn archwilio eich dannedd!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -401,6 +400,7 @@
           "icon": "icons/speech-icon.png"
         }
       ],
+
       "videoautos":[
         {"src":"lift-opening.mp4", "rotateY":80, "imgWidth": 512,
           "imgHeight": 512, "cmWidth":0.15, "volume":1}
@@ -429,7 +429,7 @@
       "navs": [
         {
           "to": "Lift-Ground",
-          "txt": "To the Lifts",
+          "txt": "I'r lifftiau",
           "rotateY": 352,
           "rotateX": -4,
           "backgroundColor": "#3498db",
@@ -439,7 +439,7 @@
         },
         {
           "to": "X-Ray_Room",
-          "txt": "To X-Ray Room",
+          "txt": "I ystafell pelydr-x",
           "rotateY": 172,
           "rotateX": -4,
           "backgroundColor": "#3498db",
@@ -450,18 +450,18 @@
       ],
       "questions": [
         {
-          "question": "Who are you visiting today?",
-          "answer1": "The Doctor",
-          "answer2": "The Dentist",
-          "answer3": "The Nurse",
-          "correct": "The Dentist",
+          "question": "A ydych yn ymweld heddiw?",
+          "answer1": "Y meddyg",
+          "answer2": "Y deintydd",
+          "answer3": "Y nyrs",
+          "correct": "Y deintydd",
           "rotateY": 90
         }
       ],
       "infos": [
         {
           "card": [
-            { "type": "header", "txt": "X-Ray Waiting Room", "textColor": "#f1c40f" },
+            { "type": "header", "txt": "Ystafell aros pelydr-x", "textColor": "#f1c40f" },
             {
               "type": "video",
               "src": "XRAY_Placeholder.mp4",
@@ -469,7 +469,7 @@
             },
             {
               "type": "content",
-              "txt": "Here's what it'll be like to go in a grown up X-Ray machine!",
+              "txt": "Dyma beth y byddwch yn debyg i fynd i mewn pelydr-x tyfu fyny â pheiriant!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -485,7 +485,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "The X-Ray machine is down this corridor.",
+              "txt": "Mae peiriant pelydr-x i lawr y coridor hwn.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -517,22 +517,27 @@
           "translateZ": -10
         }
       ],
-      "preloads": [{ "src": "Dentist_Lift.jpg" }, { "src": "XRay_Room.jpeg" }]
+      "preloads": [
+        { "src": "Dentist_Lift.jpg" },
+        {"src": "XRay_Room.jpeg"}
+      ]
     },
     {
       "id": "X-Ray_Room",
-      "photopanos": [{ "src": "XRay_Room.jpeg" }],
-      "navs": [
+      "photopanos":[
+        {"src": "XRay_Room.jpeg"}
+      ],
+      "navs":[
         {
         "to": "X-Ray",
-        "txt": "To X-Ray Reception",
+        "txt": "Dderbynfa pelydr-x",
         "rotateY": 135,
         "fontSize": 0.15,
         "fontWeight": "bold"
         },
         {
-          "to": "X-Ray_Machine",
-          "txt": "Enter Machine",
+          "to":"X-Ray_Machine",
+          "txt": "Rhowch y peiriant",
           "rotateY": -60,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -550,7 +555,7 @@
           "imgHeight": 500,
           "cmWidth": 0.15,
           "rotateY": 35,
-          "rotateX": 5   
+          "rotateX": 5
         },
         {
           "src": "people/receptionist.png",
@@ -564,11 +569,11 @@
       ],
       "questions":[
         {
-          "question": "What is the substance used to brush your teeth called?",
+          "question": "Beth yw enw y sylweddau a ddefnyddir i lanhau eich dannedd?",
           "answer1": "ToothPlaster",
-          "answer2": "ToothPaste",
+          "answer2": "Past dannedd",
           "answer3": "ToothGum",
-          "correct": "ToothPaste",
+          "correct": "Past dannedd",
           "rotateY": 250
         }
       ],
@@ -577,7 +582,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "You are more likely to sit in the chair than stand in the machine!",
+              "txt": "Yr ydych yn fwy tebygol o eistedd yn y gadair na sefyll yn y peiriant!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -592,21 +597,21 @@
     },
     {
       "id": "X-Ray_Machine",
-      "videopanos": [{ "src": "XRay_Working_New.MP4" }],
-      "navs": [
-        {
-          "to": "X-Ray_Room",
-          "txt": "Leave Machine",
-          "rotateY": 0,
-          "fontSize": 0.15,
-          "fontWeight": "bold"
-        }
+      "videopanos":[
+        {"src": "XRay_Working_New.MP4"}
       ],
-      "preloads": [
+      "navs":[
         {
-          "src": "XRay_Room.jpeg"
+        "to": "X-Ray_Room",
+        "txt": "Gadael peiriant",
+        "rotateY": 0,
+        "fontSize": 0.15,
+        "fontWeight": "bold"
         }
-      ]
+    ],
+      "preloads":[{
+        "src": "XRay_Room.jpeg"
+      }]
     },
     {
       "id": "First-Floor-Hallway",
@@ -614,7 +619,7 @@
       "navs": [
         {
           "to": "Orth-Reception",
-          "txt": "To Reception",
+          "txt": "Dderbynfa",
           "rotateY": 109,
           "rotateX": 3,
           "fontSize": 0.15,
@@ -622,7 +627,7 @@
         },
         {
           "to":"Paediatric",
-          "txt":"To Paediatrics",
+          "txt":"I Pediatreg",
           "rotateY":285,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -635,13 +640,12 @@
           "imgHeight": 100,
           "cmWidth": 0.05,
           "rotateY": 128,
-          "rotateX": 5 
+          "rotateX": 5
         }],
       "sounds": [{}],
       "preloads": [
         { "src": "Dentist_1_Reception.jpg" },
-        { "src": "First-Floor-Paediatrics.jpg" }
-      ]
+        { "src": "First-Floor-Paediatrics.jpg"}]
     },
     {
       "id": "First-Floor-Orthodontics",
@@ -649,7 +653,7 @@
       "navs": [
         {
           "to": "Orth-Reception",
-          "txt": "To Reception",
+          "txt": "Dderbynfa",
           "rotateY": 25,
           "fontSize": 0.15,
           "fontWeight": "bold"
@@ -658,7 +662,7 @@
       "sounds": [{}],
       "questions": [
         {
-          "question": "How many teeth do you think you have?",
+          "question": "Dannedd faint ydych chi'n meddwl bod gennych?",
           "answer1": "32",
           "answer2": "100",
           "answer3": "1",
@@ -672,7 +676,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Don't eat too many sugary treats, to keep your teeth healthy!",
+              "txt": "Peidiwch â bwyta gormod o ddanteithion melys, i gadw eich dannedd yn iach!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -686,12 +690,12 @@
             { "type": "image", "src": "prevention_tips.jpg", "ratio": 1 },
             {
               "type": "header",
-              "txt": "Tooth Decay Prevention Tips",
+              "txt": "Awgrymiadau atal pydredd dannedd",
               "textColor": "#fff200"
             },
             {
               "type": "content",
-              "txt": "Here are some tips for you to ensure your Oral Hygiene is good!",
+              "txt": "Dyma rai awgrymiadau i chi sicrhau bod eich hylendid y geg yn dda!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -701,7 +705,7 @@
               "textColor": "#fff200",
               "buttons": [
                 {
-                  "txt": "More dental tips",
+                  "txt": "Mwy o awgrymiadau deintyddol",
                   "uri": "https://www.nhs.uk/live-well/healthy-body/how-to-keep-your-teeth-clean/"
                 }
               ]
@@ -714,7 +718,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "You will need to sit in a chair like this.",
+              "txt": "Bydd angen i chi i eistedd mewn cadair fel hyn.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -743,24 +747,24 @@
           "rotateY": 55,
           "rotateX": -20,
           "pretransform": [{ "translate": [-72, 25, 100] }, { "rotateY": 30 }]
+
         }
       ],
       "preloads": [{ "src": "Dentist_1_Reception.jpg" }]
     },
     {
-      "id": "Paediatric",
+      "id":"Paediatric",
       "photopanos": [{ "src": "First-Floor-Paediatrics.jpg" }],
       "navs": [
-        { "to": "First-Floor-Hallway", 
-          "txt": "To Hallway", 
+        { "to": "First-Floor-Hallway",
+          "txt": "I'r cyntedd",
           "rotateY": 242,
           "rotateX": -1,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
-        {
-          "to": "Paediatric-Room",
-          "txt": "To Paediatric Room",
+        { "to": "Paediatric-Room",
+          "txt": "I ystafell pediatrig",
           "rotateY": 225,
           "rotateX": -1,
           "fontSize": 0.15,
@@ -775,7 +779,7 @@
           "imgHeight": 300,
           "cmWidth": 0.15,
           "rotateY": 75,
-          "rotateX": -14   
+          "rotateX": -14
         },
         {
           "src": "people/man4.png",
@@ -793,7 +797,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Brushing your teeth regularly will make your teeth look nice!",
+              "txt": "Bydd brwsio eich dannedd yn rheolaidd yn gwneud eich dannedd yn edrych yn neis!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -806,7 +810,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "There will be lots of other kids, like you, here!",
+              "txt": "Bydd llawer o plant eraill, fel chi, yma!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -820,11 +824,11 @@
       ],
       "questions": [
         {
-          "question": "What do you use to clean your teeth?",
-          "answer1": "Tooth Brush",
-          "answer2": "Tooth Broom",
-          "answer3": "Tooth Mop",
-          "correct": "Tooth Brush",
+          "question": "Beth yr ydych yn ei ddefnyddio i lanhau eich dannedd?",
+          "answer1": "Brwsh dannedd",
+          "answer2": "Broom dannedd",
+          "answer3": "Mop dannedd",
+          "correct": "Brwsh dannedd",
           "rotateY": 30,
           "rotateX": 4
         }
@@ -854,16 +858,16 @@
         { "src": "sounds/Suction-Sound.mp3",  "rotateY": 136, "width":0.3, "height":0.3}
       ],
       "navs": [
-        { 
-          "to": "Paediatric", 
-          "txt": "To Paediatrics", 
-          "rotateY": 20,  
+        {
+          "to": "Paediatric",
+          "txt": "I Pediatreg",
+          "rotateY": 20,
           "fontSize": 0.15,
           "fontWeight": "bold"
         },
         {
           "to": "Paediatric-Chair",
-          "txt": "Sit in Chair",
+          "txt": "Eistedd yn y gadair",
           "rotateY": 190,
           "rotateX": -5,
           "fontSize": 0.15,
@@ -875,7 +879,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "The Dentist will carry out the check up here!",
+              "txt": "Bydd y deintydd yn cynnal gwiriad yma!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold",
@@ -890,7 +894,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "Your Mummy and/or Daddy will be sitting right here.",
+              "txt": "Bydd eich mami a dadi / yn eistedd yma.",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -903,7 +907,7 @@
           "card": [
             {
               "type": "content",
-              "txt": "These are the handpieces! Click on them to hear them!",
+              "txt": "Mae'r rhain yn ddarnau llaw! Cliciwch arnyn nhw i'w clywed!",
               "textColor": "#fff200",
               "fontSize": 0.25,
               "fontWeight": "bold"
@@ -911,7 +915,7 @@
           ],
           "rotateX": 20,
           "rotateY": 140
-        }    
+        }
       ],
       "photos": [
         {
@@ -920,7 +924,7 @@
           "imgHeight": 300,
           "cmWidth": 0.15,
           "rotateY": 255,
-          "rotateX": -7   
+          "rotateX": -7
         }
       ],
       "sounds":[{}],
@@ -930,30 +934,34 @@
       ],
       "questions": [
         {
-          "question": "What colour should your teeth be?",
-          "answer1": "Yellow",
-          "answer2": "Grey",
-          "answer3": "White",
-          "correct": "White",
+          "question": "Pa liw dylid eich dannedd?",
+          "answer1": "Melyn",
+          "answer2": "Llwyd",
+          "answer3": "Gwyn",
+          "correct": "Gwyn",
           "rotateY": 330,
           "rotateX": 3
         }
       ]
     },
     {
-      "id": "Paediatric-Chair",
-      "videopanos": [{ "src": "Paediatric_Chair_new.MP4" }],
+      "id":"Paediatric-Chair",
+      "videopanos": [
+        { "src": "Paediatric_Chair_new.MP4" }
+      ],
       "navs": [
-        { "to": "Paediatric-Room", 
-          "txt": "Get out of the Chair",
-          "rotateY": -10, 
+        { "to": "Paediatric-Room",
+          "txt": "Gael allan y Cadeirydd",
+          "rotateY": -10,
           "rotateX": -15,
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
       ],
-      "sounds": [{}],
-      "preloads": [{ "src": "Paediatric-Room.jpeg" }]
+      "sounds":[{}],
+      "preloads": [
+        { "src": "Paediatric-Room.jpeg" }
+      ]
     }
   ]
 }

@@ -8,6 +8,7 @@ import { VRInstance } from "react-vr-web";
 function init(bundle, parent, options) {
   const vr = new VRInstance(bundle, "MyLiveTour", parent, {
     // Add custom options here
+
     ...options
   });
   vr.render = function() {

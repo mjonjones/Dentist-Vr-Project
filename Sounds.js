@@ -1,8 +1,8 @@
 import React from "react";
 import { asset, Text, View, VrButton, Sound } from "react-vr";
 
-
 export default class Sounds extends React.Component {
+  
     static defaultProps = {
         soundName: "Play Sounds",
         rotateY: 0,
@@ -13,18 +13,16 @@ export default class Sounds extends React.Component {
 
     constructor(props) {
         super();
-        this.state = {
+        this.state = {}
 
-        };
         this.textStyle = {
-            color: "#fff200",
-            fontWeight: "bold",
-            textAlign: "center"
-        };
+        color: "#fff200",
+        fontWeight: "bold",
+        textAlign: "center"
+    };
+  }
 
-    }
-
-    render() {
+   render() {
         return (
             // Styling
             <View
