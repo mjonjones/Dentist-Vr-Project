@@ -46,8 +46,13 @@
           "answer2": "2 funud",
           "answer3": "3 funud",
           "correct": "2 funud",
-          "rotateY": 330
+          "rotateY": 330,
+          "height":0.9
         }
+      ],
+      "links": [{ "link": "English", "rotateY": 270, "rotateX": -5 }],
+      "titles":[
+        {"txt": "Fynedfa", "rotateY": 0}
       ],
       "infos": [
         {
@@ -159,6 +164,9 @@
           "nextRotateY": 90
         }
       ],
+      "titles":[
+        {"txt": "Fferyllfa", "rotateY": 0, "width": 0.5}
+      ],
       "questions": [
         {
           "question": "Faint o ffrwythau a llysiau y dylid eich bwyta bob dydd?",
@@ -224,6 +232,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+      ],
+      "titles":[
+        {"txt": "Lifftiau llawr cyntaf", "rotateY": 0}
       ],
       "questions": [
         {
@@ -299,6 +310,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "Derbyniad Orthodontig", "rotateY": 0, "width": 1}
+      ],
       "infos": [
         {
           "card": [
@@ -360,6 +374,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+      ],
+      "titles":[
+        {"txt": "Lifftiau llawr gwaelod", "rotateY": 160, "width": 1}
       ],
       "questions": [
         {
@@ -447,6 +464,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+      ],
+      "titles":[
+        {"txt": "Derbyniad pelydr-x", "rotateY": 215, "width": 1}
       ],
       "questions": [
         {
@@ -543,6 +563,9 @@
           "fontWeight": "bold"
         }
     ],
+    "titles":[
+      {"txt": "X-pelydr-ystafell", "width": 0.7, "rotateY": 350}
+    ],
       "sounds": [{}],
       "preloads":[
         {"src": "Dentist_X-Ray.jpg"},
@@ -574,7 +597,8 @@
           "answer2": "Past dannedd",
           "answer3": "ToothGum",
           "correct": "Past dannedd",
-          "rotateY": 250
+          "rotateY": 250,
+          "height": 0.9
         }
       ],
       "infos":[
@@ -633,6 +657,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "Cyntedd", "rotateY": 0}
+      ],
       "photos":[
         {
           "src": "icons/toilet.png",
@@ -670,7 +697,9 @@
           "rotateY": 60
         }
       ],
-
+      "titles":[
+        {"txt": "Orthodonteg", "rotateY": 170, "width": 0.7}
+      ],
       "infos": [
         {
           "card": [
@@ -771,6 +800,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "Ystafell aros Pediatrig", "rotateY": 0, "width":0.5}
+      ],
       "sounds":[{}],
       "photos": [
         {
@@ -856,6 +888,9 @@
         { "src": "sounds/Blow-Air-2-Sound.mp3",  "rotateY": 148, "width":0.3, "height":0.3},
         { "src": "sounds/handpiece1.mp3",  "rotateY": 143, "width":0.3, "height":0.3},
         { "src": "sounds/Suction-Sound.mp3",  "rotateY": 136, "width":0.3, "height":0.3}
+      ],
+      "titles":[
+        {"txt": "Ystafell Pediatrig", "rotateY": 80, "width": 0.7}
       ],
       "navs": [
         {

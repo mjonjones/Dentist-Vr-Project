@@ -4,6 +4,7 @@ import Sounds from "./Sounds";
 import Quiz from "./Quiz";
 import { LiveTour } from "live-tour-lab";
 import RouteButton from "./RouteEnglish";
+import DisplayImages from './DisplayImages';
 
 export default class English extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class English extends React.Component {
         <Sounds entries="clickSounds" />
         <Quiz entries="questions" />
         <RouteButton entries="links" />
+        <DisplayImages entries="images" />
       </LiveTour>
     );
   }

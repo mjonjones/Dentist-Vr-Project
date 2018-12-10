@@ -8,7 +8,9 @@ export default class Quiz extends React.Component {
     answer1: "",
     answer2: "",
     answer3: "",
-    correct: ""
+    correct: "",
+    height: 0.8,
+    width: 1.3
   };
 
   constructor(props) {
@@ -34,7 +36,7 @@ export default class Quiz extends React.Component {
         fontWeight: "bold",
         backgroundColor: "#0984e3",
         borderRadius: 0.06,
-        textAlign: "center",
+        textAlign: "center"
     }
     this.handleClick = this.handleClick.bind(this);
   }
@@ -57,8 +59,8 @@ export default class Quiz extends React.Component {
             backgroundColor: "#3498db",
             position: "absolute",
             layoutOrigin: [0.5, 0.5, 0.5],
-            width: 1.3,
-            height: 0.8,
+            width: this.props.width,
+            height: this.props.height,
             transform: [{ rotateY: this.props.rotateY }, { translateZ: -3 }],
             opacity: 0.85,
             borderRadius: 0.07,

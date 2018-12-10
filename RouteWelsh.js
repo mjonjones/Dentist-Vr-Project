@@ -1,8 +1,9 @@
 import React from "react";
 import { asset, Text, View, VrButton, Sound, Pano } from "react-vr";
-import Welsh from "./Welsh";
+import English from "./English";
+import { withRouter } from "react-router";
 
-export default class RouteButton extends React.Component {
+ class RouteButton extends React.Component {
   constructor(props) {
     super();
     this.state = {};
@@ -16,22 +17,23 @@ export default class RouteButton extends React.Component {
   render() {
     return (
       // Styling
-      <View>
+      <View
+        style={{
+          backgroundColor: "#3498db",
+          position: "absolute",
+          layoutOrigin: [0.5, 0.5, 0.5],
+          width: 0.6,
+          height: 0.15,
+          transform: [{ rotateY: this.props.rotateY }, { translateZ: -3 }],
+          borderRadius: 0.07
+        }}>
         <VrButton
           onClick={() => {
-            this.props.history.goBack();
+            this.props.history.goBack("/English");
           }}
         >
           <Text
-            style={{
-              backgroundColor: "#3498db",
-              position: "absolute",
-              layoutOrigin: [0.5, 0.5, 0.5],
-              width: 0.6,
-              height: 0.15,
-              transform: [{ rotateY: this.props.rotateY }, { translateZ: -3 }],
-              borderRadius: 0.07
-            }}
+            style={this.textStyle}
           >
             English
           </Text>
@@ -40,3 +42,5 @@ export default class RouteButton extends React.Component {
     );
   }
 }
+
+export default withRouter(RouteButton);

@@ -1,46 +1,48 @@
-import React from 'react';
-import {
-  asset,
-  View,
-  Animated,
-  AnimatedImage,
-  Image,
-} from 'react-vr';
+import React from "react";
+import { Text, View, VrButton } from "react-vr";
 
 export default class Title extends React.Component {
   static defaultProps = {
-    op: 1, // opacity of hero picture
-    width: 1, // width of hero picture
-    height: 1, // height of hero picture
-    rotateY: 0, // position
-    src: null, // file name
+    txt: "",
+    rotateY: 0,
+    height: 0.15,
+    width: 0.4,
+    rotateX: 20,
+    translateZ: -1
   };
 
   constructor(props) {
     super();
     this.state = {
-      rotAnim: new Animated.Value(0),
+    };
+    this.textStyle = {
+      color: "#fff200",
+      fontWeight: "bold",
+      textAlign: "center"
     };
   }
 
   render() {
     return (
-      <Image
+      // Styling
+      <View
         style={{
-          position:'absolute',
-          layoutOrigin: [0.5, 0.5, 0],
+          backgroundColor: "#3498db",
+          position: "absolute",
+          layoutOrigin: [0.5, 0.5, 0.5],
           width: this.props.width,
           height: this.props.height,
           transform: [
-            {rotateY: this.props.rotateY},
-            {translateZ: -3}
+            { rotateY: this.props.rotateY }, 
+            { rotateX: this.props.rotateX }, 
+            { translate: [0, 0, this.props.translateZ] }
           ],
-          opacity: this.props.op,
+          opacity: 1,
+          borderRadius: 0.07,
         }}
-        source={ asset(this.props.src) }
-      />
-
-      
+      >
+        <Text style={this.textStyle}>{this.props.txt}</Text>
+      </View>
     );
   }
 }

@@ -6,7 +6,7 @@ import Welsh from "./Welsh";
 import English from "./English";
 import RouteEnglish from "./RouteEnglish";
 import RouteWelsh from "./RouteWelsh";
-import DisplayImages from './DisplayImages';
+
 
 // LOaded after client
 export default class MyLiveTour extends React.Component {
@@ -16,6 +16,7 @@ export default class MyLiveTour extends React.Component {
         <Switch>
           <Route exact path="/" component={English} />
           <Route exact path="/Welsh" component={Welsh} />
+          <Route exact path="/English" component={English} />
         </Switch>
       </Router>
     );

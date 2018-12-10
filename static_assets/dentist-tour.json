@@ -50,6 +50,9 @@
         }
       ],
       "links": [{ "link": "Welsh", "rotateY": 270, "rotateX": -5 }],
+      "titles":[
+        {"txt": "Entrance", "rotateY": 0}
+      ],
       "infos": [
         {
           "card": [
@@ -160,6 +163,9 @@
           "nextRotateY": 90
         }
       ],
+      "titles":[
+        {"txt": "Pharmacy", "rotateY": 0, "width": 0.5}
+      ],
       "questions": [
         {
           "question": "How much fruit and veg should you eat everyday?",
@@ -225,6 +231,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+      ],
+      "titles":[
+        {"txt": "First Floor Lifts", "rotateY": 0}
       ],
       "questions": [
         {
@@ -301,6 +310,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "Orthadontic Reception", "rotateY": 0, "width": 1}
+      ],
       "infos": [
         {
           "card": [
@@ -361,6 +373,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+      ],
+      "titles":[
+        {"txt": "Ground Floor Lifts", "rotateY": 160, "width": 1}
       ],
       "questions": [
         {
@@ -448,6 +463,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "X-Ray Waiting Room", "rotateY": 215, "width": 1}
+      ],
       "questions": [
         {
           "question": "Who are you visiting today?",
@@ -455,7 +473,8 @@
           "answer2": "The Dentist",
           "answer3": "The Nurse",
           "correct": "The Dentist",
-          "rotateY": 90
+          "rotateY": 90,
+          "height": 0.7
         }
       ],
       "infos": [
@@ -537,6 +556,9 @@
           "fontSize": 0.15,
           "fontWeight": "bold"
         }
+    ],
+    "titles":[
+      {"txt": "X-Ray Room", "width": 0.6, "rotateY": 350}
     ],
       "sounds": [{}],
       "preloads":[
@@ -628,6 +650,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "Hallway", "rotateY": 0}
+      ],
       "photos":[
         {
           "src": "icons/toilet.png",
@@ -655,6 +680,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "Orthodontics", "rotateY": 170, "width": 0.7}
+      ],
       "sounds": [{}],
       "questions": [
         {
@@ -663,7 +691,7 @@
           "answer2": "100",
           "answer3": "1",
           "correct": "32",
-          "rotateY": 60
+          "rotateY": 240
         }
       ],
 
@@ -767,6 +795,9 @@
           "fontWeight": "bold"
         }
       ],
+      "titles":[
+        {"txt": "Paediatrics", "rotateY": 0, "width":0.5}
+      ],
       "sounds":[{}],
       "photos": [
         {
@@ -847,6 +878,9 @@
           "width": 1.4,
           "opacity": 1
         }
+      ],
+      "titles":[
+        {"txt": "Paediatric Room", "rotateY": 80, "width": 0.7}
       ],
       "clickSounds": [
         { "src": "sounds/Blow-Air-2-Sound.mp3",  "rotateY": 148, "width":0.3, "height":0.3},
