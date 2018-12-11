@@ -341,8 +341,6 @@
       ],
       "sounds": [{}],
       "preloads": [
-        { "src": "videoplayback.mp4" },
-        { "src": "blend.mp4" },
         { "src": "Dentist_Lift.jpg" },
         { "src": "Dentist_1_Reception.jpg" },
         { "src": "First-Floor-Orthodontics1.jpg" }
@@ -536,11 +534,11 @@
           "translateZ": -10
         }
       ],
-      "preloads": [{ "src": "Dentist_Lift.jpg" }, { "src": "XRay_Room.jpeg" }]
+      "preloads": [{ "src": "Dentist_Lift.jpg" }, { "src": "XRay_Room.jpg" }]
     },
     {
       "id": "X-Ray_Room",
-      "photopanos": [{ "src": "XRay_Room.jpeg" }],
+      "photopanos": [{ "src": "XRay_Room.jpg" }],
       "navs": [
         {
         "to": "X-Ray",
@@ -626,7 +624,7 @@
       ],
       "preloads": [
         {
-          "src": "XRay_Room.jpeg"
+          "src": "XRay_Room.jpg"
         }
       ]
     },
@@ -862,13 +860,13 @@
       ],
       "preloads": [
         {"src": "Dentist_1_Reception.jpg" },
-        {"src": "Paediatric_Room.jpeg"}
+        {"src": "Paediatric-Room.jpg"}
       ]
     },
     {
       "id":"Paediatric-Room",
       "photopanos": [
-        { "src": "Paediatric-Room.jpeg" }
+        { "src": "Paediatric-Room.jpg" }
       ],
       "images":[
         {
@@ -960,7 +958,7 @@
       "sounds":[{}],
       "preloads": [
         { "src": "First-Floor-Paediatrics.jpg" },
-        { "src": "Paediatric_Chair_new.MP4" }
+        { "src": "Paediatric_Chair_new.mp4" }
       ],
       "questions": [
         {
@@ -976,7 +974,7 @@
     },
     {
       "id": "Paediatric-Chair",
-      "videopanos": [{ "src": "Paediatric_Chair_new.MP4" }],
+      "videopanos": [{ "src": "Paediatric_Chair_new.mp4" }],
       "navs": [
         { "to": "Paediatric-Room", 
           "txt": "Get out of the Chair",
@@ -987,7 +985,7 @@
         }
       ],
       "sounds": [{}],
-      "preloads": [{ "src": "Paediatric-Room.jpeg" }]
+      "preloads": [{ "src": "Paediatric-Room.jpg" }]
     }
   ]
 }

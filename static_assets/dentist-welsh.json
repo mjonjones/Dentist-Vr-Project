@@ -539,13 +539,13 @@
       ],
       "preloads": [
         { "src": "Dentist_Lift.jpg" },
-        {"src": "XRay_Room.jpeg"}
+        {"src": "XRay_Room.jpg"}
       ]
     },
     {
       "id": "X-Ray_Room",
       "photopanos":[
-        {"src": "XRay_Room.jpeg"}
+        {"src": "XRay_Room.jpg"}
       ],
       "navs":[
         {
@@ -569,7 +569,7 @@
       "sounds": [{}],
       "preloads":[
         {"src": "Dentist_X-Ray.jpg"},
-        {"src": "XRay_Working_New.MP4"}
+        {"src": "XRay_Working_New.mp4"}
       ],
       "photos": [
         {
@@ -622,7 +622,7 @@
     {
       "id": "X-Ray_Machine",
       "videopanos":[
-        {"src": "XRay_Working_New.MP4"}
+        {"src": "XRay_Working_New.mp4"}
       ],
       "navs":[
         {
@@ -634,7 +634,7 @@
         }
     ],
       "preloads":[{
-        "src": "XRay_Room.jpeg"
+        "src": "XRay_Room.jpg"
       }]
     },
     {
@@ -868,13 +868,13 @@
       ],
       "preloads": [
         {"src": "Dentist_1_Reception.jpg" },
-        {"src": "Paediatric_Room.jpeg"}
+        {"src": "Paediatric-Room.jpg"}
       ]
     },
     {
       "id":"Paediatric-Room",
       "photopanos": [
-        { "src": "Paediatric-Room.jpeg" }
+        { "src": "Paediatric-Room.jpg" }
       ],
       "images":[
         {
@@ -966,7 +966,7 @@
       "sounds":[{}],
       "preloads": [
         { "src": "First-Floor-Paediatrics.jpg" },
-        { "src": "Paediatric_Chair_new.MP4" }
+        { "src": "Paediatric_Chair_new.mp4" }
       ],
       "questions": [
         {
@@ -983,7 +983,7 @@
     {
       "id":"Paediatric-Chair",
       "videopanos": [
-        { "src": "Paediatric_Chair_new.MP4" }
+        { "src": "Paediatric_Chair_new.mp4" }
       ],
       "navs": [
         { "to": "Paediatric-Room",
@@ -996,7 +996,7 @@
       ],
       "sounds":[{}],
       "preloads": [
-        { "src": "Paediatric-Room.jpeg" }
+        { "src": "Paediatric-Room.jpg" }
       ]
     }
   ]
