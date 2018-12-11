@@ -561,7 +561,7 @@
       "sounds": [{}],
       "preloads":[
         {"src": "Dentist_X-Ray.jpg"},
-        {"src": "XRay_Working_New.MP4"}
+        {"src": "XRay_Working_New.mp4"}
       ],
       "photos": [
         {
@@ -612,7 +612,7 @@
     },
     {
       "id": "X-Ray_Machine",
-      "videopanos": [{ "src": "XRay_Working_New.MP4" }],
+      "videopanos": [{ "src": "XRay_Working_New.mp4" }],
       "navs": [
         {
           "to": "X-Ray_Room",

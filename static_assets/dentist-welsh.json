@@ -672,7 +672,7 @@
       "sounds": [{}],
       "preloads": [
         { "src": "Dentist_1_Reception.jpg" },
-        { "src": "First-Floor-Paediatrics.jpg"}]
+        { "src": "paed.jpg"}]
     },
     {
       "id": "First-Floor-Orthodontics",
@@ -783,7 +783,7 @@
     },
     {
       "id":"Paediatric",
-      "photopanos": [{ "src": "First-Floor-Paediatrics.jpg" }],
+      "photopanos": [{ "src": "paed.jpg" }],
       "navs": [
         { "to": "First-Floor-Hallway",
           "txt": "I'r cyntedd",
@@ -965,7 +965,7 @@
       ],
       "sounds":[{}],
       "preloads": [
-        { "src": "First-Floor-Paediatrics.jpg" },
+        { "src": "paed.jpg" },
         { "src": "Paediatric_Chair_new.mp4" }
       ],
       "questions": [
