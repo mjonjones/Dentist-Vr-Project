@@ -233,7 +233,7 @@
         }
       ],
       "titles":[
-        {"txt": "First Floor Lifts", "rotateY": 0}
+        {"txt": "First Floor Lifts", "rotateY": 30, "width": 0.7}
       ],
       "questions": [
         {
@@ -651,7 +651,7 @@
         }
       ],
       "titles":[
-        {"txt": "Hallway", "rotateY": 0}
+        {"txt": "Hallway", "rotateY": 247}
       ],
       "photos":[
         {
@@ -796,7 +796,7 @@
         }
       ],
       "titles":[
-        {"txt": "Paediatrics", "rotateY": 0, "width":0.5}
+        {"txt": "Paediatrics", "rotateY": 90, "width":0.5}
       ],
       "sounds":[{}],
       "photos": [
@@ -880,7 +880,7 @@
         }
       ],
       "titles":[
-        {"txt": "Paediatric Room", "rotateY": 80, "width": 0.7}
+        {"txt": "Paediatric Room", "rotateY": 80, "width": 0.75}
       ],
       "clickSounds": [
         { "src": "sounds/Blow-Air-2-Sound.mp3",  "rotateY": 148, "width":0.3, "height":0.3},

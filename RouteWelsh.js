@@ -3,7 +3,7 @@ import { asset, Text, View, VrButton, Sound, Pano } from "react-vr";
 import English from "./English";
 import { withRouter } from "react-router";
 
- class RouteButton extends React.Component {
+class RouteWelsh extends React.Component {
   constructor(props) {
     super();
     this.state = {};
@@ -26,21 +26,18 @@ import { withRouter } from "react-router";
           height: 0.15,
           transform: [{ rotateY: this.props.rotateY }, { translateZ: -3 }],
           borderRadius: 0.07
-        }}>
+        }}
+      >
         <VrButton
           onClick={() => {
             this.props.history.goBack("/English");
           }}
         >
-          <Text
-            style={this.textStyle}
-          >
-            English
-          </Text>
+          <Text style={this.textStyle}>English</Text>
         </VrButton>
       </View>
     );
   }
 }
 
-export default withRouter(RouteButton);
+export default withRouter(RouteWelsh);
