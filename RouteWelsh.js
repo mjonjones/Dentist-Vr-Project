@@ -1,6 +1,5 @@
 import React from "react";
-import { asset, Text, View, VrButton, Sound, Pano } from "react-vr";
-import English from "./English";
+import { Text, View, VrButton } from "react-vr";
 import { withRouter } from "react-router";
 
 class RouteWelsh extends React.Component {
