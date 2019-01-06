@@ -1,4 +1,4 @@
-# Virtual Reality Dentistry Tour  
+# Virtual Reality Dentistry Tour
 
 ## Introduction
 
@@ -6,6 +6,9 @@ The following is the README.md for Team 12's Virtual Reality project. This proje
 
 Young patients (6-Year-Old) are anxious and nervous about attending the dentists. They are generally forced to go by their parent(s) and a dental check-up is hard to perform on them. This Virtual Reality application was bulit to give the patients an immersive, child-friendly experience of the dentists before they go for their appointment, helping to ease their anxiety.
 
+## Project Descirption
+
+This project was built on top of LIveTourLab. LiveTourLab is a framework built on top of React VR, Which is also a framework for the creation of interactive 360 experiences that run in your web browser. We chose this framework as opposed to othe technologies because it allowed us to get something up and running very quickly, it has a short learning curve so the rest of the team was able to pick it up and start developing very quickly. Furthermore LiveTourLab was in fact an upgrade to the current system preferred by the clients. They wanted to build on top of their browser based virtual tour and wanted to make it more interactive and child friendly.
 
 ## Getting Started
 
@@ -13,10 +16,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will require Node.js to have access to Node Package Manager (npm), which is used to install dependencies, run the tests, build the application and run it. Node can be downloaded here: https://nodejs.org/en/ 
+You will require Node.js to have access to Node Package Manager (npm), which is used to install dependencies, run the tests, build the application and run it. Node can be downloaded here: https://nodejs.org/en/
 
 Git is also required in order to clone the repository. You will require to have an account and git bash to run the clone command. The repository is hosted here: https://github.com/mjonjones/Dentist-Vr-Project
-
 
 ### Installation and running dev build
 
@@ -46,7 +48,6 @@ npm start
 
 Congratulations! You have the application running on your localmachine at https://localhost:8081/vr/
 
-
 ## Running the tests
 
 Explain how to run the automated tests for this system
@@ -61,7 +62,7 @@ Give an example
 
 ## Deployment
 
-We have used Amazon Web Services to deploy the application onto both desktop and mobile devices. We have used only two services and only the free tier to show its potential deployment - VPC and EC2. Read further to learn more about the setup we used, which can be replicated for your use. 
+We have used Amazon Web Services to deploy the application onto both desktop and mobile devices. We have used only two services and only the free tier to show its potential deployment - VPC and EC2. Read further to learn more about the setup we used, which can be replicated for your use.
 
 ### VPC and EC2
 
@@ -80,6 +81,7 @@ chmod 400 <key-name.pem>
 
 ssh -i <Key-name.pem> ec2-user@<Elastic-Ip-Address>
 ```
+
 Please note that if this is not a UNIX CMD like git bash, these commands won't work.
 
 This will connect you to the instance. Once inside it run the following commands to update the instance and install node:
@@ -106,6 +108,7 @@ In a directory that contains the project and the .pem key open a git bash comman
 ```
 scp -r -i <key-name.pem> <Dentist-Vr-Project> ec2-user@<Elastic-Ip-Address>:/home/ec2-user//Dentist-Vr-Project
 ```
+
 This will copy your code onto the instance. Once done, reconnect to the instance and cd into the Dentist-Vr-Project directory. Run the following:
 
 ```
@@ -116,12 +119,10 @@ Then open a browser at https://Elastic-IP:8081/vr/
 
 Congratulations! You have successfully deployed the application onto AWS. It is now accessible on mobile too!
 
-
 ## Built With
 
-* [ReactJS](https://reactjs.org/) - The web framework used
-* [Node/NPM](https://nodejs.org/en/) - Dependency Management and build.
-
+- [ReactJS](https://reactjs.org/) - The web framework used
+- [Node/NPM](https://nodejs.org/en/) - Dependency Management and build.
 
 ## Contributing
 
@@ -146,21 +147,22 @@ master
 ├── M
 |
 ```
+
 master and dev are both protected branches and require a review on the pull request, before the branch is merged.
 
 ## Authors
 
-* **Morgan Jones** - *Design and Development* - [mjonjones](https://github.com/mjonjones)
-* **Joey Gmaj** - *Design and Development* - [JoeyG448](https://github.com/JoeyG448)
-* **Masroor Unar** - *Design and Development* - [Masroor-Unar](https://github.com/Masroor-Unar)
-* **Ciara Langton** - *Design and Development* - [ciaraax](https://github.com/ciaraax)
+- **Morgan Jones** - _Design and Development_ - [mjonjones](https://github.com/mjonjones)
+- **Joey Gmaj** - _Design and Development_ - [JoeyG448](https://github.com/JoeyG448)
+- **Masroor Unar** - _Design and Development_ - [Masroor-Unar](https://github.com/Masroor-Unar)
+- **Ciara Langton** - _Design and Development_ - [ciaraax](https://github.com/ciaraax)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Acknowledgments
 
-* The LiveTour Library was an incredible tool to use and we look forward to seeing its evolution in the future, found [here](https://livetourlab.com/docs)
-* Toilet Icon made by [FreePik](https://www.flaticon.com/free-icon/toilet_195439) from www.flaticon.com 
-* Background music taken from [BenSound](https://www.bensound.com/royalty-free-music/track/little-idea) from www.bensound.com
-* Jared Nielson - April 2018 - ReactVR: Audio Spacialization and Click Events with the Sound Component - https://medium.com/@jarednielsen/reactvr-audio-spacialization-and-click-events-with-the-sound-component-4c5e9fd59388
-* The react docs were used with assitence with Conditional Rendering, found [here](https://reactjs.org/docs/conditional-rendering.html)
+- The LiveTour Library was an incredible tool to use and we look forward to seeing its evolution in the future, found [here](https://livetourlab.com/docs)
+- Toilet Icon made by [FreePik](https://www.flaticon.com/free-icon/toilet_195439) from www.flaticon.com
+- Background music taken from [BenSound](https://www.bensound.com/royalty-free-music/track/little-idea) from www.bensound.com
+- Jared Nielson - April 2018 - ReactVR: Audio Spacialization and Click Events with the Sound Component - https://medium.com/@jarednielsen/reactvr-audio-spacialization-and-click-events-with-the-sound-component-4c5e9fd59388
+- The react docs were used with assitence with Conditional Rendering, found [here](https://reactjs.org/docs/conditional-rendering.html)
