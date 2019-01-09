@@ -8,7 +8,13 @@ Young patients (6-Year-Old) are anxious and nervous about attending the dentists
 
 ## Project Descirption
 
-This project was built on top of LIveTourLab. LiveTourLab is a framework built on top of React VR, Which is also a framework for the creation of interactive 360 experiences that run in your web browser. We chose this framework as opposed to othe technologies because it allowed us to get something up and running very quickly, it has a short learning curve so the rest of the team was able to pick it up and start developing very quickly. Furthermore LiveTourLab was in fact an upgrade to the current system preferred by the clients. They wanted to build on top of their browser based virtual tour and wanted to make it more interactive and child friendly.
+This project was built on top of LiveTourLab. LiveTourLab is a framework built on top of React VR, which is also a framework for the creation of interactive 360 experiences that run in your web browser. We chose this framework as opposed to other technologies because it allowed us to get something up and running very quickly and it had a short learning curve so the rest of the team was able to pick it up and start developing very quickly. Furthermore LiveTourLab was in fact an upgrade to the current system preferred by the clients. They wanted to build on top of their browser based virtual tour and wanted to make it more interactive and child friendly.
+
+### How LiveTourLabs Works
+
+The libray provides a React Component called LiveTour. This component takes a prop called tourURI which is a JSON file. This JSON file is the virtual environment and is rendered by the component when run. 
+
+Custom components can be made for the tour and function similarly to the LiveTour component. They take a prop which include the X,Y coords of the feature to be displayed in the 360 view.
 
 ## Getting Started
 
@@ -112,12 +118,38 @@ scp -r -i <key-name.pem> <Dentist-Vr-Project> ec2-user@<Elastic-Ip-Address>:/hom
 This will copy your code onto the instance. Once done, reconnect to the instance and cd into the Dentist-Vr-Project directory. Run the following:
 
 ```
+npm install
 npm start
 ```
 
 Then open a browser at https://Elastic-IP:8081/vr/
 
 Congratulations! You have successfully deployed the application onto AWS. It is now accessible on mobile too!
+
+## Technical features
+
+### Welsh Switch
+
+We used React router to create a switch for the Welsh language, the code adapted from https://github.com/LiuC520/react-vr-router works with react router to change language on click.
+
+The main component in the app, Index-VR is where we define where the app should start, this is where we direct the app to start with the English version, which is defined in English.js. English.js includes the main live tour component which has Router and other components within that component. This is a requirement of live tour lab was such that any custom components had to be built on top of the framework. This is where we created a custom component which us called RouteEnglish and RouteWelsh which will allow the user to switch between the languages.
+
+The custom components RouteEnglish and RouteWelsh serve as a button built on top of the framework that once clicked will redirect the user to the preferred language.
+
+The components English and Welsh serve as the running version of the apps and the user can currently only decide which language to use on the main entrance screen. Both components fire up an instance of the app in the preferred language.
+
+The approach and justification for this method stemmed from the limitations and the restrictions of live tour lab. Anything we did on live tour had to be built as a custom component. To simplify the approach, we created separate components for the different language versions so that it is clear to the user what is happening. We used the RouteEnglish and RouteWelsh components to differentiate the two buttons and differentiate the two components to run an instance of the preferred language.
+
+In the future in order to improve the app we would use a welcome screen which will serve as a menu which will also have a disclaimer and use guide. From the welcome screen the user can select the language and load up an instance. This would be possible to build on this project through a dom overlay.
+
+
+## Design justification
+
+The design on the navigation buttons the quizzes and the colour scheme was a requirement of the clients. They wanted us to use child friendly primary colours and we had to choose something that is easy on the eye.
+
+## Further Development
+
+
 
 ## Built With
 
@@ -166,3 +198,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 - Background music taken from [BenSound](https://www.bensound.com/royalty-free-music/track/little-idea) from www.bensound.com
 - Jared Nielson - April 2018 - ReactVR: Audio Spacialization and Click Events with the Sound Component - https://medium.com/@jarednielsen/reactvr-audio-spacialization-and-click-events-with-the-sound-component-4c5e9fd59388
 - The react docs were used with assitence with Conditional Rendering, found [here](https://reactjs.org/docs/conditional-rendering.html)
+- This link was used to help build the React Router and can be found [here](https://github.com/LiuC520/react-vr-router)
