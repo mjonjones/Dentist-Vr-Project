@@ -1,56 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders a snapshot of SensorDetails 1`] = `
-<View
-  style={
-    Object {
-      "backgroundColor": "#3498db",
-      "borderRadius": 0.07,
-      "height": 0.15,
-      "layoutOrigin": Array [
-        0.5,
-        0.5,
-        0.5,
-      ],
-      "opacity": 1,
-      "position": "absolute",
-      "transform": Array [
-        Object {
-          "rotateY": 0,
-        },
-        Object {
-          "rotateX": 20,
-        },
-        Object {
-          "translate": Array [
-            0,
-            0,
-            -1,
-          ],
-        },
-      ],
-      "width": 0.4,
-    }
-  }
->
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    isOnLayer={false}
-    style={
-      Object {
-        "color": "#fff200",
-        "fontWeight": "bold",
-        "textAlign": "center",
-      }
-    }
-  >
-    
-  </Text>
-</View>
-`;
-
 exports[`renders a snapshot of Title 1`] = `
 <View
   style={
