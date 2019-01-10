@@ -67,9 +67,9 @@ This will run 4 tests
 
 We have used jest to cover our code with tests. Since React-VR hasn't a native module for testing it uses React-Native. 
 
-Therefore not all components were be able to tested but tests have been included where possible.
+Therefore not all components were able to be tested but tests have been included where possible.
 
-This includes jest unit tests of the Quiz componenet and Snapshot tests of the Title component.
+This app includes jest unit tests of the Quiz componenet and Snapshot tests of the Title component.
 
 ## Deployment
 
